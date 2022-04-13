@@ -1,8 +1,4 @@
-{% if include.nested==true %}
-    <ul class="dropdown" aria-label="submenu">
-{% else %}
-    <ul>
-{% endif %}
+<ul {% if include.nested==true %} class="dropdown" aria-label="submenu" {% endif %}>
     {% for item in include.nav %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
