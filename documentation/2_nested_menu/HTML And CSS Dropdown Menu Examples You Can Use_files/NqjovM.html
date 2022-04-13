@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Responsive Pure CSS Dropdown Menu</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="pgfCFcGmM7WVrkMa+kM0EYKoUQVewNpWpXvJrjSa/9dO/a3hvVgXW5t98Uoq47k24chhpk6m0462qNl4GRShgg==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body static results-active" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="false">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false">
+CSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/ericmusser/pen/NqjovM" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="htmlmixed" id="actual-html-code" class=" cm-s-default"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">meta</span> <span class="cm-attribute">http-equiv</span>=<span class="cm-string">"X-UA-Compatible"</span> <span class="cm-attribute">content</span>=<span class="cm-string">"IE=edge,chrome=1"</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">meta</span> <span class="cm-attribute">name</span>=<span class="cm-string">"viewport"</span> <span class="cm-attribute">content</span>=<span class="cm-string">"width=device-width,initial-scale=1"</span> <span class="cm-tag cm-bracket">/&gt;</span>
+
+
+
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">nav</span> <span class="cm-attribute">id</span>=<span class="cm-string">"nav"</span> <span class="cm-attribute">role</span>=<span class="cm-string">"navigation"</span><span class="cm-tag cm-bracket">&gt;</span> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#nav"</span> <span class="cm-attribute">title</span>=<span class="cm-string">"Show navigation"</span><span class="cm-tag cm-bracket">&gt;</span>Show navigation<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">title</span>=<span class="cm-string">"Hide navigation"</span><span class="cm-tag cm-bracket">&gt;</span>Hide navigation<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span> <span class="cm-attribute">class</span>=<span class="cm-string">"clearfix"</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>Home<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">span</span><span class="cm-tag cm-bracket">&gt;</span>Blog<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">span</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span>
+          <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>Design<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>HTML<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>CSS<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>JavaScript<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">span</span><span class="cm-tag cm-bracket">&gt;</span>Work<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">span</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span>
+          <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>Web Design<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>Typography<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>Front-End<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">""</span><span class="cm-tag cm-bracket">&gt;</span>About<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">nav</span><span class="cm-tag cm-bracket">&gt;</span>
+  
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">script</span> <span class="cm-attribute">src</span>=<span class="cm-string">"http://osvaldas.info/examples/main.js"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">script</span><span class="cm-tag cm-bracket">&gt;</span>
+
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">script</span> <span class="cm-attribute">src</span>=<span class="cm-string">"http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">script</span><span class="cm-tag cm-bracket">&gt;</span> 
+  
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">script</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-variable">$</span>( <span class="cm-keyword">function</span>()
+  {
+    <span class="cm-variable">$</span>( <span class="cm-string">'#nav li:has(ul)'</span> ).<span class="cm-property">doubleTapToGo</span>();
+  });
+<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">script</span><span class="cm-tag cm-bracket">&gt;</span>
+</code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="css" id="actual-css-code" class=" cm-s-default"><span class="cm-comment">/********** Start RESET **********</span>
+<span class="cm-comment">  AUTHOR: Osvaldas Valutis, www.osvaldas.info</span>
+<span class="cm-comment">*/</span>
+* {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+  <span class="cm-meta">-moz-</span><span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+ *<span class="cm-property cm-error">behavior</span>: <span class="cm-variable cm-callee">url</span>( <span class="cm-string">'/theme/js/boxsizing.htc'</span> );
+  <span class="cm-meta">-webkit-</span><span class="cm-property cm-error">tap-highlight-color</span>: <span class="cm-variable cm-callee">rgba</span>( <span class="cm-number">0</span>, <span class="cm-number">0</span>, <span class="cm-number">0</span>, <span class="cm-number">0</span> );
+  <span class="cm-meta">-webkit-</span><span class="cm-property cm-error">overflow-scrolling</span>: <span class="cm-variable">touch</span>;
+}
+<span class="cm-tag">html</span>, <span class="cm-tag">body</span>, <span class="cm-tag">h1</span>, <span class="cm-tag">h2</span>, <span class="cm-tag">h3</span>, <span class="cm-tag">h4</span>, <span class="cm-tag">h5</span>, <span class="cm-tag">h6</span>, <span class="cm-tag">p</span>, <span class="cm-tag">blockquote</span>, <span class="cm-tag">pre</span>, <span class="cm-tag">a</span>, <span class="cm-tag">abbr</span>, <span class="cm-tag">acronym</span>, <span class="cm-tag">address</span>, <span class="cm-tag">big</span>, <span class="cm-tag">cite</span>, <span class="cm-tag">code</span>, <span class="cm-tag">del</span>, <span class="cm-tag">dfn</span>, <span class="cm-tag">em</span>, <span class="cm-tag">font</span>, <span class="cm-tag">img</span>, <span class="cm-tag">ins</span>, <span class="cm-tag">kbd</span>, <span class="cm-tag">q</span>, <span class="cm-tag">s</span>, <span class="cm-tag">samp</span>, <span class="cm-tag">small</span>, <span class="cm-tag">strike</span>, <span class="cm-tag">strong</span>, <span class="cm-tag">sup</span>, <span class="cm-tag">sub</span>, <span class="cm-tag">tt</span>, <span class="cm-tag">var</span>, <span class="cm-tag">b</span>, <span class="cm-tag">u</span>, <span class="cm-tag">i</span>, <span class="cm-tag">center</span>, <span class="cm-tag">ul</span>, <span class="cm-tag">ol</span>, <span class="cm-tag">li</span>, <span class="cm-tag">dl</span>, <span class="cm-tag">dt</span>, <span class="cm-tag">dd</span>, <span class="cm-tag">table</span>, <span class="cm-tag">tr</span>, <span class="cm-tag">th</span>, <span class="cm-tag">td</span>, <span class="cm-tag">thead</span>, <span class="cm-tag">tbody</span>, <span class="cm-tag">tfoot</span>, <span class="cm-tag">caption</span>, <span class="cm-tag">form</span>, <span class="cm-tag">fieldset</span>, <span class="cm-tag">legend</span>, <span class="cm-tag">input</span>, <span class="cm-tag">textarea</span>, <span class="cm-tag">select</span>, <span class="cm-tag">label</span>, <span class="cm-tag">applet</span>, <span class="cm-tag">object</span>, <span class="cm-tag">iframe</span>, <span class="cm-tag">audio</span>, <span class="cm-tag">video</span>, <span class="cm-tag">canvas</span>, <span class="cm-tag">article</span>, <span class="cm-tag">aside</span>, <span class="cm-tag">canvas</span>, <span class="cm-tag">details</span>, <span class="cm-tag">figcaption</span>, <span class="cm-tag">figure</span>, <span class="cm-tag">footer</span>, <span class="cm-tag">header</span>, <span class="cm-tag">hgroup</span>, <span class="cm-tag">menu</span>, <span class="cm-tag">nav</span>, <span class="cm-tag">section</span>, <span class="cm-tag">summary</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">font-family</span>: <span class="cm-atom">inherit</span>;
+  <span class="cm-property">font-weight</span>: <span class="cm-atom">inherit</span>;
+  <span class="cm-property">font-style</span>: <span class="cm-atom">inherit</span>;
+  <span class="cm-property">line-height</span>: <span class="cm-atom">inherit</span>;
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">baseline</span>;
+  <span class="cm-property">border</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">outline</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-tag">html</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">100%</span>;
+  <span class="cm-meta">-webkit-</span><span class="cm-property">text-size-adjust</span>: <span class="cm-number">100%</span>;
+  <span class="cm-meta">-moz-</span><span class="cm-property">text-size-adjust</span>: <span class="cm-number">100%</span>;
+  <span class="cm-meta">-ms-</span><span class="cm-property">text-size-adjust</span>: <span class="cm-number">100%</span>;
+  <span class="cm-meta">-o-</span><span class="cm-property">text-size-adjust</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">text-size-adjust</span>: <span class="cm-number">100%</span>;
+}
+<span class="cm-tag">body</span> {
+  <span class="cm-property">font-family</span>: <span class="cm-variable">Helvetica</span>, <span class="cm-variable">Arial</span>, <span class="cm-atom">sans-serif</span>;
+  <span class="cm-property">line-height</span>: <span class="cm-number">1</span>;
+  <span class="cm-property">color</span>: <span class="cm-atom">#000</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#fff</span>;
+}
+<span class="cm-tag">article</span>, <span class="cm-tag">aside</span>, <span class="cm-tag">canvas</span>, <span class="cm-tag">details</span>, <span class="cm-tag">figcaption</span>, <span class="cm-tag">figure</span>, <span class="cm-tag">footer</span>, <span class="cm-tag">header</span>, <span class="cm-tag">hgroup</span>, <span class="cm-tag">menu</span>, <span class="cm-tag">nav</span>, <span class="cm-tag">section</span>, <span class="cm-tag">summary</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+}
+<span class="cm-tag">audio</span>, <span class="cm-tag">canvas</span>, <span class="cm-tag">video</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+*<span class="cm-property">display</span>: <span class="cm-atom">inline</span>;
+*<span class="cm-string-2">zoom</span>: <span class="cm-number">1</span>;
+}
+<span class="cm-tag">audio</span>:<span class="cm-variable cm-callee">not</span>([<span class="cm-tag">controls</span>]) {
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">canvas</span> {
+  <span class="cm-meta">-ms-</span><span class="cm-property">touch-action</span>: <span class="cm-variable">double-tap-zoom</span>;
+}
+ [<span class="cm-tag">hidden</span>] {
+<span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">a</span> {
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">underline</span>;
+  <span class="cm-property">color</span>: <span class="cm-atom">#000</span>;
+}
+<span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">small</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">75%</span>;
+}
+<span class="cm-tag">big</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">125%</span>;
+}
+<span class="cm-tag">em</span> {
+  <span class="cm-property">font-style</span>: <span class="cm-atom">italic</span>;
+}
+<span class="cm-tag">strong</span> {
+  <span class="cm-property">font-weight</span>: <span class="cm-atom">bold</span>;
+}
+<span class="cm-tag">ins</span> {
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">del</span> {
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">line-through</span>;
+}
+<span class="cm-tag">sup</span>, <span class="cm-tag">sub</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">75%</span>;
+  <span class="cm-property">line-height</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-tag">sup</span> {
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">super</span>;
+}
+<span class="cm-tag">sub</span> {
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">sub</span>;
+}
+<span class="cm-tag">pre</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+  <span class="cm-property">overflow</span>: <span class="cm-atom">auto</span>;
+}
+<span class="cm-tag">code</span> {
+  <span class="cm-property">font-family</span>: <span class="cm-string">'Courier New'</span>, <span class="cm-variable">Courier</span>, <span class="cm-atom">monospace</span>;
+}
+<span class="cm-tag">ul</span>, <span class="cm-tag">ol</span> {
+  <span class="cm-property">list-style</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">table</span> {
+  <span class="cm-property">table-layout</span>: <span class="cm-atom">auto</span>;
+  <span class="cm-property">border-collapse</span>: <span class="cm-atom">separate</span>;
+  <span class="cm-property">border-spacing</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">empty-cells</span>: <span class="cm-atom">hide</span>;
+}
+<span class="cm-tag">img</span> {
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">middle</span>;
+  <span class="cm-meta">-ms-</span><span class="cm-property cm-error">interpolation-mode</span>: <span class="cm-variable">bicubic</span>;
+}
+<span class="cm-tag">svg</span>:<span class="cm-variable cm-callee">not</span>(:<span class="cm-variable-3">root</span>) {
+  <span class="cm-property">overflow</span>: <span class="cm-atom">hidden</span>;
+}
+<span class="cm-tag">blockquote</span>, <span class="cm-tag">q</span> {
+  <span class="cm-property">quotes</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">blockquote</span>:<span class="cm-variable-3">before</span>, <span class="cm-tag">blockquote</span>:<span class="cm-variable-3">after</span>, <span class="cm-tag">q</span>:<span class="cm-variable-3">before</span>, <span class="cm-tag">q</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">content</span>: <span class="cm-string">''</span>;
+  <span class="cm-property">content</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">input</span>, <span class="cm-tag">textarea</span> {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">appearance</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">button</span>, <span class="cm-tag">input</span>, <span class="cm-tag">select</span>, <span class="cm-tag">textarea</span> {
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">baseline</span>;
+*<span class="cm-property">vertical-align</span>: <span class="cm-atom">middle</span>;
+  <span class="cm-meta">-webkit-</span><span class="cm-property">border-radius</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-tag">button</span>, <span class="cm-tag">input</span> {
+  <span class="cm-property">line-height</span>: <span class="cm-atom">normal</span>;
+*<span class="cm-property">overflow</span>: <span class="cm-atom">visible</span>;
+}
+<span class="cm-tag">table</span> <span class="cm-tag">button</span>, <span class="cm-tag">table</span> <span class="cm-tag">input</span> {
+*<span class="cm-property">overflow</span>: <span class="cm-atom">auto</span>;
+}
+<span class="cm-tag">button</span>, <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'button'</span>], <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'reset'</span>], <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'submit'</span>] {
+  <span class="cm-property">cursor</span>: <span class="cm-atom">pointer</span>;
+  <span class="cm-meta">-webkit-</span><span class="cm-property">appearance</span>: <span class="cm-atom">button</span>;
+}
+<span class="cm-tag">textarea</span> {
+  <span class="cm-property">overflow</span>: <span class="cm-atom">auto</span>;
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">top</span>;
+}
+<span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'search'</span>]::<span class="cm-meta">-webkit-</span><span class="cm-variable-3">search-decoration</span>, <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'search'</span>]::<span class="cm-meta">-webkit-</span><span class="cm-variable-3">search-cancel-button</span>, <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'search'</span>]::<span class="cm-meta">-webkit-</span><span class="cm-variable-3">search-results-button</span>, <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'search'</span>]::<span class="cm-meta">-webkit-</span><span class="cm-variable-3">search-results-decoration</span> {
+<span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'search'</span>] {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">appearance</span>: <span class="cm-atom">textfield</span>;
+}
+<span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'radio'</span>] {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">appearance</span>: <span class="cm-atom">radio</span>;
+}
+<span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'checkbox'</span>] {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">appearance</span>: <span class="cm-atom">checkbox</span>;
+}
+<span class="cm-tag">input</span>::<span class="cm-meta">-ms-</span><span class="cm-variable-3">clear</span> {
+<span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">'password'</span>]::<span class="cm-meta">-ms-</span><span class="cm-variable-3">reveal</span> {
+<span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-qualifier">.clearfix</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">visibility</span>: <span class="cm-atom">hidden</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+  <span class="cm-property">font-size</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">content</span>: <span class="cm-string">" "</span>;
+  <span class="cm-property">clear</span>: <span class="cm-atom">both</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">0</span>;
+}
+* <span class="cm-tag">html</span> <span class="cm-qualifier">.clearfix</span> {
+  <span class="cm-string-2">zoom</span>: <span class="cm-number">1</span>;
+}
+*:<span class="cm-variable-3">first-child</span>+<span class="cm-tag">html</span> <span class="cm-qualifier">.clearfix</span> {
+  <span class="cm-string-2">zoom</span>: <span class="cm-number">1</span>;
+}
+<span class="cm-qualifier">.cleaner</span> {
+  <span class="cm-property">height</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">line-height</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">clear</span>: <span class="cm-atom">both</span>;
+}
+
+<span class="cm-comment">/********** End RESET **********/</span>
+
+
+
+<span class="cm-tag">html</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">100%</span>;
+}
+<span class="cm-tag">body</span> {
+  <span class="cm-property">font-family</span>: <span class="cm-string">'Noticia Text'</span>, <span class="cm-atom">serif</span>;
+  <span class="cm-property">font-weight</span>: <span class="cm-number">400</span>;
+  <span class="cm-meta">-webkit-</span><span class="cm-property cm-error">font-smoothing</span>: <span class="cm-atom">antialiased</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#f7efeb</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">1.25em</span>; <span class="cm-comment">/* 20 */</span>
+}
+<span class="cm-tag">body</span>, <span class="cm-tag">a</span>, <span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">color</span>: <span class="cm-atom">#111</span>;
+}
+<span class="cm-tag">a</span> {
+  <span class="cm-meta">-webkit-</span><span class="cm-property">transition</span>: <span class="cm-atom">color</span> <span class="cm-number">.3s</span> <span class="cm-atom">ease</span>;
+  <span class="cm-meta">-moz-</span><span class="cm-property">transition</span>: <span class="cm-atom">color</span> <span class="cm-number">.3s</span> <span class="cm-atom">ease</span>;
+  <span class="cm-meta">-ms-</span><span class="cm-property">transition</span>: <span class="cm-atom">color</span> <span class="cm-number">.3s</span> <span class="cm-atom">ease</span>;
+  <span class="cm-meta">-o-</span><span class="cm-property">transition</span>: <span class="cm-atom">color</span> <span class="cm-number">.3s</span> <span class="cm-atom">ease</span>;
+  <span class="cm-property">transition</span>: <span class="cm-atom">color</span> <span class="cm-number">.3s</span> <span class="cm-atom">ease</span>;
+}
+<span class="cm-tag">a</span>, <span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-builtin">#nav</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">60em</span>; <span class="cm-comment">/* 1000 */</span>
+  <span class="cm-property">font-family</span>: <span class="cm-string">'Open Sans'</span>, <span class="cm-atom">sans-serif</span>;
+  <span class="cm-property">font-weight</span>: <span class="cm-number">400</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">top</span>: <span class="cm-number">25%</span>;
+  <span class="cm-property">left</span>: <span class="cm-number">50%</span>;
+  <span class="cm-property">margin-left</span>: <span class="cm-number">-30em</span>; <span class="cm-comment">/* 30 480 */</span>
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span> {
+  <span class="cm-property">color</span>: <span class="cm-atom">#fff</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">active</span> {
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#c00</span> <span class="cm-keyword">!important</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">span</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">border</span>: <span class="cm-number">0.313em</span> <span class="cm-atom">solid</span> <span class="cm-atom">transparent</span>; <span class="cm-comment">/* 5 */</span>
+  <span class="cm-property">border-bottom</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">border-top-color</span>: <span class="cm-atom">#efa585</span>;
+  <span class="cm-property">content</span>: <span class="cm-string">''</span>;
+  <span class="cm-property">vertical-align</span>: <span class="cm-atom">middle</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+  <span class="cm-property">right</span>: <span class="cm-number">-0.313em</span>; <span class="cm-comment">/* 5 */</span>
+}
+<span class="cm-comment">/* first level */</span>
+
+      <span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> {
+  <span class="cm-property">height</span>: <span class="cm-number">3.75em</span>; <span class="cm-comment">/* 60 */</span>
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#e15a1f</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">25%</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">float</span>: <span class="cm-atom">left</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span> &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">font-size</span>: <span class="cm-number">1.5em</span>; <span class="cm-comment">/* 24 */</span>
+  <span class="cm-property">line-height</span>: <span class="cm-number">2.5em</span>; <span class="cm-comment">/* 60 (24) */</span>
+  <span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">last-child</span> ) &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">border-right</span>: <span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#cc470d</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span>:<span class="cm-variable-3">hover</span> &gt; <span class="cm-tag">a</span>, <span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">hover</span> ) &gt; <span class="cm-tag">li</span><span class="cm-qualifier">.active</span> &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#cc470d</span>;
+}
+<span class="cm-comment">/* second level */</span>
+
+        <span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">ul</span> {
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#cc470d</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">top</span>: <span class="cm-number">100%</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span>:<span class="cm-variable-3">hover</span> <span class="cm-tag">ul</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+  <span class="cm-property">left</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">right</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">first-child</span> ):<span class="cm-variable-3">hover</span> <span class="cm-tag">ul</span> {
+  <span class="cm-property">left</span>: <span class="cm-number">-1px</span>;
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">ul</span> <span class="cm-tag">a</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">1.25em</span>; <span class="cm-comment">/* 20 */</span>
+  <span class="cm-property">border-top</span>: <span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#e15a1f</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0.75em</span>; <span class="cm-comment">/* 15 (20) */</span>
+}
+<span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">ul</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span>, <span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">ul</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">hover</span> ) <span class="cm-tag">li</span><span class="cm-qualifier">.active</span> <span class="cm-tag">a</span> {
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#e15a1f</span>;
+}
+ <span class="cm-def">@media</span> <span class="cm-keyword">only</span> <span class="cm-attribute">screen</span> <span class="cm-keyword">and</span> ( <span class="cm-property">max-width</span>: <span class="cm-number">62.5em</span> ) <span class="cm-comment">/* 1000 */</span> {
+<span class="cm-builtin">#nav</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">static</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+}
+}
+ <span class="cm-def">@media</span> <span class="cm-keyword">only</span> <span class="cm-attribute">screen</span> <span class="cm-keyword">and</span> ( <span class="cm-property">max-width</span>: <span class="cm-number">40em</span> ) <span class="cm-comment">/* 640 */</span> {
+<span class="cm-tag">html</span> {
+  <span class="cm-property">font-size</span>: <span class="cm-number">75%</span>; <span class="cm-comment">/* 12 */</span>
+}
+<span class="cm-builtin">#nav</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+  <span class="cm-property">top</span>: <span class="cm-atom">auto</span>;
+  <span class="cm-property">left</span>: <span class="cm-atom">auto</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">3.125em</span>; <span class="cm-comment">/* 50 */</span>
+  <span class="cm-property">height</span>: <span class="cm-number">3.125em</span>; <span class="cm-comment">/* 50 */</span>
+  <span class="cm-property">text-align</span>: <span class="cm-atom">left</span>;
+  <span class="cm-property">text-indent</span>: <span class="cm-number">-9999px</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#e15a1f</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">a</span>:<span class="cm-variable-3">before</span>, <span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">a</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">border</span>: <span class="cm-number">2px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#fff</span>;
+  <span class="cm-property">top</span>: <span class="cm-number">35%</span>;
+  <span class="cm-property">left</span>: <span class="cm-number">25%</span>;
+  <span class="cm-property">right</span>: <span class="cm-number">25%</span>;
+  <span class="cm-property">content</span>: <span class="cm-string">''</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">a</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">top</span>: <span class="cm-number">60%</span>;
+}
+<span class="cm-builtin">#nav</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">target</span> ) &gt; <span class="cm-tag">a</span>:<span class="cm-variable-3">first-of-type</span>, <span class="cm-builtin">#nav</span>:<span class="cm-variable-3">target</span> &gt; <span class="cm-tag">a</span>:<span class="cm-variable-3">last-of-type</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+}
+<span class="cm-comment">/* first level */</span>
+
+      <span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> {
+  <span class="cm-property">height</span>: <span class="cm-atom">auto</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">left</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">right</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-builtin">#nav</span>:<span class="cm-variable-3">target</span> &gt; <span class="cm-tag">ul</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">float</span>: <span class="cm-atom">none</span>;
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span> &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">height</span>: <span class="cm-atom">auto</span>;
+  <span class="cm-property">text-align</span>: <span class="cm-atom">left</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span> <span class="cm-number">0.833em</span>; <span class="cm-comment">/* 20 (24) */</span>
+}
+<span class="cm-builtin">#nav</span> &gt; <span class="cm-tag">ul</span> &gt; <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">not</span>( :<span class="cm-variable-3">last-child</span> ) &gt; <span class="cm-tag">a</span> {
+  <span class="cm-property">border-right</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">border-bottom</span>: <span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#cc470d</span>;
+}
+<span class="cm-comment">/* second level */</span>
+
+        <span class="cm-builtin">#nav</span> <span class="cm-tag">li</span> <span class="cm-tag">ul</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">static</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">1.25em</span>; <span class="cm-comment">/* 20 */</span>
+  <span class="cm-property">padding-top</span>: <span class="cm-number">0</span>;
+}
+}</code></pre>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for Responsive Pure CSS Dropdown Menu" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for Responsive Pure CSS Dropdown Menu" data-src="https://cdpn.io/ericmusser/fullembedgrid/NqjovM?animations=run&amp;type=embed" src="NqjovM_data/NqjovM.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/ericmusser" target="_blank" rel="noopener"><img src="NqjovM_data/user-default-avatar.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/ericmusser" target="_blank" rel="noopener">Eric Musser</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+It is a fork of <a href="https://cdpn.io/massiebn/fullpage/RwRavV?default-tab=result&amp;height=500&amp;slug-hash=NqjovM&amp;theme-id=1">this Pen.</a>
+</p>
+<p>
+<a href="https://codepen.io/ericmusser" target="_blank" rel="noopener" class="about-user-more">
+See more by @ericmusser on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;\n\n\n\n&lt;nav id=&quot;nav&quot; role=&quot;navigation&quot;&gt; &lt;a href=&quot;#nav&quot; title=&quot;Show navigation&quot;&gt;Show navigation&lt;/a&gt; &lt;a href=&quot;#&quot; title=&quot;Hide navigation&quot;&gt;Hide navigation&lt;/a&gt;\n      &lt;ul class=&quot;clearfix&quot;&gt;\n    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt; &lt;a href=&quot;&quot;&gt;&lt;span&gt;Blog&lt;/span&gt;&lt;/a&gt;\n          &lt;ul&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Design&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;JavaScript&lt;/a&gt;&lt;/li&gt;\n      &lt;/ul&gt;\n        &lt;/li&gt;\n    &lt;li&gt; &lt;a href=&quot;&quot;&gt;&lt;span&gt;Work&lt;/span&gt;&lt;/a&gt;\n          &lt;ul&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Web Design&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Typography&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Front-End&lt;/a&gt;&lt;/li&gt;\n      &lt;/ul&gt;\n        &lt;/li&gt;\n    &lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/nav&gt;\n  \n&lt;script src=&quot;http://osvaldas.info/examples/main.js&quot;&gt;&lt;/script&gt;\n\n&lt;script src=&quot;http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js&quot;&gt;&lt;/script&gt; \n  \n&lt;script&gt;\n\t$( function()\n\t{\n\t\t$( &#39;#nav li:has(ul)&#39; ).doubleTapToGo();\n\t});\n&lt;/script&gt;","css":"/********** Start RESET **********\n\tAUTHOR: Osvaldas Valutis, www.osvaldas.info\n*/\n* {\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\tbox-sizing: border-box;\n *behavior: url( &#39;/theme/js/boxsizing.htc&#39; );\n\t-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );\n\t-webkit-overflow-scrolling: touch;\n}\nhtml, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sup, sub, tt, var, b, u, i, center, ul, ol, li, dl, dt, dd, table, tr, th, td, thead, tbody, tfoot, caption, form, fieldset, legend, input, textarea, select, label, applet, object, iframe, audio, video, canvas, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {\n\tfont-size: 100%;\n\tfont-family: inherit;\n\tfont-weight: inherit;\n\tfont-style: inherit;\n\tline-height: inherit;\n\tvertical-align: baseline;\n\tborder: 0;\n\toutline: 0;\n\tpadding: 0;\n\tmargin: 0;\n}\nhtml {\n\tfont-size: 100%;\n\t-webkit-text-size-adjust: 100%;\n\t-moz-text-size-adjust: 100%;\n\t-ms-text-size-adjust: 100%;\n\t-o-text-size-adjust: 100%;\n\ttext-size-adjust: 100%;\n}\nbody {\n\tfont-family: Helvetica, Arial, sans-serif;\n\tline-height: 1;\n\tcolor: #000;\n\tbackground-color: #fff;\n}\narticle, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {\n\tdisplay: block;\n}\naudio, canvas, video {\n\tdisplay: inline-block;\n*display: inline;\n*zoom: 1;\n}\naudio:not([controls]) {\n\tdisplay: none;\n}\ncanvas {\n\t-ms-touch-action: double-tap-zoom;\n}\n [hidden] {\ndisplay: none;\n}\na {\n\ttext-decoration: underline;\n\tcolor: #000;\n}\na:hover {\n\ttext-decoration: none;\n}\nsmall {\n\tfont-size: 75%;\n}\nbig {\n\tfont-size: 125%;\n}\nem {\n\tfont-style: italic;\n}\nstrong {\n\tfont-weight: bold;\n}\nins {\n\ttext-decoration: none;\n}\ndel {\n\ttext-decoration: line-through;\n}\nsup, sub {\n\tfont-size: 75%;\n\tline-height: 0;\n}\nsup {\n\tvertical-align: super;\n}\nsub {\n\tvertical-align: sub;\n}\npre {\n\tdisplay: block;\n\toverflow: auto;\n}\ncode {\n\tfont-family: &#39;Courier New&#39;, Courier, monospace;\n}\nul, ol {\n\tlist-style: none;\n}\ntable {\n\ttable-layout: auto;\n\tborder-collapse: separate;\n\tborder-spacing: 0;\n\tempty-cells: hide;\n}\nimg {\n\tvertical-align: middle;\n\t-ms-interpolation-mode: bicubic;\n}\nsvg:not(:root) {\n\toverflow: hidden;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after, q:before, q:after {\n\tcontent: &#39;&#39;;\n\tcontent: none;\n}\ninput, textarea {\n\t-webkit-appearance: none;\n}\nbutton, input, select, textarea {\n\tvertical-align: baseline;\n*vertical-align: middle;\n\t-webkit-border-radius: 0;\n}\nbutton, input {\n\tline-height: normal;\n*overflow: visible;\n}\ntable button, table input {\n*overflow: auto;\n}\nbutton, input[type=&#39;button&#39;], input[type=&#39;reset&#39;], input[type=&#39;submit&#39;] {\n\tcursor: pointer;\n\t-webkit-appearance: button;\n}\ntextarea {\n\toverflow: auto;\n\tvertical-align: top;\n}\ninput[type=&#39;search&#39;]::-webkit-search-decoration, input[type=&#39;search&#39;]::-webkit-search-cancel-button, input[type=&#39;search&#39;]::-webkit-search-results-button, input[type=&#39;search&#39;]::-webkit-search-results-decoration {\ndisplay: none;\n}\ninput[type=&#39;search&#39;] {\n\t-webkit-appearance: textfield;\n}\ninput[type=&#39;radio&#39;] {\n\t-webkit-appearance: radio;\n}\ninput[type=&#39;checkbox&#39;] {\n\t-webkit-appearance: checkbox;\n}\ninput::-ms-clear {\ndisplay: none;\n}\ninput[type=&#39;password&#39;]::-ms-reveal {\ndisplay: none;\n}\n.clearfix:after {\n\tvisibility: hidden;\n\tdisplay: block;\n\tfont-size: 0;\n\tcontent: &quot; &quot;;\n\tclear: both;\n\theight: 0;\n}\n* html .clearfix {\n\tzoom: 1;\n}\n*:first-child+html .clearfix {\n\tzoom: 1;\n}\n.cleaner {\n\theight: 0;\n\tline-height: 0;\n\tclear: both;\n}\n\n/********** End RESET **********/\n\n\n\nhtml {\n\tfont-size: 100%;\n}\nbody {\n\tfont-family: &#39;Noticia Text&#39;, serif;\n\tfont-weight: 400;\n\t-webkit-font-smoothing: antialiased;\n\tbackground-color: #f7efeb;\n\tpadding: 1.25em; /* 20 */\n}\nbody, a, a:hover {\n\tcolor: #111;\n}\na {\n\t-webkit-transition: color .3s ease;\n\t-moz-transition: color .3s ease;\n\t-ms-transition: color .3s ease;\n\t-o-transition: color .3s ease;\n\ttransition: color .3s ease;\n}\na, a:hover {\n\ttext-decoration: none;\n}\n#nav {\n\twidth: 60em; /* 1000 */\n\tfont-family: &#39;Open Sans&#39;, sans-serif;\n\tfont-weight: 400;\n\tposition: absolute;\n\ttop: 25%;\n\tleft: 50%;\n\tmargin-left: -30em; /* 30 480 */\n}\n#nav &gt; a {\n\tdisplay: none;\n}\n#nav li {\n\tposition: relative;\n}\n#nav li a {\n\tcolor: #fff;\n\tdisplay: block;\n}\n#nav li a:active {\n\tbackground-color: #c00 !important;\n}\n#nav span:after {\n\twidth: 0;\n\theight: 0;\n\tborder: 0.313em solid transparent; /* 5 */\n\tborder-bottom: none;\n\tborder-top-color: #efa585;\n\tcontent: &#39;&#39;;\n\tvertical-align: middle;\n\tdisplay: inline-block;\n\tposition: relative;\n\tright: -0.313em; /* 5 */\n}\n/* first level */\n\n\t\t\t#nav &gt; ul {\n\theight: 3.75em; /* 60 */\n\tbackground-color: #e15a1f;\n}\n#nav &gt; ul &gt; li {\n\twidth: 25%;\n\theight: 100%;\n\tfloat: left;\n}\n#nav &gt; ul &gt; li &gt; a {\n\theight: 100%;\n\tfont-size: 1.5em; /* 24 */\n\tline-height: 2.5em; /* 60 (24) */\n\ttext-align: center;\n}\n#nav &gt; ul &gt; li:not( :last-child ) &gt; a {\n\tborder-right: 1px solid #cc470d;\n}\n#nav &gt; ul &gt; li:hover &gt; a, #nav &gt; ul:not( :hover ) &gt; li.active &gt; a {\n\tbackground-color: #cc470d;\n}\n/* second level */\n\n\t\t\t\t#nav li ul {\n\tbackground-color: #cc470d;\n\tdisplay: none;\n\tposition: absolute;\n\ttop: 100%;\n}\n#nav li:hover ul {\n\tdisplay: block;\n\tleft: 0;\n\tright: 0;\n}\n#nav li:not( :first-child ):hover ul {\n\tleft: -1px;\n}\n#nav li ul a {\n\tfont-size: 1.25em; /* 20 */\n\tborder-top: 1px solid #e15a1f;\n\tpadding: 0.75em; /* 15 (20) */\n}\n#nav li ul li a:hover, #nav li ul:not( :hover ) li.active a {\n\tbackground-color: #e15a1f;\n}\n @media only screen and ( max-width: 62.5em ) /* 1000 */ {\n#nav {\n\twidth: 100%;\n\tposition: static;\n\tmargin: 0;\n}\n}\n @media only screen and ( max-width: 40em ) /* 640 */ {\nhtml {\n\tfont-size: 75%; /* 12 */\n}\n#nav {\n\tposition: relative;\n\ttop: auto;\n\tleft: auto;\n}\n#nav &gt; a {\n\twidth: 3.125em; /* 50 */\n\theight: 3.125em; /* 50 */\n\ttext-align: left;\n\ttext-indent: -9999px;\n\tbackground-color: #e15a1f;\n\tposition: relative;\n}\n#nav &gt; a:before, #nav &gt; a:after {\n\tposition: absolute;\n\tborder: 2px solid #fff;\n\ttop: 35%;\n\tleft: 25%;\n\tright: 25%;\n\tcontent: &#39;&#39;;\n}\n#nav &gt; a:after {\n\ttop: 60%;\n}\n#nav:not( :target ) &gt; a:first-of-type, #nav:target &gt; a:last-of-type {\n\tdisplay: block;\n}\n/* first level */\n\n\t\t\t#nav &gt; ul {\n\theight: auto;\n\tdisplay: none;\n\tposition: absolute;\n\tleft: 0;\n\tright: 0;\n}\n#nav:target &gt; ul {\n\tdisplay: block;\n}\n#nav &gt; ul &gt; li {\n\twidth: 100%;\n\tfloat: none;\n}\n#nav &gt; ul &gt; li &gt; a {\n\theight: auto;\n\ttext-align: left;\n\tpadding: 0 0.833em; /* 20 (24) */\n}\n#nav &gt; ul &gt; li:not( :last-child ) &gt; a {\n\tborder-right: none;\n\tborder-bottom: 1px solid #cc470d;\n}\n/* second level */\n\n\t\t\t\t#nav li ul {\n\tposition: static;\n\tpadding: 1.25em; /* 20 */\n\tpadding-top: 0;\n}\n}","js":""};
+    __preprocessors = {
+      "html": "none",
+      "css": "none",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

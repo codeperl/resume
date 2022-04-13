@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Vertical Dropdown Menu</title>
+  
+  
+  
+  
+<style>
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Condensed");
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+body {
+	webkit-text-size-adjust: 100%;
+	font-variant-ligatures: none;
+	-webkit-font-variant-ligatures: none;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "onum", "pnum";
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+	background: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	font-weight: 400;
+	padding: 0;
+}
+a {
+	color: #1e85c9;
+}
+.vertical-nav {
+	position: fixed;
+	background:white;
+	box-shadow: 0 0 40px #00000021;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 70px;
+}
+.vertical-nav li {
+	list-style: none;
+	display: block;
+	width: 100%;
+	border-bottom: solid 1px #f2f5ff;
+	text-align: center;
+	position: relative;
+	flex-grow: 1;
+	align-items: stretch;
+	display: flex;
+}
+.vertical-nav li:last-child {
+	border: none;
+}
+.vertical-nav li a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.vertical-nav li:hover > a {
+	background: #fafafa;
+	transition: all 0.2s ease;
+}
+.vertical-nav li:hover > a .feather {
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+.vertical-nav li:hover > .hover-menu,
+.vertical-nav li:focus-within > .hover-menu {
+	visibility: visible;
+	opacity: 1;
+	-webkit-animation: slide-down 0.2s ease-out;
+	-moz-animation: slide-down 0.2s ease-out;
+	transition: all 0.5s ease;
+	display: block;
+}
+.vertical-nav li .hover-menu {
+	background: white;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	left: 70px;
+	min-width: 200px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	box-shadow: 0 0 40px #00000021;
+}
+.vertical-nav li .hover-menu:after {
+	right: 100%;
+	top: 20%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #ffffff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.vertical-nav li .hover-menu ul {
+	margin: 0;
+	padding: 0;
+}
+.vertical-nav li .hover-menu ul li {
+	list-style: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.vertical-nav li .hover-menu ul li a {
+	width: 100%;
+	display: block !important;
+	text-decoration: none;
+	padding: 15px 20px;
+	text-align: left;
+	height: auto !important;
+	font-weight: 400;
+}
+.vertical-nav li .hover-menu ul li a:hover {
+	background: #fafafa;
+	transition: 0.3s ease;
+}
+
+.menu-header {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #929292;
+	font-size: 13px;
+	text-align: left !important;
+	padding: 12px 20px 5px 20px;
+	font-weight: 600;
+	border-bottom: none !important;
+}
+
+.log-out a {
+	background: #1e85c9;
+	color: white;
+}
+.log-out a:hover {
+	color: #1e85c9;
+	background: white;
+}
+
+@-webkit-keyframes slide-down {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-5%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+	0{
+		opacity:0;
+		-webkit-transform: translateY(0);
+	}
+}
+@-moz-keyframes slide-down {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-5%);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+.content {
+	padding: 40px;
+	color: #464646;
+	width:1170px;
+	margin:0 auto;
+}
+h1,
+h2 {
+	color:#343535;
+	font-weight: 400;
+}
+p,
+.content li {
+	color: #949494;
+	line-height: 29px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.header-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mt-0{
+	margin-top:0;
+}
+
+.mb-0{
+	margin-bottom:0;
+}
+
+/* Zui table (modified) - https://jsfiddle.net/zinoui/dB93J/ */
+.zui-table {
+	border: solid 1px #ddeeee;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	box-shadow: 0 0 40px #00000021;
+	margin: 50px 0;
+}
+.zui-table thead th {
+	background-color: #fff;
+	border: solid 1px #dee;
+	color: #343535;
+	border: solid 1px #f5f9f9;
+	padding: 20px;
+
+	text-align: left;
+}
+.zui-table tbody td {
+	border: solid 1px #edf1f1;
+	color: #949494;
+	font-size:16px;
+	padding: 20px;
+}
+footer{
+	padding:20px 0;
+	text-align:center;
+}
+footer p{
+	color:gray;
+	font-size:12px;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <div class="menu-container">
+	<ul class="vertical-nav">
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"></path><polyline points="2.32 6.16 12 11 21.68 6.16"></polyline><line x1="12" y1="22.76" x2="12" y2="11"></line></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"></path><polyline points="2.32 6.16 12 11 21.68 6.16"></polyline><line x1="12" y1="22.76" x2="12" y2="11"></line><line x1="7" y1="3.5" x2="17" y2="8.5"></line></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+			<div class="hover-menu">
+				<ul>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+					<li class="menu-header">OTHER</li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="log-out">
+			<a title="Sign out" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg></a>
+		</li>
+	</ul>
+</div>
+<div class="content">
+	<img src="ZmoXKQ_data/architecture.jpeg" class="header-image">
+	<h1 class="mb-0">Lorem ipsum dot sit amet</h1>
+	<p class="mt-0"><small>BY KEREM BEYAZIT</small></p>
+	
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, rhoncus 
+mollis mattis nulla est erat ligula lectus, urna laoreet habitant a 
+quisque inceptos. Ridiculus commodo purus nec nisi aptent ullamcorper ac
+ phasellus, fringilla etiam porttitor sem euismod
+		ultrices fermentum, maecenas dictum himenaeos lectus leo augue risus. 
+Cubilia erat eleifend facilisi turpis aliquet class vehicula pulvinar 
+magnis praesent, curabitur duis auctor ante leo torquent integer non 
+urna, dis vulputate ligula ac accumsan congue
+		magna ultricies quis.
+	</p>
+
+	<table class="zui-table">
+		<thead>
+			<tr>
+				<th>PLAYER</th>
+				<th>POSITION</th>
+				<th>HEIGHT</th>
+				<th>BORN</th>
+				<th>SALARY</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>DeMarcus Cousins</td>
+				<td>C</td>
+				<td>6'11"</td>
+				<td>08-13-1990</td>
+				<td>$4,917,000</td>
+			</tr>
+			<tr>
+				<td>Isaiah Thomas</td>
+				<td>PG</td>
+				<td>5'9"</td>
+				<td>02-07-1989</td>
+				<td>$473,604</td>
+			</tr>
+			<tr>
+				<td>Ben McLemore</td>
+				<td>SG</td>
+				<td>6'5"</td>
+				<td>02-11-1993</td>
+				<td>$2,895,960</td>
+			</tr>
+			<tr>
+				<td>Marcus Thornton</td>
+				<td>SG</td>
+				<td>6'4"</td>
+				<td>05-05-1987</td>
+				<td>$7,000,000</td>
+			</tr>
+			<tr>
+				<td>Jason Thompson</td>
+				<td>PF</td>
+				<td>6'11"</td>
+				<td>06-21-1986</td>
+				<td>$3,001,000</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>Primis a consequat habitasse egestas commodo quisque ultricies 
+luctus dictum nec diam, vel donec leo sed pulvinar dis felis auctor 
+rutrum hendrerit, praesent rhoncus sem volutpat integer porttitor 
+suspendisse nisl vestibulum quis. Torquent aliquam laoreet
+		ultricies sodales cubilia dictum semper morbi, vulputate sagittis 
+justo imperdiet natoque cum sem, nisi etiam taciti tempor proin mollis 
+habitasse. </p>
+
+	<p>Nisl facilisi posuere integer malesuada iaculis ornare duis, proin 
+vehicula senectus primis sapien velit bibendum, curabitur sodales 
+viverra montes et torquent. Laoreet phasellus rutrum est et hendrerit, 
+curabitur ullamcorper odio vitae varius rhoncus,
+		nullam dignissim tellus quisque. Est velit justo interdum mauris 
+suscipit ridiculus augue ligula class ornare, metus suspendisse semper 
+ullamcorper himenaeos porttitor dictumst inceptos sodales rutrum, 
+pellentesque etiam primis mattis taciti et magnis
+		nostra neque. </p>
+
+	<p>Primis a consequat habitasse egestas commodo quisque ultricies 
+luctus dictum nec diam, vel donec leo sed pulvinar dis felis auctor 
+rutrum hendrerit, praesent rhoncus sem volutpat integer porttitor 
+suspendisse nisl vestibulum quis. Torquent aliquam laoreet
+		ultricies sodales cubilia dictum semper morbi, vulputate sagittis 
+justo imperdiet natoque cum sem, nisi etiam taciti tempor proin mollis 
+habitasse. </p>
+	
+	<p>Fames vestibulum himenaeos ultricies hac porta dignissim praesent 
+bibendum fermentum, phasellus risus platea suscipit luctus ut quis 
+metus, ligula convallis litora eros ullamcorper vitae aliquam nullam. 
+Habitant aliquam cubilia ultrices fermentum commodo
+		dictumst sed, mattis mi inceptos malesuada vivamus quam mauris rutrum,
+ pharetra sapien justo habitasse sociis felis. </p>
+
+	<p>Nisl facilisi posuere integer malesuada iaculis ornare duis, proin 
+vehicula senectus primis sapien velit bibendum, curabitur sodales 
+viverra montes et torquent. Laoreet phasellus rutrum est et hendrerit, 
+curabitur ullamcorper odio vitae varius rhoncus,
+		nullam dignissim tellus quisque. Est velit justo interdum mauris 
+suscipit ridiculus augue ligula class ornare, metus suspendisse semper 
+ullamcorper himenaeos porttitor dictumst inceptos sodales rutrum, 
+pellentesque etiam primis mattis taciti et magnis
+		nostra neque. </p>
+
+	<p><strong>Primis a consequat habitasse egestas commodo quisque 
+ultricies luctus dictum nec diam, vel donec leo sed pulvinar dis felis 
+auctor rutrum hendrerit, praesent rhoncus sem volutpat integer porttitor
+ suspendisse nisl vestibulum quis. Torquent aliquam laoreet
+		ultricies sodales cubilia dictum semper morbi, vulputate sagittis 
+justo imperdiet natoque cum sem, nisi etiam taciti tempor proin mollis 
+habitasse.</strong></p>
+</div>
+<footer>
+	<p>© 2018 YOU</p>
+</footer>
+    <script src="../kPEXJO_data/kPEXJO_data/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e6459972.js"></script>
+
+  <script src="ZmoXKQ_data/feather.js"></script>
+      <script id="rendered-js">
+// Feather Icons
+feather.replace();
+//# sourceURL=pen.js
+    </script>
+
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

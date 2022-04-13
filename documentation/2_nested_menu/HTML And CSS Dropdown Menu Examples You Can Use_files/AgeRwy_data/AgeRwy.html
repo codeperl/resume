@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Peace. CSS3 Animated Dropdown Menu</title>
+  
+  
+  
+  
+<style>
+body {
+	background: #993;
+}
+
+/* Icons */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('http://webtalkto.com/demos/CSS-Dropdown-Menu/fonts/icomoon.eot');
+	src:url('http://webtalkto.com/demos/CSS-Dropdown-Menu/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('http://webtalkto.com/demos/CSS-Dropdown-Menu/fonts/icomoon.woff') format('woff'),
+		url('http://webtalkto.com/demos/CSS-Dropdown-Menu/fonts/icomoon.ttf') format('truetype'),
+		url('http://webtalkto.com/demos/CSS-Dropdown-Menu/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* data attributes for inserting the icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* class per icon */
+.icon-support, 
+.icon-download, 
+.icon-box-add,
+.icon-screen,
+.icon-power-cord,
+.icon-thumbs-up,
+.icon-users,
+.icon-pie,
+.icon-binoculars,
+.icon-road,
+.icon-question,
+.icon-chrome,
+.icon-firefox, 
+.icon-IE, 
+.icon-opera, 
+.icon-safari {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-support:before {
+	content: "\e03f";
+} 
+.icon-download:before {
+	content: "\e060";
+} 
+.icon-box-add:before {
+	content: "\e05e";
+}
+.icon-screen:before {
+	content: "\e054";
+}
+.icon-power-cord:before {
+	content: "\e0aa";
+}
+.icon-thumbs-up:before {
+	content: "\e0cc";
+}
+.icon-question:before {
+	content: "\e0ee";
+}
+.icon-users:before {
+	content: "\e1bd";
+}
+.icon-pie:before {
+	content: "\e091";
+}
+.icon-binoculars:before {
+	content: "\e07c";
+}
+.icon-road:before {
+	content: "\e0a6";
+}
+.icon-chrome:before {
+	content: "\e1b3";
+}
+.icon-firefox:before {
+	content: "\e1b4";
+} 
+.icon-IE:before {
+	content: "\e1b5";
+} 
+.icon-opera:before {
+	content: "\e1b6";
+} 
+.icon-safari:before {
+	content: "\e1b7";
+} 
+/* end */
+
+#menu {
+	margin: 50px 0;
+}
+
+/* first level */
+#menu ul {
+	font-family: 'Nova Round', cursive;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+#menu ul li {
+	position: relative;
+	display: inline-block;
+	width: 120px;
+    height: 80px;
+	padding: 10px;
+}
+#menu ul li a {
+	color: #000;
+    text-decoration: none;
+	display: block;
+	height: 60px;
+}
+
+/* animation div */
+#menu ul li a div {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+#menu ul li a div.title-top {
+	position: absolute;
+	opacity: 0;
+	bottom: 0;
+}
+#menu ul li a:hover div.title-top {
+	opacity: 1;
+	bottom: 50%;
+}
+#menu ul li a div#icon-top {
+	position: absolute;
+	font-size: 62px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+#menu ul li a:hover div#icon-top {
+	font-size: 22px;
+	opacity: 0;
+}
+#menu ul li a div.title {
+	position: absolute;
+	left: 100%;
+	opacity: 0;
+}
+#menu ul li a:hover div.title {
+	opacity: 1;
+	left: 0;
+	top: 9px;
+}
+#menu ul li a div#icon {
+	position: absolute;
+	font-size: 62px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	left: 0;
+}
+#menu ul li a:hover div#icon {
+    left: 50%;
+}
+
+/* second level */
+#menu ul li ul {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	left: 0;
+	padding-top: 10px;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+#menu ul li:hover ul {
+    opacity: 1;
+	visibility: visible;
+}
+
+@media only screen and (max-width: 880px), 
+only screen and (max-device-width: 880px) {
+	#menu {
+        min-width: 470px;
+    }
+	#menu ul li {
+		width: 70px;
+		height: 40px;
+    }
+	#menu ul li a div#icon-top,
+	#menu ul li a div#icon {
+		font-size: 42px;
+	}
+} 
+/* google font */
+
+<link href='https://fonts.googleapis.com/css?family=Nova+Round' rel='stylesheet' type='text/css'>
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <!-- 
+CSS3 Animated Dropdown Menu 
+Article URL: http://www.webtalkto.com/css3-animated-dropdown-menu/
+-->
+
+<div id="menu">
+    <ul>
+        <li><a href="#"><div id="icon-top" class="icon-chrome"></div> <div class="title-top">Chrome</div></a>
+            <ul>
+                <li><a href="#"><div id="icon" class="icon-download"></div> <div class="title">Download</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-pie"></div> <div class="title">Features</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-binoculars"></div> <div class="title">Gallery</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-support"></div> <div class="title">Support</div></a></li>
+            </ul>
+        </li>
+        <li><a href="#"><div id="icon-top" class="icon-firefox"></div> <div class="title-top">Firefox</div></a>
+            <ul>
+                <li><a href="#"><div id="icon" class="icon-screen"></div> <div class="title">Desktop</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-box-add"></div> <div class="title">Add-Ons</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-thumbs-up"></div> <div class="title">About</div></a></li>
+            </ul>
+        </li>
+        <li><a href="#"><div id="icon-top" class="icon-IE"></div> <div class="title-top">IE</div></a>
+            <ul>
+                <li><a href="#"><div id="icon" class="icon-download"></div> <div class="title">Download</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-question"></div> <div class="title">How To</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-support"></div> <div class="title">Support</div></a></li>
+            </ul>
+        </li>
+        <li><a href="#"><div id="icon-top" class="icon-opera"></div> <div class="title-top">Opera</div></a>
+            <ul>
+                <li><a href="#"><div id="icon" class="icon-box-add"></div> <div class="title">Add-Ons</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-question"></div> <div class="title">Help</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-users"></div> <div class="title">Community</div></a></li>
+            </ul>
+        </li>
+        <li><a href="#"><div id="icon-top" class="icon-safari"></div> <div class="title-top">Safari</div></a>
+            <ul>
+                <li><a href="#"><div id="icon" class="icon-question"></div> <div class="title">Help Me</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-road"></div> <div class="title">What is S.</div></a></li>
+                <li><a href="#"><div id="icon" class="icon-power-cord"></div> <div class="title">Extensions</div></a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

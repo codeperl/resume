@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Pure CSS Dropdown Menu (No JavaScript)</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="aGfmLlwVDGA9u6ncDxpEvGjCKQF4P5JUlOP5WQQrUc+AnYnaIOsojjNoG4zfusmbC6IZomhZm4yHMOmPKaUPmg==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body static results-active" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="false">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false">
+CSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/garetmckinley/pen/XvgzKQ" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="htmlmixed" id="actual-html-code" class=" cm-s-default"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">details</span> <span class="cm-attribute">class</span>=<span class="cm-string">"dropdown"</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">summary</span> <span class="cm-attribute">role</span>=<span class="cm-string">"button"</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">class</span>=<span class="cm-string">"button"</span><span class="cm-tag cm-bracket">&gt;</span>Click on me!<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">summary</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span><span class="cm-tag cm-bracket">&gt;</span>I'm a dropdown.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span><span class="cm-tag cm-bracket">&gt;</span>In Pure CSS<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span><span class="cm-tag cm-bracket">&gt;</span>As in...<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span><span class="cm-tag cm-bracket">&gt;</span>No JavaScript.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span><span class="cm-tag cm-bracket">&gt;</span>At All.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">details</span><span class="cm-tag cm-bracket">&gt;</span>
+</code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="css" id="actual-css-code" class=" cm-s-default"><span class="cm-comment">/* Follow me for more pens like this! */</span>
+
+<span class="cm-comment">/* Tweak to change the look and feel */</span>
+:<span class="cm-variable-3">root</span> {
+  <span class="cm-variable-2">--button-background</span>: <span class="cm-keyword">dodgerblue</span>;
+  <span class="cm-variable-2">--button-color</span>: <span class="cm-keyword">white</span>;
+  
+  <span class="cm-variable-2">--dropdown-highlight</span>: <span class="cm-keyword">dodgerblue</span>;
+  <span class="cm-variable-2">--dropdown-width</span>: <span class="cm-number">160px</span>;
+  <span class="cm-variable-2">--dropdown-background</span>: <span class="cm-keyword">white</span>;
+  <span class="cm-variable-2">--dropdown-color</span>: <span class="cm-keyword">black</span>;
+}
+
+<span class="cm-comment">/* Center the planet */</span>
+<span class="cm-tag">body</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">flex</span>;
+  <span class="cm-property">justify-content</span>: <span class="cm-atom">center</span>;
+  <span class="cm-property">align-items</span>: <span class="cm-atom">center</span>;
+  <span class="cm-property">min-height</span>: <span class="cm-number">100vh</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-atom">#222229</span>;
+}
+
+<span class="cm-comment">/* Boring button styles */</span>
+<span class="cm-tag">a</span><span class="cm-qualifier">.button</span> {
+  <span class="cm-comment">/* Frame */</span>
+  <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">20px</span> <span class="cm-number">28px</span>;
+  <span class="cm-property">border-radius</span>: <span class="cm-number">50px</span>;
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+  
+  <span class="cm-comment">/* Style */</span>
+  <span class="cm-property">border</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">background</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--button-background</span>);
+  <span class="cm-property">color</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--button-color</span>);
+  <span class="cm-property">font-size</span>: <span class="cm-number">24px</span>;
+  <span class="cm-property">cursor</span>: <span class="cm-atom">pointer</span>;
+}
+
+<span class="cm-tag">a</span><span class="cm-qualifier">.button</span>:<span class="cm-variable-3">active</span> {
+  <span class="cm-property">filter</span>: <span class="cm-variable cm-callee">brightness</span>(<span class="cm-number">75%</span>);
+}
+
+<span class="cm-comment">/* Dropdown styles */</span>
+<span class="cm-qualifier">.dropdown</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">margin-right</span>: <span class="cm-number">1em</span>;
+  
+  <span class="cm-property">border</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">summary</span> {
+  <span class="cm-property">list-style</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">list-style-type</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> &gt; <span class="cm-tag">summary</span>::<span class="cm-meta">-webkit-</span><span class="cm-variable-3">details-marker</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">summary</span>:<span class="cm-variable-3">focus</span> {
+  <span class="cm-property">outline</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">summary</span>:<span class="cm-variable-3">focus</span> <span class="cm-tag">a</span><span class="cm-qualifier">.button</span> {
+  <span class="cm-property">border</span>: <span class="cm-number">2px</span> <span class="cm-atom">solid</span> <span class="cm-keyword">white</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">summary</span>:<span class="cm-variable-3">focus</span> {
+  <span class="cm-property">outline</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">20px</span> <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">0</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">20px</span> <span class="cm-number">0</span>;
+  <span class="cm-property">width</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-width</span>);
+  <span class="cm-property">left</span>: <span class="cm-number">50%</span>;
+  <span class="cm-property">margin-left</span>: <span class="cm-variable cm-callee">calc</span>((<span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-width</span>) / <span class="cm-number">2</span>)  * <span class="cm-number">-1</span>);
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+  <span class="cm-property">z-index</span>: <span class="cm-number">2</span>;
+  
+  <span class="cm-property">background</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-background</span>);
+  <span class="cm-property">border-radius</span>: <span class="cm-number">6px</span>;
+  <span class="cm-property">list-style</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span> <span class="cm-tag">li</span> {
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">link</span>, <span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">visited</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">10px</span> <span class="cm-number">0.8rem</span>;
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+  
+  <span class="cm-property">color</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-color</span>);
+  <span class="cm-property">text-decoration</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span> <span class="cm-tag">li</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-highlight</span>);
+  <span class="cm-property">color</span>: <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-background</span>);
+}
+
+<span class="cm-comment">/* Dropdown triangle */</span>
+<span class="cm-qualifier">.dropdown</span> <span class="cm-tag">ul</span>::<span class="cm-variable-3">before</span> {
+  <span class="cm-property">content</span>: <span class="cm-string">' '</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">width</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">top</span>: <span class="cm-number">-10px</span>;
+  <span class="cm-property">left</span>: <span class="cm-number">50%</span>;
+  <span class="cm-property">margin-left</span>: <span class="cm-number">-10px</span>;
+  <span class="cm-property">border-style</span>: <span class="cm-atom">solid</span>;
+  <span class="cm-property">border-width</span>: <span class="cm-number">0</span> <span class="cm-number">10px</span> <span class="cm-number">10px</span> <span class="cm-number">10px</span>;
+  <span class="cm-property">border-color</span>: <span class="cm-atom">transparent</span> <span class="cm-atom">transparent</span> <span class="cm-variable cm-callee">var</span>(<span class="cm-variable-2">--dropdown-background</span>) <span class="cm-atom">transparent</span>;
+}
+
+
+<span class="cm-comment">/* Close the dropdown with outside clicks */</span>
+<span class="cm-qualifier">.dropdown</span> &gt; <span class="cm-tag">summary</span>::<span class="cm-variable-3">before</span> {
+  <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.dropdown</span>[<span class="cm-tag">open</span>] &gt; <span class="cm-tag">summary</span>::<span class="cm-variable-3">before</span> {
+    <span class="cm-property">content</span>: <span class="cm-string">' '</span>;
+    <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+    <span class="cm-property">position</span>: <span class="cm-atom">fixed</span>;
+    <span class="cm-property">top</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">right</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">left</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">bottom</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">z-index</span>: <span class="cm-number">1</span>;
+}
+</code></pre>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for Pure CSS Dropdown Menu (No JavaScript)" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for Pure CSS Dropdown Menu (No JavaScript)" data-src="https://cdpn.io/garetmckinley/fullembedgrid/XvgzKQ?animations=run&amp;type=embed" src="XvgzKQ_data/XvgzKQ.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/garetmckinley" target="_blank" rel="noopener"><img src="XvgzKQ_data/default.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/garetmckinley" target="_blank" rel="noopener">Garet McKinley</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/garetmckinley" target="_blank" rel="noopener" class="about-user-more">
+See more by @garetmckinley on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<ol class="list-of-resources">
+<li>
+<a href="https://codepen.io/garetmckinley/pen/rPKgEX" target="_blank">https://codepen.io/garetmckinley/pen/rPKgEX</a>
+</li>
+</ol>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;details class=&quot;dropdown&quot;&gt;\n    &lt;summary role=&quot;button&quot;&gt;\n      &lt;a class=&quot;button&quot;&gt;Click on me!&lt;/a&gt;\n    &lt;/summary&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;I&#39;m a dropdown.&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;In Pure CSS&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;As in...&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;No JavaScript.&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;At All.&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/details&gt;","css":"/* Follow me for more pens like this! */\n\n/* Tweak to change the look and feel */\n:root {\n  --button-background: dodgerblue;\n  --button-color: white;\n  \n  --dropdown-highlight: dodgerblue;\n  --dropdown-width: 160px;\n  --dropdown-background: white;\n  --dropdown-color: black;\n}\n\n/* Center the planet */\nbody {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n  background-color: #222229;\n}\n\n/* Boring button styles */\na.button {\n  /* Frame */\n  display: inline-block;\n  padding: 20px 28px;\n  border-radius: 50px;\n  box-sizing: border-box;\n  \n  /* Style */\n  border: none;\n  background: var(--button-background);\n  color: var(--button-color);\n  font-size: 24px;\n  cursor: pointer;\n}\n\na.button:active {\n  filter: brightness(75%);\n}\n\n/* Dropdown styles */\n.dropdown {\n  position: relative;\n  padding: 0;\n  margin-right: 1em;\n  \n  border: none;\n}\n\n.dropdown summary {\n  list-style: none;\n  list-style-type: none;\n}\n\n.dropdown &gt; summary::-webkit-details-marker {\n  display: none;\n}\n\n.dropdown summary:focus {\n  outline: none;\n}\n\n.dropdown summary:focus a.button {\n  border: 2px solid white;\n}\n\n.dropdown summary:focus {\n  outline: none;\n}\n\n.dropdown ul {\n  position: absolute;\n  margin: 20px 0 0 0;\n  padding: 20px 0;\n  width: var(--dropdown-width);\n  left: 50%;\n  margin-left: calc((var(--dropdown-width) / 2)  * -1);\n  box-sizing: border-box;\n  z-index: 2;\n  \n  background: var(--dropdown-background);\n  border-radius: 6px;\n  list-style: none;\n}\n\n.dropdown ul li {\n  padding: 0;\n  margin: 0;\n}\n\n.dropdown ul li a:link, .dropdown ul li a:visited {\n  display: inline-block;\n  padding: 10px 0.8rem;\n  width: 100%;\n  box-sizing: border-box;\n  \n  color: var(--dropdown-color);\n  text-decoration: none;\n}\n\n.dropdown ul li a:hover {\n  background-color: var(--dropdown-highlight);\n  color: var(--dropdown-background);\n}\n\n/* Dropdown triangle */\n.dropdown ul::before {\n  content: &#39; &#39;;\n  position: absolute;\n  width: 0;\n  height: 0;\n  top: -10px;\n  left: 50%;\n  margin-left: -10px;\n  border-style: solid;\n  border-width: 0 10px 10px 10px;\n  border-color: transparent transparent var(--dropdown-background) transparent;\n}\n\n\n/* Close the dropdown with outside clicks */\n.dropdown &gt; summary::before {\n  display: none;\n}\n\n.dropdown[open] &gt; summary::before {\n    content: &#39; &#39;;\n    display: block;\n    position: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    bottom: 0;\n    z-index: 1;\n}","js":""};
+    __preprocessors = {
+      "html": "none",
+      "css": "none",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Simple Pure CSS Dropdown Menu</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="OD+WuSLnuYT8aVFHsxleBZZpT8Oey/G8S13Ut2mZDN7QxflNXhmdavK64xdjudMi9Ql/YI6t+GRYjsRhRBdSiw==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body static results-active" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="8.896.0">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="false">
+Pug
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false">
+SCSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/connorbrassington/pen/raNrEW" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="pug" id="actual-html-code" class=" cm-s-default"><span class="cm-qualifier">.container</span>
+<span class="cm-indent">    </span><span class="cm-qualifier">.tutorial</span>
+<span class="cm-indent">      </span><span class="cm-tag">ul</span>
+<span class="cm-indent">        </span><span class="cm-tag">li</span><span class="cm-string"> Home</span>
+<span class="cm-indent">        </span><span class="cm-tag">li</span><span class="cm-string"> Blog</span>
+<span class="cm-indent">        </span><span class="cm-tag">li</span><span class="cm-string"> Services </span>
+<span class="cm-indent">          </span><span class="cm-tag">i</span><span class="cm-qualifier">.fa</span><span class="cm-qualifier">.fa-angle-down</span>
+<span class="cm-indent">          </span><span class="cm-tag">ul</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Graphic Design</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Website Design </span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Python Programming</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> PHP Programming</span>
+<span class="cm-indent">        </span><span class="cm-tag">li</span><span class="cm-string"> Tutorials </span>
+<span class="cm-indent">          </span><span class="cm-tag">i</span><span class="cm-qualifier">.fa</span><span class="cm-qualifier">.fa-angle-down</span>
+<span class="cm-indent">          </span><span class="cm-tag">ul</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> CSS </span>
+<span class="cm-indent">              </span><span class="cm-tag">span</span><span class="cm-string"> 12 Available</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> HTML </span>
+<span class="cm-indent">              </span><span class="cm-tag">span</span><span class="cm-string"> 9 Available</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Jade</span>
+<span class="cm-indent">              </span><span class="cm-tag">span</span><span class="cm-string"> 3 Available</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Javascript</span>
+<span class="cm-indent">              </span><span class="cm-tag">span</span><span class="cm-string"> 21 Available</span>
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-string"> Design</span>
+<span class="cm-indent">              </span><span class="cm-tag">span</span><span class="cm-string"> 37 Available</span>
+<span class="cm-indent">        </span><span class="cm-tag">li</span><span class="cm-string"> Contact</span>
+<span class="cm-indent">      </span><span class="cm-qualifier">.slider</span>
+<span class="cm-indent">      </span><span class="cm-qualifier">.information</span>
+<span class="cm-indent">        </span><span class="cm-tag">p</span><span class="cm-string"> A simple, clean looking dropdown menu effect achieved using pure CSS. Simple functionality, method can be extended to create a secondary dropdown block with few edits.</span>
+<span class="cm-indent">   </span>
+<span class="cm-indent"> </span>
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">link</span> <span class="cm-attribute">href</span>=<span class="cm-string">'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600'</span> <span class="cm-attribute">rel</span>=<span class="cm-string">'stylesheet'</span> <span class="cm-attribute">type</span>=<span class="cm-string">'text/css'</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">link</span> <span class="cm-attribute">href</span>=<span class="cm-string">"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"</span> <span class="cm-attribute">rel</span>=<span class="cm-string">"stylesheet"</span><span class="cm-tag cm-bracket">&gt;</span></code></pre>
+<a href="#0" id="view-html-compiled-button" class="action-button bottom right view-compiled-button" data-type="html">
+View Compiled
+</a>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="text/x-scss" id="actual-css-code" class=" cm-s-default"><span class="cm-comment">//variables</span>
+<span class="cm-variable-2">$background-purple</span>: <span class="cm-atom">#EEEEEE</span>;
+<span class="cm-variable-2">$subtle-white</span>: <span class="cm-atom">#f9f9f9</span>;
+<span class="cm-variable-2">$subtle-grey</span>: <span class="cm-atom">#f2f2f2</span>;
+<span class="cm-variable-2">$masked-grey</span>: <span class="cm-atom">#333</span>;
+<span class="cm-variable-2">$blue</span>: <span class="cm-atom">#F03861</span>;
+
+<span class="cm-variable-2">$open-sans</span>: <span class="cm-string">'Open Sans'</span>, <span class="cm-atom">sans-serif</span>;
+
+*,
+*:<span class="cm-variable-3">before</span>,
+*:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+}
+
+<span class="cm-tag">body</span>, <span class="cm-tag">html</span> {
+  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-variable-2">$background-purple</span>;
+}
+
+<span class="cm-comment">// page container</span>
+<span class="cm-qualifier">.container</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;
+}
+
+<span class="cm-comment">// tutorial start</span>
+<span class="cm-qualifier">.tutorial</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">80%</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">5%</span> <span class="cm-atom">auto</span> <span class="cm-number">0</span> <span class="cm-atom">auto</span>;
+  <span class="cm-property">box-shadow</span>: <span class="cm-number">0</span> <span class="cm-number">4px</span> <span class="cm-number">12px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-keyword">black</span>, <span class="cm-number">0.1</span>);
+  <span class="cm-property">background-color</span>: <span class="cm-variable-2">$subtle-white</span>;
+  <span class="cm-property">max-width</span>: <span class="cm-number">800px</span>;
+  
+<span class="cm-qualifier">.slider</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">height</span>: <span class="cm-number">300px</span>;
+  <span class="cm-property">background-color</span>: <span class="cm-variable-2">$blue</span>;
+}
+  
+<span class="cm-qualifier">.information</span> {
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">20px</span> <span class="cm-number">50px</span>;
+  <span class="cm-property">margin-bottom</span>: <span class="cm-number">30px</span>;
+  <span class="cm-property">font-family</span>: <span class="cm-variable-2">$open-sans</span>;
+  
+  <span class="cm-tag">h1</span> {
+    <span class="cm-property">color</span>: <span class="cm-variable-2">$masked-grey</span>;
+    <span class="cm-property">font-size</span>: <span class="cm-number">1.5rem</span>;
+    <span class="cm-property">padding</span>: <span class="cm-number">0px</span> <span class="cm-number">10px</span>;
+    <span class="cm-property">border-left</span>: <span class="cm-number">3px</span> <span class="cm-atom">solid</span> <span class="cm-variable-2">$blue</span>;
+  }
+  
+  <span class="cm-tag">h3</span> {
+    <span class="cm-property">color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$subtle-grey</span>, <span class="cm-number">7%</span>);
+    <span class="cm-property">font-size</span>: <span class="cm-number">1rem</span>;
+    <span class="cm-property">font-weight</span>: <span class="cm-number">300</span>;
+    <span class="cm-property">padding</span>: <span class="cm-number">0px</span> <span class="cm-number">10px</span>;
+    <span class="cm-property">border-left</span>: <span class="cm-number">3px</span> <span class="cm-atom">solid</span> <span class="cm-variable-2">$blue</span>;
+  }
+  
+  <span class="cm-tag">p</span> {
+    <span class="cm-property">padding</span>: <span class="cm-number">10px</span> <span class="cm-number">0px</span>;
+  }
+}
+  
+  <span class="cm-tag">ul</span> {
+    <span class="cm-property">font-size</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">list-style-type</span>: <span class="cm-atom">none</span>;
+    
+    <span class="cm-comment">// initial li</span>
+    <span class="cm-tag">li</span> {
+      <span class="cm-property">font-family</span>: <span class="cm-variable-2">$open-sans</span>;
+      <span class="cm-property">font-size</span>: <span class="cm-number">1rem</span>;
+      <span class="cm-property">font-weight</span>: <span class="cm-number">400</span>;
+      <span class="cm-property">color</span>: <span class="cm-variable-2">$masked-grey</span>;
+      
+      <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+      <span class="cm-property">padding</span>: <span class="cm-number">15px</span>;
+      <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+      
+       <span class="cm-comment">// secondary ul</span>
+        <span class="cm-tag">ul</span> {
+          <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+        }
+      
+      <span class="cm-comment">// initial li:hover</span>
+      &amp;:<span class="cm-variable-3">hover</span> {
+        <span class="cm-property">cursor</span>: <span class="cm-atom">pointer</span>;
+        <span class="cm-property">background-color</span>: <span class="cm-variable-2">$subtle-grey</span>;
+        
+        <span class="cm-comment">// secondary ul visibility change</span>
+        <span class="cm-tag">ul</span> {
+          <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+          <span class="cm-property">margin-top</span>: <span class="cm-number">15px</span>;
+          
+          <span class="cm-property">width</span>: <span class="cm-number">200px</span>;
+          <span class="cm-property">left</span>: <span class="cm-number">0</span>;
+          
+          <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+          
+          <span class="cm-comment">// secondary li</span>
+          <span class="cm-tag">li</span> {
+            <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+            <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$subtle-white</span>, <span class="cm-number">7%</span>);
+            <span class="cm-tag">span</span> {
+              <span class="cm-property">float</span>: <span class="cm-atom">right</span>;
+              <span class="cm-property">color</span>: <span class="cm-variable-2">$subtle-white</span>;
+              <span class="cm-property">background-color</span>: <span class="cm-variable-2">$blue</span>;
+              <span class="cm-property">padding</span>: <span class="cm-number">2px</span> <span class="cm-number">5px</span>;
+              <span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;
+              <span class="cm-property">font-size</span>: <span class="cm-number">.8rem</span>;
+              <span class="cm-property">border-radius</span>: <span class="cm-number">3px</span>;
+            }
+            
+            &amp;:<span class="cm-variable-3">hover</span> {
+              <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$subtle-white</span>, <span class="cm-number">10%</span>);
+              <span class="cm-tag">span</span> {
+                <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$blue</span>, <span class="cm-number">5%</span>);
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}</code></pre>
+<a href="#0" id="view-css-compiled-button" class="action-button bottom right view-compiled-button" data-type="css">
+View Compiled
+</a>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for Simple Pure CSS Dropdown Menu" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for Simple Pure CSS Dropdown Menu" data-src="https://cdpn.io/connorbrassington/fullembedgrid/raNrEW?animations=run&amp;type=embed" src="raNrEW_data/raNrEW.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/connorbrassington" target="_blank" rel="noopener"><img src="raNrEW_data/default.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/connorbrassington" target="_blank" rel="noopener">Connor Brassington</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/connorbrassington" target="_blank" rel="noopener" class="about-user-more">
+See more by @connorbrassington on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;div class=&quot;container&quot;&gt;\n  &lt;div class=&quot;tutorial&quot;&gt;\n    &lt;ul&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;Blog&lt;/li&gt;\n      &lt;li&gt;Services &lt;i class=&quot;fa fa-angle-down&quot;&gt;&lt;/i&gt;\n        &lt;ul&gt;\n          &lt;li&gt;Graphic Design&lt;/li&gt;\n          &lt;li&gt;Website Design &lt;/li&gt;\n          &lt;li&gt;Python Programming&lt;/li&gt;\n          &lt;li&gt;PHP Programming&lt;/li&gt;\n        &lt;/ul&gt;\n      &lt;/li&gt;\n      &lt;li&gt;Tutorials &lt;i class=&quot;fa fa-angle-down&quot;&gt;&lt;/i&gt;\n        &lt;ul&gt;\n          &lt;li&gt;CSS &lt;span&gt;12 Available&lt;/span&gt;&lt;/li&gt;\n          &lt;li&gt;HTML &lt;span&gt;9 Available&lt;/span&gt;&lt;/li&gt;\n          &lt;li&gt;Jade&lt;span&gt;3 Available&lt;/span&gt;&lt;/li&gt;\n          &lt;li&gt;Javascript&lt;span&gt;21 Available&lt;/span&gt;&lt;/li&gt;\n          &lt;li&gt;Design&lt;span&gt;37 Available&lt;/span&gt;&lt;/li&gt;\n        &lt;/ul&gt;\n      &lt;/li&gt;\n      &lt;li&gt;Contact&lt;/li&gt;\n    &lt;/ul&gt;\n    &lt;div class=&quot;slider&quot;&gt;&lt;/div&gt;\n    &lt;div class=&quot;information&quot;&gt;\n      &lt;p&gt;A simple, clean looking dropdown menu effect achieved using pure CSS. Simple functionality, method can be extended to create a secondary dropdown block with few edits.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;&lt;link href=&#39;https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;\n&lt;link href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;","css":"*,\n*:before,\n*:after {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody, html {\n  height: 100%;\n  background-color: #EEEEEE;\n}\n\n.container {\n  width: 100%;\n  height: 100%;\n}\n\n.tutorial {\n  width: 80%;\n  margin: 5% auto 0 auto;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n  background-color: #f9f9f9;\n  max-width: 800px;\n}\n.tutorial .slider {\n  width: 100%;\n  height: 300px;\n  background-color: #F03861;\n}\n.tutorial .information {\n  width: 100%;\n  padding: 20px 50px;\n  margin-bottom: 30px;\n  font-family: &quot;Open Sans&quot;, sans-serif;\n}\n.tutorial .information h1 {\n  color: #333;\n  font-size: 1.5rem;\n  padding: 0px 10px;\n  border-left: 3px solid #F03861;\n}\n.tutorial .information h3 {\n  color: #e0e0e0;\n  font-size: 1rem;\n  font-weight: 300;\n  padding: 0px 10px;\n  border-left: 3px solid #F03861;\n}\n.tutorial .information p {\n  padding: 10px 0px;\n}\n.tutorial ul {\n  font-size: 0;\n  list-style-type: none;\n}\n.tutorial ul li {\n  font-family: &quot;Open Sans&quot;, sans-serif;\n  font-size: 1rem;\n  font-weight: 400;\n  color: #333;\n  display: inline-block;\n  padding: 15px;\n  position: relative;\n}\n.tutorial ul li ul {\n  display: none;\n}\n.tutorial ul li:hover {\n  cursor: pointer;\n  background-color: #f2f2f2;\n}\n.tutorial ul li:hover ul {\n  display: block;\n  margin-top: 15px;\n  width: 200px;\n  left: 0;\n  position: absolute;\n}\n.tutorial ul li:hover ul li {\n  display: block;\n  background-color: #e7e7e7;\n}\n.tutorial ul li:hover ul li span {\n  float: right;\n  color: #f9f9f9;\n  background-color: #F03861;\n  padding: 2px 5px;\n  text-align: center;\n  font-size: 0.8rem;\n  border-radius: 3px;\n}\n.tutorial ul li:hover ul li:hover {\n  background-color: #e0e0e0;\n}\n.tutorial ul li:hover ul li:hover span {\n  background-color: #ee204e;\n}","js":""};
+    __preprocessors = {
+      "html": "pug",
+      "css": "scss",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "Pug",
+      "css": "SCSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Simple PureCss dropdown menu with following subnav</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="RFvWJjGz+vCTwjIIRect+I+nyJxq0gyQu+RB7WZD+vCsobnSTU3eHp0RgFiVR6Df7Mf4P3q0BUioN1E7S82kpQ==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body results-active split-output static" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="true" class="active">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false" class="">
+SCSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/dghez/pen/Kwoper" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box active" role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="htmlmixed" id="actual-html-code" class=" cm-s-default"><span class="cm-comment">&lt;!-- not responsive yet --&gt;</span>
+<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">nav</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span> <span class="cm-attribute">id</span>=<span class="cm-string">"main"</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>Home<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>About<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>Skills
+      <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span> <span class="cm-attribute">class</span>=<span class="cm-string">"drop"</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>scss<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>jquery<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>html<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+        <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span>
+      <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>Contact<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">id</span>=<span class="cm-string">"marker"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">nav</span><span class="cm-tag cm-bracket">&gt;</span></code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box" role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="text/x-scss" id="actual-css-code" class=" cm-s-default"><span class="cm-variable-2">$min-width</span>: <span class="cm-number">120px</span>;
+<span class="cm-variable-2">$maincolor</span>: <span class="cm-atom">#6BBE92</span>;  
+<span class="cm-variable-2">$secondarycolor</span>: <span class="cm-atom">#3E8760</span>;
+
+<span class="cm-def">@mixin</span> <span class="cm-variable cm-callee">transform</span>(<span class="cm-variable-2">$value</span>){
+  <span class="cm-meta">-webkit-</span><span class="cm-property">transform</span>: (<span class="cm-variable-2">$value</span>);
+     <span class="cm-meta">-moz-</span><span class="cm-property">transform</span>: (<span class="cm-variable-2">$value</span>);
+      <span class="cm-meta">-ms-</span><span class="cm-property">transform</span>: (<span class="cm-variable-2">$value</span>);
+          <span class="cm-property">transform</span>: (<span class="cm-variable-2">$value</span>);
+}
+<span class="cm-def">@mixin</span> <span class="cm-variable cm-callee">transition</span>(<span class="cm-variable-2">$value</span>){
+  <span class="cm-meta">-webkit-</span><span class="cm-property">transition</span>: (<span class="cm-variable-2">$value</span>);
+     <span class="cm-meta">-moz-</span><span class="cm-property">transition</span>: (<span class="cm-variable-2">$value</span>);
+      <span class="cm-meta">-ms-</span><span class="cm-property">transition</span>: (<span class="cm-variable-2">$value</span>);
+          <span class="cm-property">transition</span>: (<span class="cm-variable-2">$value</span>);
+}
+
+*{
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+}
+<span class="cm-tag">body</span>{
+  <span class="cm-property">font-family</span>: <span class="cm-string">'Open Sans'</span>, <span class="cm-atom">sans-serif</span>;
+  <span class="cm-property">background</span>: <span class="cm-atom">#374954</span>;
+  <span class="cm-property">color</span>: <span class="cm-keyword">white</span>;
+  <span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;
+}
+
+<span class="cm-builtin">#main</span>{
+  <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+  <span class="cm-property">list-style</span>: <span class="cm-atom">none</span>;
+  <span class="cm-property">background</span>: <span class="cm-variable-2">$maincolor</span>;
+  <span class="cm-property">font-weight</span>: <span class="cm-number">400</span>;
+  <span class="cm-property">font-size</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">text-transform</span>: <span class="cm-atom">uppercase</span>;
+  <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">50px</span> <span class="cm-atom">auto</span>;
+  <span class="cm-tag">li</span>{
+    <span class="cm-property">font-size</span>: <span class="cm-number">0.8rem</span>;
+    <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+    <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+    <span class="cm-property">padding</span>: <span class="cm-number">15px</span> <span class="cm-number">20px</span>;
+    <span class="cm-property">cursor</span>: <span class="cm-atom">pointer</span>;
+    <span class="cm-property">z-index</span>: <span class="cm-number">5</span>;
+    <span class="cm-property">min-width</span>: <span class="cm-variable-2">$min-width</span>;
+  }  
+}
+<span class="cm-tag">li</span>{
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+}
+<span class="cm-qualifier">.drop</span>{
+    <span class="cm-property">overflow</span>: <span class="cm-atom">hidden</span>;
+    <span class="cm-property">list-style</span>: <span class="cm-atom">none</span>;
+    <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+    <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+    <span class="cm-property">left</span>: <span class="cm-number">0</span>;
+    <span class="cm-property">top</span>: <span class="cm-number">48px</span>;
+    <span class="cm-tag">div</span>{
+      <span class="cm-def">@include</span> <span class="cm-variable cm-callee">transform</span>(<span class="cm-variable cm-callee">translate</span>(<span class="cm-number">0</span>,<span class="cm-number">-100%</span>));
+      <span class="cm-def">@include</span> <span class="cm-variable cm-callee">transition</span>(<span class="cm-tag">all</span> <span class="cm-number">0.5s</span> <span class="cm-number">0.1s</span>);
+      <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+    }
+    <span class="cm-tag">li</span>{
+      <span class="cm-property">display</span>:<span class="cm-atom">block</span>;
+      <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+      <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+      <span class="cm-property">background</span>: <span class="cm-variable-2">$secondarycolor</span> <span class="cm-keyword">!important</span>;
+    }
+  }
+<span class="cm-builtin">#marker</span>{
+  <span class="cm-property">height</span>: <span class="cm-number">6px</span>;
+  <span class="cm-property">background</span>: <span class="cm-variable-2">$secondarycolor</span> <span class="cm-keyword">!important</span>;
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">bottom</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">width</span>: <span class="cm-variable-2">$min-width</span>;
+  <span class="cm-property">z-index</span>: <span class="cm-number">2</span>;
+  <span class="cm-def">@include</span> <span class="cm-variable cm-callee">transition</span>(<span class="cm-tag">all</span> <span class="cm-number">0.35s</span>);
+}
+
+<span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">4</span>{
+  <span class="cm-builtin">#main</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}){
+    &amp;:<span class="cm-variable-3">hover</span> <span class="cm-tag">ul</span> <span class="cm-tag">div</span>{
+     <span class="cm-def">@include</span> <span class="cm-variable cm-callee">transform</span>(<span class="cm-variable cm-callee">translate</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>)); 
+    }
+    &amp;:<span class="cm-variable-3">hover</span> ~ <span class="cm-builtin">#marker</span>{
+      <span class="cm-def">@include</span> <span class="cm-variable cm-callee">transform</span>(<span class="cm-variable cm-callee">translate</span>(#{(<span class="cm-number">-1</span>+<span class="cm-variable-2">$i</span>)*<span class="cm-variable-2">$min-width</span>},<span class="cm-number">0</span>));
+    }
+  }    
+}
+
+
+</code></pre>
+<a href="#0" id="view-css-compiled-button" class="action-button bottom right view-compiled-button" data-type="css">
+View Compiled
+</a>
+</div>
+<div id="result-box" class="code-box zoom-1 active" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for Simple PureCss dropdown menu with following subnav" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for Simple PureCss dropdown menu with following subnav" data-src="https://cdpn.io/dghez/fullembedgrid/Kwoper?animations=run&amp;type=embed" src="Kwoper_data/Kwoper.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/dghez" target="_blank" rel="noopener"><img src="Kwoper_data/default.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/dghez" target="_blank" rel="noopener">Robert Borghesi</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/dghez" target="_blank" rel="noopener" class="about-user-more">
+See more by @dghez on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;!-- not responsive yet --&gt;\n&lt;nav&gt;\n  &lt;ul id=&quot;main&quot;&gt;\n    &lt;li&gt;Home&lt;/li&gt;\n    &lt;li&gt;About&lt;/li&gt;\n    &lt;li&gt;Skills\n      &lt;ul class=&quot;drop&quot;&gt;\n        &lt;div&gt;\n        &lt;li&gt;scss&lt;/li&gt;\n        &lt;li&gt;jquery&lt;/li&gt;\n        &lt;li&gt;html&lt;/li&gt;\n        &lt;/div&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li&gt;Contact&lt;/li&gt;\n    &lt;div id=&quot;marker&quot;&gt;&lt;/div&gt;\n  &lt;/ul&gt;\n&lt;/nav&gt;","css":"* {\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: &quot;Open Sans&quot;, sans-serif;\n  background: #374954;\n  color: white;\n  text-align: center;\n}\n\n#main {\n  position: relative;\n  list-style: none;\n  background: #6BBE92;\n  font-weight: 400;\n  font-size: 0;\n  text-transform: uppercase;\n  display: inline-block;\n  padding: 0;\n  margin: 50px auto;\n}\n#main li {\n  font-size: 0.8rem;\n  display: inline-block;\n  position: relative;\n  padding: 15px 20px;\n  cursor: pointer;\n  z-index: 5;\n  min-width: 120px;\n}\n\nli {\n  margin: 0;\n}\n\n.drop {\n  overflow: hidden;\n  list-style: none;\n  position: absolute;\n  padding: 0;\n  width: 100%;\n  left: 0;\n  top: 48px;\n}\n.drop div {\n  -webkit-transform: translate(0, -100%);\n  -moz-transform: translate(0, -100%);\n  -ms-transform: translate(0, -100%);\n  transform: translate(0, -100%);\n  -webkit-transition: all 0.5s 0.1s;\n  -moz-transition: all 0.5s 0.1s;\n  -ms-transition: all 0.5s 0.1s;\n  transition: all 0.5s 0.1s;\n  position: relative;\n}\n.drop li {\n  display: block;\n  padding: 0;\n  width: 100%;\n  background: #3E8760 !important;\n}\n\n#marker {\n  height: 6px;\n  background: #3E8760 !important;\n  position: absolute;\n  bottom: 0;\n  width: 120px;\n  z-index: 2;\n  -webkit-transition: all 0.35s;\n  -moz-transition: all 0.35s;\n  -ms-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n#main li:nth-child(1):hover ul div {\n  -webkit-transform: translate(0, 0);\n  -moz-transform: translate(0, 0);\n  -ms-transform: translate(0, 0);\n  transform: translate(0, 0);\n}\n#main li:nth-child(1):hover ~ #marker {\n  -webkit-transform: translate(0px, 0);\n  -moz-transform: translate(0px, 0);\n  -ms-transform: translate(0px, 0);\n  transform: translate(0px, 0);\n}\n\n#main li:nth-child(2):hover ul div {\n  -webkit-transform: translate(0, 0);\n  -moz-transform: translate(0, 0);\n  -ms-transform: translate(0, 0);\n  transform: translate(0, 0);\n}\n#main li:nth-child(2):hover ~ #marker {\n  -webkit-transform: translate(120px, 0);\n  -moz-transform: translate(120px, 0);\n  -ms-transform: translate(120px, 0);\n  transform: translate(120px, 0);\n}\n\n#main li:nth-child(3):hover ul div {\n  -webkit-transform: translate(0, 0);\n  -moz-transform: translate(0, 0);\n  -ms-transform: translate(0, 0);\n  transform: translate(0, 0);\n}\n#main li:nth-child(3):hover ~ #marker {\n  -webkit-transform: translate(240px, 0);\n  -moz-transform: translate(240px, 0);\n  -ms-transform: translate(240px, 0);\n  transform: translate(240px, 0);\n}\n\n#main li:nth-child(4):hover ul div {\n  -webkit-transform: translate(0, 0);\n  -moz-transform: translate(0, 0);\n  -ms-transform: translate(0, 0);\n  transform: translate(0, 0);\n}\n#main li:nth-child(4):hover ~ #marker {\n  -webkit-transform: translate(360px, 0);\n  -moz-transform: translate(360px, 0);\n  -ms-transform: translate(360px, 0);\n  transform: translate(360px, 0);\n}","js":""};
+    __preprocessors = {
+      "html": "none",
+      "css": "scss",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "SCSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

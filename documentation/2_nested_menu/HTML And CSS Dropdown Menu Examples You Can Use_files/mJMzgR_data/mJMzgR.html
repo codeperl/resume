@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Pure CSS dropdown [work for mobile touch screen]</title>
+  
+  
+  
+  
+<style>
+body{font-family:sans-serif;}
+.wrapper{width:100%;height:80vh;background-color:#f0f0f0;text-align:center;padding-top:5em;}
+.main-menu{text-align:left;display:inline-block;background-color:#fff}
+.main-menu a, .main-menu a:hover{text-decoration:none}
+.main-menu{list-style:none;padding:0;margin:0}
+.main-menu li{display:block;padding:0;position:relative;vertical-align:top}
+.main-menu > li{background-color:#fff}
+.main-menu > li > a{background-color:#fff;display:block;padding:.75em 1.25em;}
+.main-menu ul.sub-menu{position:relative;padding:0}
+.main-menu ul.sub-menu li{display:block}
+.main-menu ul.sub-menu a{background-color:#666;color:#fff;padding:.75em 1.25em;display:block}
+.main-menu > li:hover ul.sub-menu{}
+.main-menu li{display:inline-block;}
+	.main-menu > li > a{display:block;}
+			.main-menu > li > a:hover{background-color:#f0f0f0;color:#039}
+			
+	.main-menu > li:hover ul.sub-menu, .main-menu > li:focus ul.sub-menu{visibility: visible;opacity:1}
+	.main-menu > li.menu-item-has-children{padding-right:1.5em;overflow:hidden}
+	.main-menu > li.menu-item-has-children a{padding:.75em .7em .7em 1.25em}
+			.main-menu > li.menu-item-has-children:hover a{background-color:#666;color:#fff}
+			
+	.main-menu > li.menu-item-has-children:after{content:'';position:absolute;right:.5em;top:1.2em;width: 0;height: 0;border-style: solid;border-width: 6px 5px 0 5px;border-color: #007bff transparent transparent}
+	
+	.main-menu > li.menu-item-has-children:hover,
+	.main-menu > li.menu-item-has-children:focus{overflow:visible;background-color:#666}
+	
+	.main-menu ul.sub-menu{width:12em;position:absolute;/*top:100%;*/top:0;z-index:900;padding-top:3em;}
+		.main-menu ul.sub-menu li{opacity:0}
+
+	.main-menu > li.menu-item-has-children:hover ul.sub-menu,
+	.main-menu > li.menu-item-has-children:focus ul.sub-menu{top:100%;padding-top:0;}
+
+	.main-menu > li.menu-item-has-children:hover ul.sub-menu li,
+	.main-menu > li.menu-item-has-children:focus ul.sub-menu li{opacity:1}
+
+	.main-menu ul.sub-menu li{display:block}
+	.main-menu ul.sub-menu a{display:block}
+			.main-menu ul.sub-menu a:hover{background-color:#999;}
+
+a, .sub-menu, .menu-item{-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-ms-transition: all .3s ease-out;
+-o-transition: all .3s ease-out;
+transition: all .3s ease-out;}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <div class="wrapper"><ul class="main-menu">
+  <li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-6"><a href="https://cdpn.io/home/">Home</a></li>
+  <li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16"><a href="#">Main Cat</a>
+    <ul class="sub-menu">
+      <li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7"><a href="https://cdpn.io/sample-page/">Sub Page 1</a></li>
+      <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://cdpn.io/sample-page-2/">Sub Page 2</a></li>
+    </ul>
+  </li>
+  <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://cdpn.io/blog/">Blog</a></li>
+  <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15"><a href="https://cdpn.io/contact-us/">Contact us</a>
+    <ul class="sub-menu">
+      <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://cdpn.io/jonathlee/fullembedgrid/contact-us-2/our-location/">Our Location</a></li>
+    </ul>
+  </li>
+  </ul></div>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

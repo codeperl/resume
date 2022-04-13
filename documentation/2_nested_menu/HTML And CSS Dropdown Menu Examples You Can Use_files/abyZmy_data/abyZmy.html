@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Simple CSS Dropdown</title>
+  
+  
+  
+  
+<style>
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+/* This hides the dropdowns */
+li ul {
+  display: none;
+}
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+ul li a:hover {
+  background: #2c3e50;
+}
+/* Display the dropdown */
+li:hover > ul {
+  display: block; 
+  position: absolute;
+}
+/* Remove float from dropdown lists */
+li:hover li {
+    float: none;
+}
+li:hover a {
+  background: #1bc2a2;
+}
+li:hover li a:hover {
+  background: #2c3e50;
+}
+.main-navigation li ul li {
+  border-top: 0;
+}
+/* Displays second level dropdowns to the right of the first level dropdown */
+ul ul ul {
+  left: 100%;
+  top: 0; 
+}
+
+
+/* Simple clearfix */
+
+ul:before,
+ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+ul:after {
+    clear: both;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <ul class="main-navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Front End Design</a>
+    <ul>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a>
+      	<ul>
+      		<li><a href="#">Resets</a></li>
+      		<li><a href="#">Grids</a></li>
+      		<li><a href="#">Frameworks</a></li>
+      	</ul>
+      </li>
+      <li><a href="#">JavaScript</a>
+      	<ul>
+      		<li><a href="#">Ajax</a></li>
+      		<li><a href="#">jQuery</a></li>
+      	</ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">WordPress Development</a>
+    <ul>
+      <li><a href="#">Themes</a></li>
+      <li><a href="#">Plugins</a></li>
+      <li><a href="#">Custom Post Types</a>
+        <ul>
+          <li><a href="#">Portfolios</a></li>
+          <li><a href="#">Testimonials</a></li>
+       </ul>
+     </li>
+   <li><a href="#">Options</a></li>
+    </ul>
+  </li>
+  <li><a href="#">About Us</a></li>
+</ul>
+<h2>How it works</h2><hr>
+<pre>ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+</pre>
+<p>Using relative positioning for the parent li allows it to be used as a container for absolutely positioned child elements.</p>
+<hr>
+<pre>li ul {
+  display: none; 
+}
+</pre>
+<p>This hides the dropdown menus until hovering over a parent li.</p>
+<hr>
+<pre>li:hover &gt; ul {
+  display: block; 
+  position: absolute;
+}
+</pre>
+<p>This displays the dropdown ul when hovering over a parent li, using <code>li:hover ul</code> for the selector without the <code>&gt;</code> child combinator selector will work for single level dropdowns.</p>
+<hr>
+<pre>ul ul ul {
+    left: 100%;
+    top: 0;
+}
+</pre>
+<p>Poisitions the second level dropdowns to the right of the first level dropdown.</p>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

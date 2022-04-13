@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Cool Dropdown Menu Effects Pure Css</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="2oMDefQ6LasXEiv2ZJUcFNZVASTa2wOQtDyXu1d7nwIyeWyNiMQJRRnBmaa0NZEztTUxh8q9Ckin74dtevXBVw==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body static results-active" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="false">
+Pug
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false">
+SCSS
+</a>
+</li>
+<li class="code-type">
+<a id="js-link" href="#js-box" role="button" aria-pressed="false">
+JS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/mrspok407/pen/VjBGyp" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="pug" id="actual-html-code" class=" cm-s-default"><span class="cm-qualifier">.nav</span>
+<span class="cm-indent">  </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__list'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">  </span>
+<span class="cm-indent">      </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu'</span><span class="cm-punctuation">)</span><span class="cm-string"> menu</span>
+<span class="cm-indent">        </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-lists nav__menu--1-lists'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">          </span><span class="cm-keyword">each</span><span class="cm-variable"> val</span><span class="cm-keyword"> in</span> [<span class="cm-string">'Etiam'</span>, <span class="cm-string">'Lectus'</span>, <span class="cm-string">'Netus'</span>, <span class="cm-string">'Dictum'</span>, <span class="cm-string">'Nibh'</span>]
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-items'</span><span class="cm-punctuation">)</span><span class="cm-punctuation">=</span> <span class="cm-variable">val</span>
+<span class="cm-indent">            </span>
+<span class="cm-indent">      </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu'</span><span class="cm-punctuation">)</span><span class="cm-string"> menu</span>
+<span class="cm-indent">        </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-lists nav__menu--2-lists'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">          </span><span class="cm-keyword">each</span><span class="cm-variable"> val</span><span class="cm-keyword"> in</span> [<span class="cm-string">'Etiam'</span>, <span class="cm-string">'Lectus'</span>, <span class="cm-string">'Netus'</span>, <span class="cm-string">'Dictum'</span>, <span class="cm-string">'Nibh'</span>]
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-items'</span><span class="cm-punctuation">)</span><span class="cm-punctuation">=</span> <span class="cm-variable">val</span>
+<span class="cm-indent">            </span>
+<span class="cm-indent">      </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu'</span><span class="cm-punctuation">)</span><span class="cm-string"> menu</span>
+<span class="cm-indent">        </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-lists nav__menu--1-lists'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">          </span><span class="cm-keyword">each</span><span class="cm-variable"> val</span><span class="cm-keyword"> in</span> [<span class="cm-string">'Etiam'</span>, <span class="cm-string">'Lectus'</span>, <span class="cm-string">'Netus'</span>, <span class="cm-string">'Dictum'</span>, <span class="cm-string">'Nibh'</span>]
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-items'</span><span class="cm-punctuation">)</span><span class="cm-punctuation">=</span> <span class="cm-variable">val</span>
+<span class="cm-indent">            </span>
+<span class="cm-indent">      </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu'</span><span class="cm-punctuation">)</span><span class="cm-string"> menu</span>
+<span class="cm-indent">        </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-lists nav__menu--1-lists'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">          </span><span class="cm-keyword">each</span><span class="cm-variable"> val</span><span class="cm-keyword"> in</span> [<span class="cm-string">'Etiam'</span>, <span class="cm-string">'Lectus'</span>, <span class="cm-string">'Netus'</span>, <span class="cm-string">'Dictum'</span>, <span class="cm-string">'Nibh'</span>]
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-items'</span><span class="cm-punctuation">)</span><span class="cm-punctuation">=</span> <span class="cm-variable">val</span>
+<span class="cm-indent">            </span>
+<span class="cm-indent">      </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu'</span><span class="cm-punctuation">)</span><span class="cm-string"> menu</span>
+<span class="cm-indent">        </span><span class="cm-tag">ul</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-lists nav__menu--1-lists'</span><span class="cm-punctuation">)</span>
+<span class="cm-indent">          </span><span class="cm-keyword">each</span><span class="cm-variable"> val</span><span class="cm-keyword"> in</span> [<span class="cm-string">'Etiam'</span>, <span class="cm-string">'Lectus'</span>, <span class="cm-string">'Netus'</span>, <span class="cm-string">'Dictum'</span>, <span class="cm-string">'Nibh'</span>]
+<span class="cm-indent">            </span><span class="cm-tag">li</span><span class="cm-punctuation">(</span><span class="cm-attribute">class</span><span class="cm-operator">=</span><span class="cm-string">'nav__menu-items'</span><span class="cm-punctuation">)</span><span class="cm-punctuation">=</span> <span class="cm-variable">val</span>
+<span class="cm-indent">   </span>
+<span class="cm-indent">  </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">'stuff'</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">'https://codepen.io/mrspok407/'</span> <span class="cm-attribute">class</span>=<span class="cm-string">'pens'</span> <span class="cm-attribute">target</span>=<span class="cm-string">"_blank"</span><span class="cm-tag cm-bracket">&gt;</span>Check out my other pens<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"https://twitter.com/mrspok407"</span> <span class="cm-attribute">target</span>=<span class="cm-string">"_blank"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">i</span> <span class="cm-attribute">class</span>=<span class="cm-string">"fa fa-twitter"</span> <span class="cm-attribute">aria-hidden</span>=<span class="cm-string">"true"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">i</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span>
+    
+</code></pre>
+<a href="#0" id="view-html-compiled-button" class="action-button bottom right view-compiled-button" data-type="html">
+View Compiled
+</a>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="text/x-scss" id="actual-css-code" class=" cm-s-default"><span class="cm-tag">html</span> {
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;
+}
+
+<span class="cm-tag">body</span> {
+  <span class="cm-property">height</span>: <span class="cm-number">100vh</span>;
+  <span class="cm-property">font-family</span>: <span class="cm-string">'Roboto'</span>, <span class="cm-atom">sans-serif</span>;
+  <span class="cm-property">font-weight</span>: <span class="cm-number">500</span>;
+  <span class="cm-property">color</span>: <span class="cm-atom">#fff</span>;
+  <span class="cm-property">background-image</span>: <span class="cm-variable cm-callee">linear-gradient</span>(<span class="cm-atom">to</span> <span class="cm-atom">left</span> <span class="cm-atom">bottom</span>, <span class="cm-atom">#F2E3C6</span> <span class="cm-number">0%</span>, <span class="cm-atom">#A7A1A5</span> <span class="cm-number">100%</span>);
+  <span class="cm-property">overflow</span>: <span class="cm-atom">hidden</span>;
+}
+
+*,
+*:<span class="cm-variable-3">before</span>,
+*:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">box-sizing</span>: <span class="cm-atom">inherit</span>;
+  <span class="cm-property">margin</span>: <span class="cm-number">0</span>;
+  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;
+}
+
+<span class="cm-variable-2">$itemBg</span>: <span class="cm-atom">#2c8fb5</span>;
+
+<span class="cm-variable-2">$menu1AnimSpeed</span>: <span class="cm-number">300ms</span>;
+<span class="cm-variable-2">$menu2AnimSpeed</span>: <span class="cm-number">175ms</span>;
+<span class="cm-variable-2">$menu3AnimSpeed</span>: <span class="cm-number">200ms</span>;
+<span class="cm-variable-2">$menu4AnimSpeed</span>: <span class="cm-number">300ms</span>;
+<span class="cm-variable-2">$menu5AnimSpeed</span>: <span class="cm-number">300ms</span>;
+
+<span class="cm-tag">ul</span> {
+  <span class="cm-property">list-style-type</span>: <span class="cm-atom">none</span>;
+}
+
+<span class="cm-qualifier">.nav</span> {
+  <span class="cm-property">margin-top</span>: <span class="cm-number">30px</span>;
+  <span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  &amp;<span class="cm-tag">__list</span> {
+    <span class="cm-property">display</span>: <span class="cm-atom">inline-block</span>;
+  }
+  &amp;<span class="cm-tag">__menu</span> {
+    <span class="cm-property">float</span>: <span class="cm-atom">left</span>;
+    <span class="cm-property">width</span>: <span class="cm-number">140px</span>;
+    <span class="cm-property">height</span>: <span class="cm-number">65px</span>;
+    <span class="cm-property">line-height</span>: <span class="cm-number">65px</span>;
+    <span class="cm-property">text-transform</span>: <span class="cm-atom">uppercase</span>;
+    <span class="cm-property">background-color</span>: <span class="cm-variable-2">$itemBg</span>;
+    <span class="cm-property">cursor</span>: <span class="cm-atom">pointer</span>;
+    &amp;:<span class="cm-variable-3">hover</span> {
+      <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$itemBg</span>, <span class="cm-number">10%</span>);
+    }
+    &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu-lists</span> <span class="cm-tag">li</span> {
+      <span class="cm-property">display</span>: <span class="cm-atom">block</span>;
+    }
+    <span class="cm-comment">// Menu 1</span>
+    <span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">5</span> {
+      &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu--1-lists</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}) {
+        <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+        <span class="cm-property">animation</span>: <span class="cm-variable">menu1</span> <span class="cm-atom">ease-in-out</span> <span class="cm-atom">forwards</span>;
+        <span class="cm-property">animation-duration</span>: <span class="cm-variable-2">$menu1AnimSpeed</span>;
+        <span class="cm-property">animation-delay</span>: (<span class="cm-variable-2">$menu5AnimSpeed</span> <span class="cm-operator">/</span> <span class="cm-number">2</span>) * (<span class="cm-variable-2">$i</span> - <span class="cm-number">1</span>);
+        <span class="cm-def">@keyframes</span> <span class="cm-variable">menu1</span> {
+          <span class="cm-tag">from</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotateX</span>(<span class="cm-number">-180deg</span>);
+          }
+          <span class="cm-tag">to</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">1</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotateX</span>(<span class="cm-number">0deg</span>);
+          }
+        }
+      }
+    }
+    <span class="cm-comment">// Menu 2</span>
+    <span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">5</span> {
+      &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu--2-lists</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}) {
+        <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+        <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">translateY</span>(<span class="cm-number">-100%</span>);
+        <span class="cm-property">animation</span>: <span class="cm-variable">menu2</span> <span class="cm-atom">ease-in-out</span> <span class="cm-atom">forwards</span>;
+        <span class="cm-property">animation-duration</span>: <span class="cm-variable-2">$menu2AnimSpeed</span>;
+        <span class="cm-property">animation-delay</span>: (<span class="cm-variable-2">$menu2AnimSpeed</span> <span class="cm-operator">/</span> <span class="cm-number">1.2</span>) * (<span class="cm-variable-2">$i</span> - <span class="cm-number">1</span>);
+        <span class="cm-def">@keyframes</span> <span class="cm-variable">menu2</span> {
+          <span class="cm-number">0%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">translateY</span>(<span class="cm-number">-100%</span>) <span class="cm-variable cm-callee">scale</span>(<span class="cm-number">.3</span>);
+          }
+          <span class="cm-number">100%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">1</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">translateY</span>(<span class="cm-number">0</span>) <span class="cm-variable cm-callee">scale</span>(<span class="cm-number">1</span>);
+          }
+        }
+      }
+    }
+    <span class="cm-comment">// Menu 3</span>
+    <span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">5</span> {
+      &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu--3-lists</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}) {
+        <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+        <span class="cm-property">transform-origin</span>: <span class="cm-atom">top</span> <span class="cm-atom">center</span>;
+        <span class="cm-property">animation</span>: <span class="cm-variable">menu3</span> <span class="cm-atom">ease-in-out</span> <span class="cm-atom">forwards</span>;
+        <span class="cm-property">animation-duration</span>: <span class="cm-variable-2">$menu3AnimSpeed</span>;
+        <span class="cm-property">animation-delay</span>: (<span class="cm-variable-2">$menu3AnimSpeed</span> <span class="cm-operator">/</span> <span class="cm-number">1.3</span>) * (<span class="cm-variable-2">$i</span> - <span class="cm-number">1</span>);
+        <span class="cm-def">@keyframes</span> <span class="cm-variable">menu3</span> {
+          <span class="cm-number">0%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotate</span>(<span class="cm-number">-45deg</span>) <span class="cm-variable cm-callee">translateX</span>(<span class="cm-number">50%</span>);
+          }
+          <span class="cm-number">100%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">1</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotate</span>(<span class="cm-number">0</span>) <span class="cm-variable cm-callee">translateX</span>(<span class="cm-number">0</span>);
+          }
+        }
+      }
+    }
+    <span class="cm-comment">// Menu 4</span>
+    <span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">5</span> {
+      &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu--4-lists</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}) {
+        <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+        <span class="cm-property">transform-origin</span>: <span class="cm-atom">top</span> <span class="cm-atom">center</span>;
+        <span class="cm-property">animation</span>: <span class="cm-variable">menu4</span> <span class="cm-atom">ease-in-out</span> <span class="cm-atom">forwards</span>;
+        <span class="cm-property">animation-duration</span>: <span class="cm-variable-2">$menu4AnimSpeed</span>;
+        <span class="cm-property">animation-delay</span>: (<span class="cm-variable-2">$menu4AnimSpeed</span> <span class="cm-operator">/</span> <span class="cm-number">2.4</span>) * (<span class="cm-variable-2">$i</span> - <span class="cm-number">1</span>);
+        <span class="cm-def">@keyframes</span> <span class="cm-variable">menu4</span> {
+          <span class="cm-number">0%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotateY</span>(<span class="cm-number">-90deg</span>) <span class="cm-variable cm-callee">rotateX</span>(<span class="cm-number">-90deg</span>);
+          }
+          <span class="cm-number">100%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">1</span>;
+            <span class="cm-property">transform</span>: <span class="cm-variable cm-callee">rotateY</span>(<span class="cm-number">0</span>) <span class="cm-variable cm-callee">rotateX</span>(<span class="cm-number">0</span>);
+          }
+        }
+      }
+    }
+    <span class="cm-comment">// Menu 5</span>
+    <span class="cm-def">@for</span> <span class="cm-variable-2">$i</span> <span class="cm-tag">from</span> <span class="cm-number">1</span> <span class="cm-tag">through</span> <span class="cm-number">5</span> {
+      &amp;:<span class="cm-variable-3">hover</span> &gt; <span class="cm-qualifier">.nav__menu--5-lists</span> <span class="cm-tag">li</span>:<span class="cm-variable cm-callee">nth-child</span>(#{<span class="cm-variable-2">$i</span>}) {
+        <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+        <span class="cm-property">animation</span>: <span class="cm-variable">menu5</span> <span class="cm-atom">ease-in-out</span> <span class="cm-atom">forwards</span>;
+        <span class="cm-property">animation-duration</span>: <span class="cm-variable-2">$menu5AnimSpeed</span>;
+        <span class="cm-property">animation-delay</span>: (<span class="cm-variable-2">$menu5AnimSpeed</span> <span class="cm-operator">/</span> <span class="cm-number">2.4</span>) * (<span class="cm-variable-2">$i</span> - <span class="cm-number">1</span>);
+        <span class="cm-def">@keyframes</span> <span class="cm-variable">menu5</span> {
+          <span class="cm-number">0%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">0</span>;
+            <span class="cm-property">transform</span>:  <span class="cm-variable cm-callee">rotateY</span>(<span class="cm-number">90deg</span>);
+          }
+          <span class="cm-number">100%</span> {
+            <span class="cm-property">opacity</span>: <span class="cm-number">1</span>;
+            <span class="cm-property">transform</span>:  <span class="cm-variable cm-callee">rotateY</span>(<span class="cm-number">0</span>);
+          }
+        }
+      }
+    }
+    &amp;-<span class="cm-tag">lists</span> {
+      <span class="cm-property">perspective</span>: <span class="cm-number">5000px</span>;
+    }
+    &amp;-<span class="cm-tag">items</span> {
+      <span class="cm-property">display</span>: <span class="cm-atom">none</span>;
+      <span class="cm-property">width</span>: <span class="cm-number">140px</span>;
+      <span class="cm-property">height</span>: <span class="cm-number">65px</span>;
+      <span class="cm-property">background-color</span>: <span class="cm-variable-2">$itemBg</span>;
+      &amp;:<span class="cm-variable-3">hover</span> {
+        <span class="cm-property">background-color</span>: <span class="cm-variable cm-callee">darken</span>(<span class="cm-variable-2">$itemBg</span>, <span class="cm-number">10%</span>);
+      }
+    }
+  }
+  &amp;<span class="cm-tag">__menu</span>:<span class="cm-variable cm-callee">nth-child</span>(<span class="cm-number">1</span>) {
+    <span class="cm-property">border-top-left-radius</span>: <span class="cm-number">10px</span>;
+  }
+  &amp;<span class="cm-tag">__menu</span>:<span class="cm-variable-3">last-child</span> {
+    <span class="cm-property">border-top-right-radius</span>: <span class="cm-number">10px</span>;
+  }
+}
+
+<span class="cm-qualifier">.stuff</span> {
+  <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>;
+  <span class="cm-property">bottom</span>: <span class="cm-number">30px</span>;
+  <span class="cm-property">width</span>: <span class="cm-number">100%</span>;
+  <span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;
+  <span class="cm-qualifier">.pens</span> {
+    <span class="cm-property">margin-right</span>: <span class="cm-number">20px</span>;
+    <span class="cm-property">text-decoration</span>: <span class="cm-atom">none</span>;
+    <span class="cm-property">font-size</span>: <span class="cm-number">20px</span>;
+    <span class="cm-property">color</span>: <span class="cm-atom">#333</span>;
+    &amp;:<span class="cm-variable-3">hover</span> {
+      <span class="cm-property">text-decoration</span>: <span class="cm-atom">underline</span>;
+    }
+  }
+  <span class="cm-qualifier">.fa-twitter</span> {
+    <span class="cm-property">position</span>: <span class="cm-atom">relative</span>;
+    <span class="cm-property">top</span>: <span class="cm-number">8px</span>;
+    <span class="cm-property">color</span>: <span class="cm-atom">#1DA1F2</span>;
+    <span class="cm-property">font-size</span>: <span class="cm-number">50px</span>;
+  }
+}</code></pre>
+<a href="#0" id="view-css-compiled-button" class="action-button bottom right view-compiled-button" data-type="css">
+View Compiled
+</a>
+</div>
+<div id="js-box" class="code-wrap code-box box " role="region" aria-label="JS">
+<pre tabindex="0"><code data-lang="javascript" id="actual-js-code" class=" cm-s-default"><span class="cm-comment">// Hi</span></code></pre>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for Cool Dropdown Menu Effects Pure Css" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for Cool Dropdown Menu Effects Pure Css" data-src="https://cdpn.io/mrspok407/fullembedgrid/VjBGyp?animations=run&amp;type=embed" src="VjBGyp_data/VjBGyp.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/mrspok407" target="_blank" rel="noopener"><img src="VjBGyp_data/default.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/mrspok407" target="_blank" rel="noopener">Ruslan Pivovarov</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/mrspok407" target="_blank" rel="noopener" class="about-user-more">
+See more by @mrspok407 on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;div class=&quot;nav&quot;&gt;\n  &lt;ul class=&quot;nav__list&quot;&gt;\n    &lt;li class=&quot;nav__menu&quot;&gt;menu\n      &lt;ul class=&quot;nav__menu-lists nav__menu--1-lists&quot;&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Etiam&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Lectus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Netus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Dictum&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Nibh&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li class=&quot;nav__menu&quot;&gt;menu\n      &lt;ul class=&quot;nav__menu-lists nav__menu--2-lists&quot;&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Etiam&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Lectus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Netus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Dictum&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Nibh&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li class=&quot;nav__menu&quot;&gt;menu\n      &lt;ul class=&quot;nav__menu-lists nav__menu--1-lists&quot;&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Etiam&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Lectus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Netus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Dictum&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Nibh&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li class=&quot;nav__menu&quot;&gt;menu\n      &lt;ul class=&quot;nav__menu-lists nav__menu--1-lists&quot;&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Etiam&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Lectus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Netus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Dictum&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Nibh&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n    &lt;li class=&quot;nav__menu&quot;&gt;menu\n      &lt;ul class=&quot;nav__menu-lists nav__menu--1-lists&quot;&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Etiam&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Lectus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Netus&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Dictum&lt;/li&gt;\n        &lt;li class=&quot;nav__menu-items&quot;&gt;Nibh&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/li&gt;\n  &lt;/ul&gt;&lt;div class=&#39;stuff&#39;&gt;&lt;a href=&#39;https://codepen.io/mrspok407/&#39; class=&#39;pens&#39; target=&quot;_blank&quot;&gt;Check out my other pens&lt;/a&gt;&lt;a href=&quot;https://twitter.com/mrspok407&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;","css":"html {\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  font-family: &quot;Roboto&quot;, sans-serif;\n  font-weight: 500;\n  color: #fff;\n  background-image: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);\n  overflow: hidden;\n}\n\n*,\n*:before,\n*:after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n}\n\nul {\n  list-style-type: none;\n}\n\n.nav {\n  margin-top: 30px;\n  text-align: center;\n  width: 100%;\n}\n.nav__list {\n  display: inline-block;\n}\n.nav__menu {\n  float: left;\n  width: 140px;\n  height: 65px;\n  line-height: 65px;\n  text-transform: uppercase;\n  background-color: #2c8fb5;\n  cursor: pointer;\n}\n.nav__menu:hover {\n  background-color: #226f8c;\n}\n.nav__menu:hover &gt; .nav__menu-lists li {\n  display: block;\n}\n.nav__menu:hover &gt; .nav__menu--1-lists li:nth-child(1) {\n  opacity: 0;\n  -webkit-animation: menu1 ease-in-out forwards;\n          animation: menu1 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 0ms;\n          animation-delay: 0ms;\n}\n@-webkit-keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n@keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--1-lists li:nth-child(2) {\n  opacity: 0;\n  -webkit-animation: menu1 ease-in-out forwards;\n          animation: menu1 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 150ms;\n          animation-delay: 150ms;\n}\n@keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--1-lists li:nth-child(3) {\n  opacity: 0;\n  -webkit-animation: menu1 ease-in-out forwards;\n          animation: menu1 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 300ms;\n          animation-delay: 300ms;\n}\n@keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--1-lists li:nth-child(4) {\n  opacity: 0;\n  -webkit-animation: menu1 ease-in-out forwards;\n          animation: menu1 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 450ms;\n          animation-delay: 450ms;\n}\n@keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--1-lists li:nth-child(5) {\n  opacity: 0;\n  -webkit-animation: menu1 ease-in-out forwards;\n          animation: menu1 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 600ms;\n          animation-delay: 600ms;\n}\n@keyframes menu1 {\n  from {\n    opacity: 0;\n    transform: rotateX(-180deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0deg);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--2-lists li:nth-child(1) {\n  opacity: 0;\n  transform: translateY(-100%);\n  -webkit-animation: menu2 ease-in-out forwards;\n          animation: menu2 ease-in-out forwards;\n  -webkit-animation-duration: 175ms;\n          animation-duration: 175ms;\n  -webkit-animation-delay: 0ms;\n          animation-delay: 0ms;\n}\n@-webkit-keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n@keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--2-lists li:nth-child(2) {\n  opacity: 0;\n  transform: translateY(-100%);\n  -webkit-animation: menu2 ease-in-out forwards;\n          animation: menu2 ease-in-out forwards;\n  -webkit-animation-duration: 175ms;\n          animation-duration: 175ms;\n  -webkit-animation-delay: 145.8333333333ms;\n          animation-delay: 145.8333333333ms;\n}\n@keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--2-lists li:nth-child(3) {\n  opacity: 0;\n  transform: translateY(-100%);\n  -webkit-animation: menu2 ease-in-out forwards;\n          animation: menu2 ease-in-out forwards;\n  -webkit-animation-duration: 175ms;\n          animation-duration: 175ms;\n  -webkit-animation-delay: 291.6666666667ms;\n          animation-delay: 291.6666666667ms;\n}\n@keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--2-lists li:nth-child(4) {\n  opacity: 0;\n  transform: translateY(-100%);\n  -webkit-animation: menu2 ease-in-out forwards;\n          animation: menu2 ease-in-out forwards;\n  -webkit-animation-duration: 175ms;\n          animation-duration: 175ms;\n  -webkit-animation-delay: 437.5ms;\n          animation-delay: 437.5ms;\n}\n@keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--2-lists li:nth-child(5) {\n  opacity: 0;\n  transform: translateY(-100%);\n  -webkit-animation: menu2 ease-in-out forwards;\n          animation: menu2 ease-in-out forwards;\n  -webkit-animation-duration: 175ms;\n          animation-duration: 175ms;\n  -webkit-animation-delay: 583.3333333333ms;\n          animation-delay: 583.3333333333ms;\n}\n@keyframes menu2 {\n  0% {\n    opacity: 0;\n    transform: translateY(-100%) scale(0.3);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0) scale(1);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--3-lists li:nth-child(1) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu3 ease-in-out forwards;\n          animation: menu3 ease-in-out forwards;\n  -webkit-animation-duration: 200ms;\n          animation-duration: 200ms;\n  -webkit-animation-delay: 0ms;\n          animation-delay: 0ms;\n}\n@-webkit-keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n@keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--3-lists li:nth-child(2) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu3 ease-in-out forwards;\n          animation: menu3 ease-in-out forwards;\n  -webkit-animation-duration: 200ms;\n          animation-duration: 200ms;\n  -webkit-animation-delay: 153.8461538462ms;\n          animation-delay: 153.8461538462ms;\n}\n@keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--3-lists li:nth-child(3) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu3 ease-in-out forwards;\n          animation: menu3 ease-in-out forwards;\n  -webkit-animation-duration: 200ms;\n          animation-duration: 200ms;\n  -webkit-animation-delay: 307.6923076923ms;\n          animation-delay: 307.6923076923ms;\n}\n@keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--3-lists li:nth-child(4) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu3 ease-in-out forwards;\n          animation: menu3 ease-in-out forwards;\n  -webkit-animation-duration: 200ms;\n          animation-duration: 200ms;\n  -webkit-animation-delay: 461.5384615385ms;\n          animation-delay: 461.5384615385ms;\n}\n@keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--3-lists li:nth-child(5) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu3 ease-in-out forwards;\n          animation: menu3 ease-in-out forwards;\n  -webkit-animation-duration: 200ms;\n          animation-duration: 200ms;\n  -webkit-animation-delay: 615.3846153846ms;\n          animation-delay: 615.3846153846ms;\n}\n@keyframes menu3 {\n  0% {\n    opacity: 0;\n    transform: rotate(-45deg) translateX(50%);\n  }\n  100% {\n    opacity: 1;\n    transform: rotate(0) translateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--4-lists li:nth-child(1) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu4 ease-in-out forwards;\n          animation: menu4 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 0ms;\n          animation-delay: 0ms;\n}\n@-webkit-keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n@keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--4-lists li:nth-child(2) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu4 ease-in-out forwards;\n          animation: menu4 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 125ms;\n          animation-delay: 125ms;\n}\n@keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--4-lists li:nth-child(3) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu4 ease-in-out forwards;\n          animation: menu4 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 250ms;\n          animation-delay: 250ms;\n}\n@keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--4-lists li:nth-child(4) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu4 ease-in-out forwards;\n          animation: menu4 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 375ms;\n          animation-delay: 375ms;\n}\n@keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--4-lists li:nth-child(5) {\n  opacity: 0;\n  transform-origin: top center;\n  -webkit-animation: menu4 ease-in-out forwards;\n          animation: menu4 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 500ms;\n          animation-delay: 500ms;\n}\n@keyframes menu4 {\n  0% {\n    opacity: 0;\n    transform: rotateY(-90deg) rotateX(-90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0) rotateX(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--5-lists li:nth-child(1) {\n  opacity: 0;\n  -webkit-animation: menu5 ease-in-out forwards;\n          animation: menu5 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 0ms;\n          animation-delay: 0ms;\n}\n@-webkit-keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n@keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--5-lists li:nth-child(2) {\n  opacity: 0;\n  -webkit-animation: menu5 ease-in-out forwards;\n          animation: menu5 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 125ms;\n          animation-delay: 125ms;\n}\n@keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--5-lists li:nth-child(3) {\n  opacity: 0;\n  -webkit-animation: menu5 ease-in-out forwards;\n          animation: menu5 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 250ms;\n          animation-delay: 250ms;\n}\n@keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--5-lists li:nth-child(4) {\n  opacity: 0;\n  -webkit-animation: menu5 ease-in-out forwards;\n          animation: menu5 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 375ms;\n          animation-delay: 375ms;\n}\n@keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n.nav__menu:hover &gt; .nav__menu--5-lists li:nth-child(5) {\n  opacity: 0;\n  -webkit-animation: menu5 ease-in-out forwards;\n          animation: menu5 ease-in-out forwards;\n  -webkit-animation-duration: 300ms;\n          animation-duration: 300ms;\n  -webkit-animation-delay: 500ms;\n          animation-delay: 500ms;\n}\n@keyframes menu5 {\n  0% {\n    opacity: 0;\n    transform: rotateY(90deg);\n  }\n  100% {\n    opacity: 1;\n    transform: rotateY(0);\n  }\n}\n.nav__menu-lists {\n  perspective: 5000px;\n}\n.nav__menu-items {\n  display: none;\n  width: 140px;\n  height: 65px;\n  background-color: #2c8fb5;\n}\n.nav__menu-items:hover {\n  background-color: #226f8c;\n}\n.nav__menu:nth-child(1) {\n  border-top-left-radius: 10px;\n}\n.nav__menu:last-child {\n  border-top-right-radius: 10px;\n}\n\n.stuff {\n  position: absolute;\n  bottom: 30px;\n  width: 100%;\n  text-align: center;\n}\n.stuff .pens {\n  margin-right: 20px;\n  text-decoration: none;\n  font-size: 20px;\n  color: #333;\n}\n.stuff .pens:hover {\n  text-decoration: underline;\n}\n.stuff .fa-twitter {\n  position: relative;\n  top: 8px;\n  color: #1DA1F2;\n  font-size: 50px;\n}","js":"// Hi"};
+    __preprocessors = {
+      "html": "pug",
+      "css": "scss",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "Pug",
+      "css": "SCSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

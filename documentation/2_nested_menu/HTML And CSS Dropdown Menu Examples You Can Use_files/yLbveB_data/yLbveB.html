@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - CSS Dropdown Menu</title>
+  
+  
+  
+  
+<style>
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: #ecf0f1;
+	color: #fff;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+.main-header {
+  margin: auto;
+  width: 75%;
+  min-height: 90px;
+  padding: 1em 2em;
+  border: 2px solid #2675a9;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+	background: #2980b9;
+}
+  .main-header:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+.logo {
+	display: block;
+	text-decoration: none;
+  float: left;
+  margin-top: 14px;
+  color: white;
+  font-size: 1.4em;
+}
+
+/* Nav Demo Styles -------------------- */
+
+.main-nav,
+.drop-nav {
+  background: #2c3e50;
+}
+.main-nav {
+  float: right;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: solid 1px #1e2a36;
+}
+  .main-nav > li {
+    float: left;
+    border-left: solid 1px #1e2a36;
+  }
+  .main-nav li:first-child {
+    border-left: none;
+  }
+  .main-nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+.dropdown,
+.flyout {
+  position: relative;
+}
+.dropdown:after {
+  content: "\25bc";
+  font-size: .5em;
+  display: block;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+}
+.drop-nav,
+.flyout-nav {
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.dropdown:hover > .drop-nav,
+.flyout:hover > .flyout-nav {
+  display: block;
+}
+.flyout-nav {
+  left: 100%;
+  top: 0;
+}
+.flyout:hover a,
+.flyout-nav {
+  background: #395066;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <header class="main-header">
+  <a class="logo" href="#">my site</a>
+  <ul class="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li class="dropdown">
+      <a href="#">Work</a>
+      <ul class="drop-nav">
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Development</a></li>
+        <li class="flyout">
+          <a href="#">Photography</a>
+          <ul class="flyout-nav">
+            <li><a href="#">Nature</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Pets</a></li>         
+          </ul>
+        </li>
+        <li><a href="#">Writing</a></li>       
+      </ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</header>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

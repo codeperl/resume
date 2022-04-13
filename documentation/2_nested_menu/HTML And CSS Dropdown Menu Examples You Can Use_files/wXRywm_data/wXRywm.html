@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - #CodePenChallenge: Menu</title>
+  <link href="wXRywm_data/css.css" rel="stylesheet">
+  
+  
+  
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  list-style: none;
+}
+
+.menu-item {
+  background: #444;
+  padding: 1em 0.5em;
+  position: relative;
+  border-bottom: 5px solid #999;
+  margin: 0 0.1em;
+  transition: border-bottom 0.23s ease-in-out, background 0.23s linear;
+  cursor: pointer;
+  min-width: 8em;
+  text-align: center;
+}
+.menu-item[aria-haspopup=true] {
+  border-bottom-color: #fc9b1b;
+}
+.menu-item:hover, .menu-item:focus-within {
+  border-bottom-color: #91d36b;
+  background: #333;
+}
+.menu-item:hover .sub-menu, .menu-item:hover .sub-menu:hover, .menu-item:focus-within .sub-menu, .menu-item:focus-within .sub-menu:hover {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.sub-menu {
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  margin-top: 1em;
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+}
+.sub-menu .menu-item {
+  margin: 0.1em 0;
+  padding: 1em;
+  width: 10em;
+  text-align: center;
+  z-index: 2;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:focus {
+  outline: none;
+}
+
+@media (max-width: 690px) {
+  .menu {
+    width: 95%;
+    font-size: 16px;
+  }
+
+  .menu-item {
+    margin: 0.1em;
+  }
+  .menu-item:nth-child(1) {
+    order: 0;
+  }
+  .menu-item:nth-child(2) {
+    order: 1;
+  }
+  .menu-item:nth-child(3) {
+    order: 3;
+  }
+  .menu-item:nth-child(4) {
+    order: 4;
+  }
+  .menu-item:nth-child(5) {
+    order: 2;
+  }
+}
+@media (max-width: 480px) {
+  .menu {
+    font-size: 12px;
+  }
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <nav class="menu" role="navigation">
+  <ol>
+    <li class="menu-item"><a href="#0">Home</a></li>
+    <li class="menu-item"><a href="#0">About</a></li>
+    <li class="menu-item" aria-haspopup="true">
+      <a href="#0">Widgets</a>
+      <ol class="sub-menu" aria-label="submenu">
+        <li class="menu-item"><a href="#0">Big Widgets</a></li>
+        <li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+        <li class="menu-item"><a href="#0">Huge Widgets</a></li>
+      </ol>
+    </li>
+    <li class="menu-item" aria-haspopup="true">
+      <a href="#0">Kabobs</a>
+      <ol class="sub-menu" aria-label="submenu">
+        <li class="menu-item"><a href="#0">Shishkabobs</a></li>
+        <li class="menu-item"><a href="#0">BBQ kabobs</a></li>
+        <li class="menu-item"><a href="#0">Summer kabobs</a></li>
+      </ol>
+    </li>
+    <li class="menu-item"><a href="#0">Contact</a></li>
+  </ol>
+</nav>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

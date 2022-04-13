@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Pure CSS Dropdown Menu (No JavaScript)</title>
+  
+  <link rel="stylesheet" href="../RJeYjg_data/RJeYjg_data/normalize.css">
+
+  
+  
+<style>
+/* Follow me for more pens like this! */
+
+/* Tweak to change the look and feel */
+:root {
+  --button-background: dodgerblue;
+  --button-color: white;
+  
+  --dropdown-highlight: dodgerblue;
+  --dropdown-width: 160px;
+  --dropdown-background: white;
+  --dropdown-color: black;
+}
+
+/* Center the planet */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222229;
+}
+
+/* Boring button styles */
+a.button {
+  /* Frame */
+  display: inline-block;
+  padding: 20px 28px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  
+  /* Style */
+  border: none;
+  background: var(--button-background);
+  color: var(--button-color);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+a.button:active {
+  filter: brightness(75%);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  padding: 0;
+  margin-right: 1em;
+  
+  border: none;
+}
+
+.dropdown summary {
+  list-style: none;
+  list-style-type: none;
+}
+
+.dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown summary:focus a.button {
+  border: 2px solid white;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown ul {
+  position: absolute;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  width: var(--dropdown-width);
+  left: 50%;
+  margin-left: calc((var(--dropdown-width) / 2)  * -1);
+  box-sizing: border-box;
+  z-index: 2;
+  
+  background: var(--dropdown-background);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li a:link, .dropdown ul li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+  color: var(--dropdown-color);
+  text-decoration: none;
+}
+
+.dropdown ul li a:hover {
+  background-color: var(--dropdown-highlight);
+  color: var(--dropdown-background);
+}
+
+/* Dropdown triangle */
+.dropdown ul::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent var(--dropdown-background) transparent;
+}
+
+
+/* Close the dropdown with outside clicks */
+.dropdown > summary::before {
+  display: none;
+}
+
+.dropdown[open] > summary::before {
+    content: ' ';
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <details class="dropdown">
+    <summary role="button">
+      <a class="button">Click on me!</a>
+    </summary>
+    <ul>
+      <li><a href="#">I'm a dropdown.</a></li>
+      <li><a href="#">In Pure CSS</a></li>
+      <li><a href="#">As in...</a></li>
+      <li><a href="#">No JavaScript.</a></li>
+      <li><a href="#">At All.</a></li>
+  </ul>
+</details>
+  
+  <script src="XvgzKQ_data/rPKgEX.js"></script>
+<link rel="stylesheet" href="XvgzKQ_data/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+<link rel="stylesheet" href="XvgzKQ_data/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
+<link rel="stylesheet" href="XvgzKQ_data/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+
+<style>
+  footer.cp-profile {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 25px 45px;
+    color: white;
+    font-family: monospace;
+    text-align: right;
+  }
+  footer.cp-profile p {
+    font-size: 16px;
+  }
+  footer.cp-profile a {
+    text-decoration: none;
+    font-size: 22px;
+  }
+  footer.cp-profile a i {
+    color: white;
+  }
+  footer.cp-profile a div.icon {
+    fill: white;
+  }
+</style>
+<footer class="cp-profile">
+  <p>@garetmckinley</p>
+  <div class="links">
+    <a href="https://codepen.io/garetmckinley" target="_blank">
+      <i class="fab fa-codepen"></i>
+    </a>
+    <a href="https://twitter.com/garetmckinley" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://github.com/garetmckinley" target="_blank">
+      <i class="fab fa-github-alt"></i>
+    </a>
+    <a href="https://garet.io/" target="_blank">
+      <i class="fas fa-link"></i>
+    </a>
+  </div>
+</footer>
+
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

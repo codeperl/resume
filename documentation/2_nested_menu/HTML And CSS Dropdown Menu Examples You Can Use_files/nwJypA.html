@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - CSS dropdown menu</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="a2mpo6ATGafPYgwekILiLC2q8FsGYGrtyKtqRcMxbzWDk8ZX3O09ScGxvk5AIm8LTsrA+BYGYzXbeHqT7r8xYA==">
+<link rel="stylesheet" media="all" href="pogJmYY_data/embed-85ebae3e461db93e8cd8f192fe7a2ebc9745a0560ad4940d44e3f3.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #28282a;
+      color: #ffffff;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #28282a;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #424242;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #212121;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #ff8a00;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #a9a9a9;
+    }
+
+    .embed-nav svg {
+      stroke: #a9a9a9 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="pogJmYY_data/highcontrast-dark-a96dd4f09c13cb7b02468763b73a8309cef24034c6.css">
+<link rel="stylesheet" href="pogJmYY_data/maVRwd.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #39231b; --borderWidth: 1px;" class="codepen-embed-body static results-active" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="8.896.0">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="#html-box" role="button" aria-pressed="false">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="#css-box" role="button" aria-pressed="false">
+CSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/KittyGiraudel/pen/nwJypA" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre tabindex="0"><code data-lang="htmlmixed" id="actual-html-code" class=" cm-s-default"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"dropdown-menu ddm1"</span><span class="cm-tag cm-bracket">&gt;</span>  
+  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">input</span> <span class="cm-attribute">type</span>=<span class="cm-string">"checkbox"</span> <span class="cm-attribute">name</span>=<span class="cm-string">"toggle"</span> <span class="cm-attribute">id</span>=<span class="cm-string">"toggle"</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">label</span> <span class="cm-attribute">for</span>=<span class="cm-string">"toggle"</span><span class="cm-tag cm-bracket">&gt;</span>Menu<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">label</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">title</span>=<span class="cm-string">"Do something"</span><span class="cm-tag cm-bracket">&gt;</span>Do something<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">title</span>=<span class="cm-string">"Do something else"</span><span class="cm-tag cm-bracket">&gt;</span>Do something else<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">title</span>=<span class="cm-string">"Options"</span><span class="cm-tag cm-bracket">&gt;</span>Options<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">li</span><span class="cm-tag cm-bracket">&gt;</span>
+  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">ul</span><span class="cm-tag cm-bracket">&gt;</span>
+<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span>
+</code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre tabindex="0"><code data-lang="css" id="actual-css-code" class=" cm-s-default"><span class="cm-comment">/* Comment réaliser un menu déroulant uniquement en CSS */</span>
+
+* {
+  <span class="cm-comment">/* On retire toutes les marges pour faciliter la mise en page */</span>
+  <span class="cm-property">padding</span>:<span class="cm-number">0</span>;
+  <span class="cm-property">margin</span>:<span class="cm-number">0</span>;
+}
+
+<span class="cm-qualifier">.dropdown-menu</span> {
+  <span class="cm-comment">/* On positionne le conteneur au centre et on lui assigne un placement</span>
+<span class="cm-comment">  relatif pour pouvoir placer ses enfants en absolu */</span>
+  <span class="cm-property">position</span>:<span class="cm-atom">relative</span>;
+  <span class="cm-property">width</span>:<span class="cm-number">200px</span>;
+  <span class="cm-property">margin</span>:<span class="cm-number">20px</span> <span class="cm-atom">auto</span>;
+  
+  <span class="cm-property">font-family</span>:<span class="cm-string">'Helvetica'</span>, <span class="cm-variable">Arial</span>, <span class="cm-atom">sans-serif</span>; <span class="cm-comment">/* On change la police */</span>
+}
+
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">label</span> {
+  
+  <span class="cm-comment">/* On définit une couleur de fond, de trait et de contour pour le bouton */</span>
+  <span class="cm-property">background</span>:<span class="cm-atom">#1e83e5</span>;
+  <span class="cm-property">color</span>:<span class="cm-atom">#fff</span>; <span class="cm-comment">/* Fallback pour les navigateurs ne comprenant pas le rgba */</span>
+  <span class="cm-property">color</span>:<span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.6</span>);
+  <span class="cm-property">border</span>:<span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#fff</span>; <span class="cm-comment">/* Fallback pour les navigateurs ne comprenant pas le rgba */</span>
+  <span class="cm-property">border</span>:<span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.4</span>);
+  
+  <span class="cm-comment">/* On termine de déclarer les styles typographiques */</span>
+  <span class="cm-property">font-weight</span>:<span class="cm-atom">bold</span>;
+  <span class="cm-property">text-shadow</span>:<span class="cm-number">0</span> <span class="cm-number">1px</span> <span class="cm-number">1px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">0.2</span>);
+  
+  <span class="cm-comment">/* On position l'élément et on spécifie ses marges */</span>
+  <span class="cm-property">display</span>:<span class="cm-atom">block</span>;
+  <span class="cm-property">float</span>:<span class="cm-atom">left</span>;
+  <span class="cm-property">position</span>:<span class="cm-atom">relative</span>; 
+  <span class="cm-property">padding</span>:<span class="cm-number">5px</span> <span class="cm-number">35px</span> <span class="cm-number">5px</span> <span class="cm-number">25px</span>;
+
+  <span class="cm-comment">/* On ajoute quelques styles user-friendly */</span>
+  <span class="cm-property">cursor</span>:<span class="cm-atom">pointer</span>; <span class="cm-comment">/* Indique que le bouton est cliquable */</span>
+  <span class="cm-property">border-radius</span>:<span class="cm-number">0.3em</span>; <span class="cm-comment">/* Valeur passe-partout pour les bords arrondis */</span>
+  <span class="cm-property">box-shadow</span>: <span class="cm-atom">inset</span> <span class="cm-number">0</span> <span class="cm-number">1px</span> <span class="cm-number">0</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">0.4</span>), <span class="cm-comment">/* Reflet en haut du bouton */</span>
+        <span class="cm-atom">inset</span> <span class="cm-number">0</span> <span class="cm-number">10px</span> <span class="cm-number">30px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">0.3</span>), <span class="cm-comment">/* Evite un applat de couleur */</span>
+        <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">3px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">100</span>,<span class="cm-number">100</span>,<span class="cm-number">100</span>,<span class="cm-number">0.1</span>), <span class="cm-comment">/* Renfoncement du bouton dans la matière */</span>
+        <span class="cm-number">2px</span> <span class="cm-number">2px</span> <span class="cm-number">3px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.1</span>); <span class="cm-comment">/* Ombre portée */</span>
+  <span class="cm-property">transition</span>:<span class="cm-atom">all</span> <span class="cm-number">0.3s</span> <span class="cm-atom">ease-out</span>;
+}
+
+<span class="cm-comment">/* On met en place le triangle indiquant qu'il s'agit d'un menu déroulant </span>
+<span class="cm-comment">par le biais d'un pseudo-élément afin de ne pas utiliser d'image</span>
+<span class="cm-comment">Dans le cas d'un vieux navigateur, l'icone n'apparaitra pas : tant pis */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">label</span>:<span class="cm-variable-3">after</span> {
+   <span class="cm-property">content</span>: <span class="cm-string">""</span>; <span class="cm-comment">/* Pas de contenu : élément visuel */</span>
+   
+   <span class="cm-comment">/* On place l'élément */</span>
+   <span class="cm-property">position</span>: <span class="cm-atom">absolute</span>; 
+   <span class="cm-property">top</span>: <span class="cm-number">50%</span>;
+   <span class="cm-property">right</span>: <span class="cm-number">10px</span>;
+   
+   <span class="cm-comment">/* Ci-dessous la méthode pour avoir un triangle en CSS */</span>
+   <span class="cm-property">width</span>: <span class="cm-number">0</span>;
+   <span class="cm-property">height</span>: <span class="cm-number">0</span>;
+   <span class="cm-property">border-left</span>: <span class="cm-number">6px</span> <span class="cm-atom">solid</span> <span class="cm-atom">transparent</span>;
+   <span class="cm-property">border-top</span>: <span class="cm-number">6px</span> <span class="cm-atom">solid</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.6</span>);
+   <span class="cm-property">border-right</span>: <span class="cm-number">6px</span> <span class="cm-atom">solid</span> <span class="cm-atom">transparent</span>;
+   <span class="cm-property">margin-left</span>: <span class="cm-number">-3px</span>;
+   <span class="cm-property">margin-top</span>: <span class="cm-number">-3px</span>;
+}
+
+<span class="cm-comment">/* On met en place un état survolé au menu */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">label</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">background</span>:<span class="cm-atom">#4caffa</span>;
+}
+
+<span class="cm-comment">/* Afin de gérer un élément "onclick" qui perdure en CSS,</span>
+<span class="cm-comment">on utilise une méthode impliquant une checkbox et le pseudo-selector :checked */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">"checkbox"</span>] {
+  
+  <span class="cm-comment">/* On position la checkbox hors écran, le label servira de déclencheur */</span>
+  <span class="cm-property">position</span>:<span class="cm-atom">absolute</span>;
+  <span class="cm-property">clip</span>:<span class="cm-variable cm-callee">rect</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>); <span class="cm-comment">/* Permet de réduire sa zone d'affichage à 0 */</span>
+  <span class="cm-property">top</span>:<span class="cm-number">9999px</span>;
+}
+
+<span class="cm-comment">/* On met en place la liste du menu */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">ul</span> {
+
+  <span class="cm-comment">/* On place le menu */</span>
+  <span class="cm-property">position</span>:<span class="cm-atom">absolute</span>;
+  <span class="cm-property">top</span>:<span class="cm-number">42px</span>;
+  
+  <span class="cm-comment">/* On paramètre ses styles */</span>
+  <span class="cm-property">list-style-type</span>:<span class="cm-atom">none</span>;
+  <span class="cm-property">padding</span>:<span class="cm-number">5px</span> <span class="cm-number">0</span>;
+  <span class="cm-property">font-size</span>:<span class="cm-number">13px</span>;
+  <span class="cm-property">border</span>:<span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-atom">#ddd</span>; 
+  <span class="cm-property">border-radius</span>:<span class="cm-number">0.3em</span>;
+  <span class="cm-property">box-shadow</span>:<span class="cm-number">0</span> <span class="cm-number">5px</span> <span class="cm-number">10px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.2</span>);
+  
+  <span class="cm-comment">/* Et on le cache pour finir */</span>
+  <span class="cm-property">display</span>:<span class="cm-atom">none</span>;
+}
+
+<span class="cm-comment">/* On met en place une petite flèche au menu pour indique qu'il descend du bouton */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">ul</span>:<span class="cm-variable-3">after</span>,
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">ul</span>:<span class="cm-variable-3">before</span> {
+  <span class="cm-property">content</span>:<span class="cm-string">""</span>;
+  <span class="cm-property">height</span>:<span class="cm-number">0</span>;
+  <span class="cm-property">width</span>:<span class="cm-number">0</span>;
+  <span class="cm-property">position</span>:<span class="cm-atom">absolute</span>;
+  <span class="cm-property">bottom</span>:<span class="cm-number">100%</span>;
+  <span class="cm-property">border</span>:<span class="cm-atom">solid</span> <span class="cm-atom">transparent</span>;
+}
+
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">ul</span>:<span class="cm-variable-3">after</span> {
+  <span class="cm-property">border-bottom-color</span>:<span class="cm-atom">#fff</span>;
+  <span class="cm-property">border-width</span>:<span class="cm-number">6px</span>;
+  <span class="cm-property">left</span>:<span class="cm-number">15%</span>;
+  <span class="cm-property">margin-left</span>:<span class="cm-number">-6px</span>;
+}
+
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">ul</span>:<span class="cm-variable-3">before</span> {
+  <span class="cm-property">border-bottom-color</span>:<span class="cm-atom">#ddd</span>;
+  <span class="cm-property">border-width</span>:<span class="cm-number">7px</span>;
+  <span class="cm-property">left</span>:<span class="cm-number">15%</span>;
+  <span class="cm-property">margin-left</span>:<span class="cm-number">-7px</span>;
+}
+
+<span class="cm-comment">/* On style les liens du menu */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">a</span> {
+  <span class="cm-property">text-decoration</span>:<span class="cm-atom">none</span>;
+  <span class="cm-property">color</span>:<span class="cm-atom">#333</span>;
+  <span class="cm-property">display</span>:<span class="cm-atom">block</span>;
+  <span class="cm-property">padding</span>:<span class="cm-number">5px</span> <span class="cm-number">15px</span>;
+} 
+
+<span class="cm-comment">/* On paramètre le dernier élément du menu afin qu'il ait une bordure supérieure</span>
+<span class="cm-comment">pour le différencier des autres sans pour autant gérer une classe supplémentaire</span>
+<span class="cm-comment">à l'aide du pseudo-selecteur :last-of-type */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">li</span>:<span class="cm-variable-3">last-of-type</span> {
+  <span class="cm-property">margin-top</span>:<span class="cm-number">4px</span>;
+  <span class="cm-property">border-top</span>:<span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-keyword">silver</span>;
+  <span class="cm-property">border-top</span>:<span class="cm-number">1px</span> <span class="cm-atom">solid</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0</span>,<span class="cm-number">0.2</span>);
+} 
+
+<span class="cm-comment">/* On paramètre un survol aux éléments du menu */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">a</span>:<span class="cm-variable-3">hover</span> {
+  <span class="cm-property">background</span>:<span class="cm-atom">#0088CC</span>;
+  <span class="cm-property">color</span>:<span class="cm-atom">#fff</span>;
+} 
+
+<span class="cm-comment">/* On déclare que si la checkbox est cochée, la liste est affichée */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">"checkbox"</span>]:<span class="cm-variable-3">checked</span> ~ <span class="cm-tag">ul</span> {
+  <span class="cm-property">display</span>:<span class="cm-atom">block</span>;
+}
+
+<span class="cm-comment">/* On met en place quelques styles au bouton si le menu est affiché */</span>
+<span class="cm-qualifier">.dropdown-menu</span> <span class="cm-tag">input</span>[<span class="cm-tag">type</span>=<span class="cm-string">"checkbox"</span>]:<span class="cm-variable-3">checked</span> ~ <span class="cm-tag">label</span> {
+  <span class="cm-property">left</span>:<span class="cm-number">1px</span>; <span class="cm-comment">/* Décale le bouton de 1px vers la droite */</span>
+  <span class="cm-property">top</span>:<span class="cm-number">1px</span>; <span class="cm-comment">/* Décale le bouton de 1px vers le bas */</span>
+  <span class="cm-property">box-shadow</span>: <span class="cm-atom">inset</span> <span class="cm-number">0</span> <span class="cm-number">1px</span> <span class="cm-number">0</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">0.4</span>),
+        <span class="cm-atom">inset</span> <span class="cm-number">0</span> <span class="cm-number">10px</span> <span class="cm-number">30px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">255</span>,<span class="cm-number">0.3</span>),
+        <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">3px</span> <span class="cm-variable cm-callee">rgba</span>(<span class="cm-number">100</span>,<span class="cm-number">100</span>,<span class="cm-number">100</span>,<span class="cm-number">0.05</span>);
+  <span class="cm-property">background</span>:<span class="cm-atom">#4caffa</span>;
+}
+</code></pre>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="camera; display-capture; geolocation; microphone; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " id="result-iframe" loading="lazy" name="CodePen Preview for CSS dropdown menu" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="yes" title="CodePen Preview for CSS dropdown menu" data-src="https://cdpn.io/KittyGiraudel/fullembedgrid/nwJypA?animations=run&amp;type=embed" src="nwJypA_data/nwJypA.html" frameborder="0">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/KittyGiraudel" target="_blank" rel="noopener"><img src="nwJypA_data/default.webp" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/KittyGiraudel" target="_blank" rel="noopener">Kitty Giraudel</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+</p>
+<p>
+<a href="https://codepen.io/KittyGiraudel" target="_blank" rel="noopener" class="about-user-more">
+See more by @KittyGiraudel on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script nonce="">
+    __processedPen = {"html":"&lt;div class=&quot;dropdown-menu ddm1&quot;&gt;\t\n\t&lt;input type=&quot;checkbox&quot; name=&quot;toggle&quot; id=&quot;toggle&quot;&gt;\n\t&lt;label for=&quot;toggle&quot;&gt;Menu&lt;/label&gt;\n\t&lt;ul&gt;\n\t\t&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Do something&quot;&gt;Do something&lt;/a&gt;&lt;/li&gt;\n\t\t&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Do something else&quot;&gt;Do something else&lt;/a&gt;&lt;/li&gt;\n\t\t&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Options&quot;&gt;Options&lt;/a&gt;&lt;/li&gt;\n\t&lt;/ul&gt;\n&lt;/div&gt;","css":"/* Comment réaliser un menu déroulant uniquement en CSS */\n\n* {\n\t/* On retire toutes les marges pour faciliter la mise en page */\n\tpadding:0;\n\tmargin:0;\n}\n\n.dropdown-menu {\n\t/* On positionne le conteneur au centre et on lui assigne un placement\n\trelatif pour pouvoir placer ses enfants en absolu */\n\tposition:relative;\n\twidth:200px;\n\tmargin:20px auto;\n\t\n\tfont-family:&#39;Helvetica&#39;, Arial, sans-serif; /* On change la police */\n}\n\n.dropdown-menu label {\n\t\n\t/* On définit une couleur de fond, de trait et de contour pour le bouton */\n\tbackground:#1e83e5;\n\tcolor:#fff; /* Fallback pour les navigateurs ne comprenant pas le rgba */\n\tcolor:rgba(0,0,0,0.6);\n\tborder:1px solid #fff; /* Fallback pour les navigateurs ne comprenant pas le rgba */\n\tborder:1px solid rgba(0,0,0,0.4);\n\t\n\t/* On termine de déclarer les styles typographiques */\n\tfont-weight:bold;\n\ttext-shadow:0 1px 1px rgba(255,255,255,0.2);\n\t\n\t/* On position l&#39;élément et on spécifie ses marges */\n\tdisplay:block;\n\tfloat:left;\n\tposition:relative; \n\tpadding:5px 35px 5px 25px;\n\n\t/* On ajoute quelques styles user-friendly */\n\tcursor:pointer; /* Indique que le bouton est cliquable */\n\tborder-radius:0.3em; /* Valeur passe-partout pour les bords arrondis */\n\tbox-shadow: inset 0 1px 0 rgba(255,255,255,0.4), /* Reflet en haut du bouton */\n\t\t\t\tinset 0 10px 30px rgba(255,255,255,0.3), /* Evite un applat de couleur */\n\t\t\t\t0 0 0 3px rgba(100,100,100,0.1), /* Renfoncement du bouton dans la matière */\n\t\t\t\t2px 2px 3px rgba(0,0,0,0.1); /* Ombre portée */\n\ttransition:all 0.3s ease-out;\n}\n\n/* On met en place le triangle indiquant qu&#39;il s&#39;agit d&#39;un menu déroulant \npar le biais d&#39;un pseudo-élément afin de ne pas utiliser d&#39;image\nDans le cas d&#39;un vieux navigateur, l&#39;icone n&#39;apparaitra pas : tant pis */\n.dropdown-menu label:after {\n\t content: &quot;&quot;; /* Pas de contenu : élément visuel */\n\t \n\t /* On place l&#39;élément */\n\t position: absolute; \n\t top: 50%;\n\t right: 10px;\n\t \n\t /* Ci-dessous la méthode pour avoir un triangle en CSS */\n\t width: 0;\n\t height: 0;\n\t border-left: 6px solid transparent;\n\t border-top: 6px solid rgba(0,0,0,0.6);\n\t border-right: 6px solid transparent;\n\t margin-left: -3px;\n\t margin-top: -3px;\n}\n\n/* On met en place un état survolé au menu */\n.dropdown-menu label:hover {\n\tbackground:#4caffa;\n}\n\n/* Afin de gérer un élément &quot;onclick&quot; qui perdure en CSS,\non utilise une méthode impliquant une checkbox et le pseudo-selector :checked */\n.dropdown-menu input[type=&quot;checkbox&quot;] {\n\t\n\t/* On position la checkbox hors écran, le label servira de déclencheur */\n\tposition:absolute;\n\tclip:rect(0,0,0,0); /* Permet de réduire sa zone d&#39;affichage à 0 */\n\ttop:9999px;\n}\n\n/* On met en place la liste du menu */\n.dropdown-menu ul {\n\n\t/* On place le menu */\n\tposition:absolute;\n\ttop:42px;\n\t\n\t/* On paramètre ses styles */\n\tlist-style-type:none;\n\tpadding:5px 0;\n\tfont-size:13px;\n\tborder:1px solid #ddd; \n\tborder-radius:0.3em;\n\tbox-shadow:0 5px 10px rgba(0,0,0,0.2);\n\t\n\t/* Et on le cache pour finir */\n\tdisplay:none;\n}\n\n/* On met en place une petite flèche au menu pour indique qu&#39;il descend du bouton */\n.dropdown-menu ul:after,\n.dropdown-menu ul:before {\n\tcontent:&quot;&quot;;\n\theight:0;\n\twidth:0;\n\tposition:absolute;\n\tbottom:100%;\n\tborder:solid transparent;\n}\n\n.dropdown-menu ul:after {\n\tborder-bottom-color:#fff;\n\tborder-width:6px;\n\tleft:15%;\n\tmargin-left:-6px;\n}\n\n.dropdown-menu ul:before {\n\tborder-bottom-color:#ddd;\n\tborder-width:7px;\n\tleft:15%;\n\tmargin-left:-7px;\n}\n\n/* On style les liens du menu */\n.dropdown-menu a {\n\ttext-decoration:none;\n\tcolor:#333;\n\tdisplay:block;\n\tpadding:5px 15px;\n} \n\n/* On paramètre le dernier élément du menu afin qu&#39;il ait une bordure supérieure\npour le différencier des autres sans pour autant gérer une classe supplémentaire\nà l&#39;aide du pseudo-selecteur :last-of-type */\n.dropdown-menu li:last-of-type {\n\tmargin-top:4px;\n\tborder-top:1px solid silver;\n\tborder-top:1px solid rgba(0,0,0,0.2);\n} \n\n/* On paramètre un survol aux éléments du menu */\n.dropdown-menu a:hover {\n\tbackground:#0088CC;\n\tcolor:#fff;\n} \n\n/* On déclare que si la checkbox est cochée, la liste est affichée */\n.dropdown-menu input[type=&quot;checkbox&quot;]:checked ~ ul {\n\tdisplay:block;\n}\n\n/* On met en place quelques styles au bouton si le menu est affiché */\n.dropdown-menu input[type=&quot;checkbox&quot;]:checked ~ label {\n\tleft:1px; /* Décale le bouton de 1px vers la droite */\n\ttop:1px; /* Décale le bouton de 1px vers le bas */\n\tbox-shadow: inset 0 1px 0 rgba(255,255,255,0.4),\n\t\t\t\tinset 0 10px 30px rgba(255,255,255,0.3),\n\t\t\t\t0 0 0 3px rgba(100,100,100,0.05);\n\tbackground:#4caffa;\n}","js":""};
+    __preprocessors = {
+      "html": "",
+      "css": "",
+      "js": ""
+    };
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __editable = false;
+    __embed_prefill = false;
+  </script>
+<script src="pogJmYY_data/embed-ef4131a58ab489bb83f61172f9ca7ed41d71e91e3ef765ad2ac9407.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

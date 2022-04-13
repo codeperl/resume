@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Recursive Hover Nav (  Only CSS  )</title>
+  <link rel="stylesheet" href="WdzgdY_data/e6f1ea02b2c69845a796acd688299990.css">
+<script>
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var div = document.createElement('div');
+            div.innerHTML = this.responseText;
+            document.body.appendChild(div)
+        }
+    }
+    xhttp.open("GET", "https://codepen.io/sean_codes/pen/e6f1ea02b2c69845a796acd688299990.html", true);
+    xhttp.send();
+</script>
+  
+  <link rel="stylesheet" href="WdzgdY_data/css.css">
+<link rel="stylesheet" href="WdzgdY_data/font-awesome.css">
+  
+<style>
+html, body{
+   padding:0px;
+   margin:0px;
+   background:#191A1D;
+   font-family: 'Karla', sans-serif;
+   width:100vw;
+}
+body * {
+   margin:0;
+   padding:0;
+}
+
+/* HTML Nav Styles */
+/* HTML Nav Styles */
+/* HTML Nav Styles */
+nav menuitem {
+   position:relative;
+   display:block;
+   opacity:0;
+   cursor:pointer;
+}
+
+nav menuitem > menu {
+   position: absolute;
+   pointer-events:none;
+}
+nav > menu { display:flex; }
+
+nav > menu > menuitem { pointer-events: all; opacity:1; }
+menu menuitem a { white-space:nowrap; display:block; }
+   
+menuitem:hover > menu {
+   pointer-events:initial;
+}
+menuitem:hover > menu > menuitem,
+menu:hover > menuitem{
+   opacity:1;
+}
+nav > menu > menuitem menuitem menu {
+   transform:translateX(100%);
+   top:0; right:0;
+}
+/* User Styles Below Not Required */
+/* User Styles Below Not Required */
+/* User Styles Below Not Required */
+
+nav { 
+   margin-top: 40px;
+   margin-left: 40px;
+}
+
+nav a {
+   background:#75F;
+   color:#FFF;
+   min-width:190px;
+   transition: background 0.5s, color 0.5s, transform 0.5s;
+   margin:0px 6px 6px 0px;
+   padding:20px 40px;
+   box-sizing:border-box;
+   border-radius:3px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+   position:relative;
+}
+
+nav a:hover:before {
+   content: '';
+   top:0;left:0;
+   position:absolute;
+   background:rgba(0, 0, 0, 0.2);
+   width:100%;
+   height:100%;
+}
+
+nav > menu > menuitem > a + menu:after{
+   content: '';
+   position:absolute;
+   border:10px solid transparent;
+   border-top: 10px solid white;
+   left:12px;
+   top: -40px;  
+}
+nav menuitem > menu > menuitem > a + menu:after{ 
+   content: '';
+   position:absolute;
+   border:10px solid transparent;
+   border-left: 10px solid white;
+   top: 20px;
+   left:-180px;
+   transition: opacity 0.6, transform 0s;
+}
+
+nav > menu > menuitem > menu > menuitem{
+   transition: transform 0.6s, opacity 0.6s;
+   transform:translateY(150%);
+   opacity:0;
+}
+nav > menu > menuitem:hover > menu > menuitem,
+nav > menu > menuitem.hover > menu > menuitem{
+   transform:translateY(0%);
+   opacity: 1;
+}
+
+menuitem > menu > menuitem > menu > menuitem{
+   transition: transform 0.6s, opacity 0.6s;
+   transform:translateX(195px) translateY(0%);
+   opacity: 0;
+} 
+menuitem > menu > menuitem:hover > menu > menuitem,  
+menuitem > menu > menuitem.hover > menu > menuitem{  
+   transform:translateX(0) translateY(0%);
+   opacity: 1;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <nav>
+		<menu>
+			<menuitem id="demo1" class="">
+				<a>drop</a>
+				<menu>
+					<menuitem><a>about</a></menuitem>
+               <menuitem>
+                  <a>settings</a>
+                  <menu>
+                     <menuitem><a>Test 1</a></menuitem>
+                     <menuitem><a>Test 2</a></menuitem>
+                     <menuitem><a>Test 3</a></menuitem>
+                     <menuitem><a>Test 4</a></menuitem>
+                  </menu>  
+               </menuitem>
+					<menuitem><a>help</a></menuitem>
+					<menuitem id="demo2" class="">
+						<a>more</a>
+						<menu>
+							<menuitem id="demo3" class="">
+								<a>deeper</a>
+								<menu>
+									<menuitem><a>deep 1</a></menuitem>
+									<menuitem><a>deep 2</a></menuitem>
+									<menuitem><a>deep 3</a></menuitem>
+								</menu>
+							</menuitem>
+							<menuitem><a>test</a></menuitem>
+						</menu>
+					</menuitem>
+				</menu>
+			</menuitem>
+         <menuitem><a>no drop</a></menuitem>
+		</menu>
+	</nav>
+    <script src="../kPEXJO_data/kPEXJO_data/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e6459972.js"></script>
+
+  
+      <script id="rendered-js">
+// For the thumbnail demo! :]
+
+var count = 1;
+setTimeout(demo, 500);
+setTimeout(demo, 700);
+setTimeout(demo, 900);
+setTimeout(reset, 2000);
+
+setTimeout(demo, 2500);
+setTimeout(demo, 2750);
+setTimeout(demo, 3050);
+
+
+var mousein = false;
+function demo() {
+  if (mousein) return;
+  document.getElementById('demo' + count++).
+  classList.toggle('hover');
+
+}
+
+function demo2() {
+  if (mousein) return;
+  document.getElementById('demo2').
+  classList.toggle('hover');
+}
+
+function reset() {
+  count = 1;
+  var hovers = document.querySelectorAll('.hover');
+  for (var i = 0; i < hovers.length; i++) {if (window.CP.shouldStopExecution(0)) break;
+    hovers[i].classList.remove('hover');
+  }window.CP.exitedLoop(0);
+}
+
+document.addEventListener('mouseover', function () {
+  mousein = true;
+  reset();
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+<div><div class="template-corner template-top template-right"> 
+  <div class="template-title">sean codes <i class="template-icon fa fa-question"></i></div>
+  <div class="template-links"><a class="template-link"><span><small>Hi! Nice to meet you! <i class="fa fa-heart"></i></small></span> </a><a class="template-link" href="https://instagram.com/sean_codes" target="_blank"><span><i class="fa fa-instagram"></i> instagram</span></a><a class="template-link" href="https://codepen.io/sean_codes" target="_blank"><span><i class="fa fa-codepen"></i> codepen</span> </a><a class="template-link" href="https://github.com/sean-codes" target="_blank"><span><i class="fa fa-github"></i> github</span> </a></div>
+</div>
+<div class="template-corner template-bottom template-left template-small">
+  <div class="template-title" onclick="window.location=window.location">reload <i class="template-icon fa fa-retweet"></i></div>
+</div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

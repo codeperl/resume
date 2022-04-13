@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - MainMenu #CodePenChallenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../RJeYjg_data/RJeYjg_data/icons.css" integrity="sha384-+iqgM+tGle5wS+uPwXzIjZS5v6VkqCUV7YQ/e/clzRHAxYbzpUJ+nldylmtBWCP0" crossorigin="anonymous">
+  
+  
+  
+<style>
+/*Colors*/
+/*Font*/
+/* Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #3f4593, #5960bd);
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Start Style*/
+.main__menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+@media (max-width: 900px) {
+  .main__menu {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+}
+.main__menu .list-item:hover .drop-menu li {
+  display: block;
+}
+.main__menu .list-item:hover .menu-1 {
+  perspective: 1000px;
+}
+.main__menu .list-item:hover .menu-1 .drop-item {
+  opacity: 0;
+}
+.main__menu .list-item:hover .menu-1 .drop-item:nth-child(1) {
+  animation-name: leftToRight;
+  animation-duration: 400ms;
+  animation-delay: -150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-1 .drop-item:nth-child(2) {
+  animation-name: leftToRight;
+  animation-duration: 400ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-1 .drop-item:nth-child(3) {
+  animation-name: leftToRight;
+  animation-duration: 400ms;
+  animation-delay: 150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-1 .drop-item:nth-child(4) {
+  animation-name: leftToRight;
+  animation-duration: 400ms;
+  animation-delay: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-2 {
+  perspective: 1000px;
+}
+.main__menu .list-item:hover .menu-2 .drop-item {
+  opacity: 0;
+  transform-origin: top center;
+}
+.main__menu .list-item:hover .menu-2 .drop-item:nth-child(1) {
+  animation-name: topToBottom;
+  animation-duration: 400ms;
+  animation-delay: -150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-2 .drop-item:nth-child(2) {
+  animation-name: topToBottom;
+  animation-duration: 400ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-2 .drop-item:nth-child(3) {
+  animation-name: topToBottom;
+  animation-duration: 400ms;
+  animation-delay: 150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-2 .drop-item:nth-child(4) {
+  animation-name: topToBottom;
+  animation-duration: 400ms;
+  animation-delay: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-3 {
+  perspective: 1000px;
+}
+.main__menu .list-item:hover .menu-3 .drop-item {
+  opacity: 0;
+}
+.main__menu .list-item:hover .menu-3 .drop-item:nth-child(1) {
+  animation-name: itemBounce;
+  animation-duration: 400ms;
+  animation-delay: -150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-3 .drop-item:nth-child(2) {
+  animation-name: itemBounce;
+  animation-duration: 400ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-3 .drop-item:nth-child(3) {
+  animation-name: itemBounce;
+  animation-duration: 400ms;
+  animation-delay: 150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-3 .drop-item:nth-child(4) {
+  animation-name: itemBounce;
+  animation-duration: 400ms;
+  animation-delay: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-4 {
+  perspective: 1000px;
+}
+.main__menu .list-item:hover .menu-4 .drop-item {
+  opacity: 0;
+  transform-origin: top right;
+}
+.main__menu .list-item:hover .menu-4 .drop-item:nth-child(1) {
+  animation-name: bottomToTop;
+  animation-duration: 400ms;
+  animation-delay: -150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-4 .drop-item:nth-child(2) {
+  animation-name: bottomToTop;
+  animation-duration: 400ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-4 .drop-item:nth-child(3) {
+  animation-name: bottomToTop;
+  animation-duration: 400ms;
+  animation-delay: 150ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .menu-4 .drop-item:nth-child(4) {
+  animation-name: bottomToTop;
+  animation-duration: 400ms;
+  animation-delay: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.main__menu .list-item:hover .home {
+  border-top: 6px solid #33658a;
+}
+.main__menu .list-item:hover .about {
+  border-top: 6px solid #9966cc;
+}
+.main__menu .list-item:hover .widget {
+  border-top: 6px solid #ff3333;
+}
+.main__menu .list-item:hover .kabobs {
+  border-top: 6px solid #ffcc33;
+}
+.main__menu .list-item:hover .contact {
+  border-top: 6px solid #55dde0;
+}
+.main__menu .list-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  color: #fff;
+  cursor: unset;
+}
+.main__menu .list-item a:hover {
+  cursor: pointer;
+}
+.main__menu .list-item a span {
+  font: 600 25px "Roboto", sans-serif;
+  order: 2;
+}
+.main__menu .list-item a img {
+  width: 100px;
+}
+.main__menu .list-item a.home {
+  background: #ff3333;
+}
+.main__menu .list-item a.about {
+  background: #ffcc33;
+}
+.main__menu .list-item a.widget {
+  background: #55dde0;
+}
+.main__menu .list-item a.kabobs {
+  background: #9966cc;
+}
+.main__menu .list-item a.contact {
+  background: #33658a;
+}
+.main__menu .list-item a i {
+  color: #fff;
+  font-size: 100px;
+}
+.main__menu .list-item .drop-menu .drop-item {
+  display: none;
+}
+.main__menu .list-item .drop-menu .drop-item a {
+  height: 80px;
+  font: 300 22px "Roboto", sans-serif;
+}
+.main__menu .list-item .drop-menu .drop-item a.item--1 {
+  background: #ffcc33;
+}
+.main__menu .list-item .drop-menu .drop-item a.item--2 {
+  background: #33658a;
+}
+.main__menu .list-item .drop-menu .drop-item a.item--3 {
+  background: #ff3333;
+}
+
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    transform: rotateY(-90deg) translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) translateY(0px);
+  }
+}
+@keyframes topToBottom {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+@keyframes itemBounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translateY(-60px);
+  }
+  80% {
+    transform: scale(1.2) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+}
+@keyframes bottomToTop {
+  0% {
+    opacity: 0;
+    transform: rotate(-30deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <ul class="main__menu">
+  <li class="list-item">
+    <a href="#" class="home item--js">
+      <span>Home</span>
+      <i class="ion ion-ios-home-outline"></i>
+    </a>
+  </li>
+  <li class="list-item">
+    <a href="#" class="about item--js">
+      <span>About</span>
+      <i class="ion ion-ios-contact-outline"></i>
+    </a>
+  </li>
+  <li class="list-item">
+    <a href="#" class="widget item--js">
+      <span>Widgets</span>
+      <i class="ion ion-ios-partly-sunny-outline"></i>
+    </a>
+    <ul class="drop-menu menu-4">
+      <li class="drop-item"><a href="#" class="item--1">Big Widget</a></li>
+      <li class="drop-item"><a href="#" class="item--2">Bigger Widget</a></li>
+      <li class="drop-item"><a href="#" class="item--3">Huge Widget</a></li>
+    </ul>
+  </li>
+  <li class="list-item">
+    <a href="#" class="kabobs item--js">
+      <span>KaBoBs</span>
+      <img src="WyYGPa_data/cooking1.svg" alt="">
+    </a>
+    <ul class="drop-menu menu-2">
+      <li class="drop-item"><a href="#" class="item--1">Shish Kabobs</a></li>
+      <li class="drop-item"><a href="#" class="item--2">BBQ Kabobs</a></li>
+      <li class="drop-item"><a href="#" class="item--3">Summer Kabobs</a></li>
+    </ul>
+  </li>
+  <li class="list-item">
+    <a href="#" class="contact item--js">
+      <span>Contact</span>
+      <i class="ion ion-ios-mail-open-outline"></i>
+    </a>
+  </li>
+</ul>
+  
+  <script src="WyYGPa_data/jquery.js"></script>
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

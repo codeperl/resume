@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="theme-dark" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Full-width sub-menu</title>
+  <link href="yQOyaV_data/css.css" rel="stylesheet">
+  <link rel="stylesheet" href="../RJeYjg_data/RJeYjg_data/normalize.css">
+
+  
+  
+<style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: transparent;
+}
+.theme-dark {
+  background-color: #252839;
+  color: #fff;
+  margin: 2em 0;
+}
+.theme-dark h1 {
+  color: #f2b632;
+}
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
+  color: #fff;
+}
+.theme-dark a {
+  color: #fff;
+}
+.theme-dark .container {
+  color: #666666;
+}
+.theme-dark .msg {
+  background-color: #f2f2f2;
+  padding: 20px 40px;
+  line-height: 24px;
+}
+.theme-dark .msg i {
+  vertical-align: middle;
+}
+.theme-dark .msg.danger {
+  background-color: #f46458;
+  border-color: #f35245;
+  color: #9b140a;
+}
+.theme-dark .msg.success {
+  background-color: #6ce5b3;
+  border-color: #5ae2aa;
+  color: #198f5e;
+}
+.theme-dark .msg.warning {
+  background-color: #f4c458;
+  border-color: #f3bd45;
+  color: #9b6d0a;
+}
+.theme-dark button {
+  background-color: #f2b632;
+  border: 3px solid #f2b632;
+  border-radius: 3px;
+  color: #252839;
+  padding: 10px 15px;
+  transition: all 250ms ease;
+}
+.theme-dark button:hover {
+  background-color: #f7d07a;
+  border-color: #f7d07a;
+  cursor: pointer;
+}
+.theme-dark {
+  margin-top: 0;
+}
+.theme-dark p {
+  padding: 10px;
+  text-align: center;
+}
+.theme-dark .page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.theme-dark .page-wrapper .page-header {
+  background-color: #495285;
+}
+.theme-dark .page-wrapper .page-header .header-container {
+  width: 1132px;
+  margin: 0 auto;
+  border: 1px dashed #999999;
+}
+.theme-dark .page-wrapper .page-header nav {
+  background-color: #f2b632;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  /* == Level 1 == */
+}
+.theme-dark .page-wrapper .page-header nav ul {
+  margin: 0 auto;
+  padding-left: 20px;
+  max-width: 1132px;
+}
+.theme-dark .page-wrapper .page-header nav ul a {
+  color: #252839;
+  text-decoration: none;
+}
+.theme-dark .page-wrapper .page-header nav > ul > li {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  z-index: 100;
+  /* == Level 2 == */
+}
+.theme-dark .page-wrapper .page-header nav > ul > li > ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 0.5em 1000em;
+  /* trick from css-tricks comments */
+  margin: 0 -1000em;
+  /* trick from css-tricks comments */
+  z-index: 101;
+  visibility: hidden;
+  opacity: 0;
+  background: #f24032;
+}
+.theme-dark .page-wrapper .page-header nav > ul > li > ul > li {
+  padding: 5px 0;
+  list-style: none;
+  margin: 0 12px;
+  min-width: 250px;
+}
+.theme-dark .page-wrapper .page-header nav > ul > li > ul > li a {
+  color: #fff;
+  text-shadow: 1px 1px #000000;
+}
+.theme-dark .page-wrapper .page-header nav > ul > li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  transition: all 250ms ease;
+}
+.theme-dark .page-wrapper main section {
+  width: 1132px;
+  margin: 0 auto;
+  border: 1px dashed #999999;
+  min-height: 300px;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="8.896.0" data-gr-ext-installed="">
+  <div class="page-wrapper">
+	<header class="page-header">
+		<div class="header-container">
+			<p>
+				CSS fullwidth drop down menu. Each submenu stays underneath it's parent item.
+				<a href="https://stackoverflow.com/questions/17261421/full-width-css-dropdown-menu">Solution (thanks to Ionică Bizău)</a>
+			</p>
+		</div>	
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Menu 1</a>
+					<ul class="sub-nav">
+						<li><a href="#">Sub menu1</a></li>
+						<li><a href="#">Sub menu2</a></li>
+						<li><a href="#">Sub menu3</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Menu 2</a>
+					<ul class="sub-nav">
+						<li><a href="#">Sub menu1</a></li>
+						<li><a href="#">Sub menu2</a></li>
+						<li><a href="#">Sub menu3</a></li>
+						<li><a href="#">Sub menu4</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Menu 3</a>
+				</li>
+				<li>
+					<a href="#">Menu 4</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+		</section>	
+	</main>
+</div>
+  
+  
+  
+  
+
+  <script src="../pogJmYY_data/pogJmYY_data/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c5.js"></script>
+
+
+
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
