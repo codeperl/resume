@@ -65,7 +65,7 @@ nav {
 /* prime */
 ul.primary li a {
   display: block;
-  padding: 20px 30px;
+  padding: 5px 5px;
   border-right: 1px solid #3D3D3D;
 }
 
@@ -83,7 +83,7 @@ ul.sub {
   position: absolute;
   z-index: 200;
   box-shadow: 2px 2px 0 #BEBEBE;
-  width: 35%;
+  width: 100%;
   display:none;
 }
 
@@ -112,7 +112,6 @@ ul.sub li a:hover {
 ul.primary li:hover ul {
   display: block;
   background: #fff;
-  width: 100%;
 }
 
 /* keeps the tab background white */
