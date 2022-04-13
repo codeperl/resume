@@ -3,13 +3,13 @@ support_dark_mode: true
 fork: false
 
 topmenu:
-  - 'Case Studies'
-    - 'Data Driven Website'
-    - 'Era-InfoTech Bangladesh Limited'
-    - 'UKKO Project'
-    - 'Edilex'
-    - 'Credita'
-  - 'Download Resume'
+  - item: 'Case Studies'
+    - item: 'Data Driven Website'
+    - item: 'Era-InfoTech Bangladesh Limited'
+    - item: 'UKKO Project'
+    - item: 'Edilex'
+    - item: 'Credita'
+  - item: 'Download Resume'
 
 # Sidebar
 contact:
