@@ -61,7 +61,7 @@ ul.primary li a:hover {
 ul.sub {
   position: absolute;
   z-index: 200;
-  box-shadow: 2px 2px 2px 2px #BEBEBE;
+  box-shadow: 1px var(--bg-color-cv);
   width: 35%;
   display:none;
 }
