@@ -137,5 +137,6 @@ ul.primary li:hover > a{
   ul.sub li a:hover {
     color: #ccc;
     background: none;
+    border-bottom: 1px solid var(--bg-color-cv);
   }
 }
