@@ -45,7 +45,7 @@ nav {
 /* prime */
 ul.primary li a {
   display: block;
-  padding: 5px;
+  padding: 5px 10px 5px 5px;
   border-right: 1px solid #3D3D3D;
 }
 
@@ -76,7 +76,7 @@ ul.sub li a {
   border-bottom: 1px dotted #ccc;
   border-right: none;
   color: #000;
-  padding: 15px 30px;
+  padding: 5px;
 }
 
 ul.sub li:last-child a {
@@ -85,7 +85,7 @@ ul.sub li:last-child a {
 
 ul.sub li a:hover {
   color: var(--fg-color-dark);
-  background: #eeeeee;
+  background: var(--bg-color-cv);
 }
 
 /* sub display*/
