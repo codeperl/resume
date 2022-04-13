@@ -2,7 +2,7 @@ name: Mohammad Ashrafuddin Ferdousi
 support_dark_mode: true
 fork: false
 
-topnav:
+nav:
   - title: 'Case Studies'
     url: deployment.html
     subnav:
