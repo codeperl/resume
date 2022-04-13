@@ -91,12 +91,12 @@ ul.sub li a:hover {
 /* sub display*/
 ul.primary li:hover ul {
   display: block;
-  background: var(--fg-color);
+  background: var(--fg-color-dark);
 }
 
 /* keeps the tab background white */
 ul.primary li:hover a {
-  background: var(--fg-color);
+  background: var(--fg-color-dark);
   color: #666;
   text-shadow: none;
 }
