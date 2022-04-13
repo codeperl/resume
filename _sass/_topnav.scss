@@ -84,25 +84,25 @@ ul.sub li:last-child a {
 }
 
 ul.sub li a:hover {
-  color: #000;
+  color: var(--fg-color-dark);
   background: #eeeeee;
 }
 
 /* sub display*/
 ul.primary li:hover ul {
   display: block;
-  background: var(--fg-color-dark);
+  background: var(--bg-color-cv);
 }
 
 /* keeps the tab background white */
 ul.primary li:hover a {
-  background: var(--fg-color-dark);
-  color: #666;
+  background: var(--bg-color-cv);
+  color: var(--fg-color-dark);
   text-shadow: none;
 }
 
 ul.primary li:hover > a{
-  color: #000;
+  color: var(--fg-color-dark);
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,15 +120,15 @@ ul.primary li:hover > a{
   }
 
   ul.primary li:hover a {
-    background: none;
-    color: #8B8B8B;
+    background: var(--bg-color-cv);
+    color: var(--fg-color-dark);
     text-shadow: 1px 1px #000;
   }
 
   ul.primary li:hover ul {
     display: block;
-    background: #272727;
-    color: #fff;
+    background: var(--bg-color-cv);
+    color: var(--fg-color-dark);
   }
 
   ul.sub {
@@ -145,7 +145,7 @@ ul.primary li:hover > a{
   }
 
   ul.sub li a:hover {
-    color: #ccc;
-    background: none;
+    color: var(--fg-color-dark);
+    background: var(--bg-color-cv);
   }
 }
