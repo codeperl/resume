@@ -3,9 +3,9 @@
 
 @import "fonts";
 @import "base";
-@import "topnav";
 @import "print";
 @import "responsive";
+@import "topnav";
 
 @import "mixins";
 @import "skins/{{ site.theme_skin}}";
