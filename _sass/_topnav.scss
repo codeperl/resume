@@ -120,7 +120,7 @@ ul.primary li:hover > a{
   }
 
   ul.primary li:hover a {
-    background: var(--bg-color-cv);
+    background: none;
     color: var(--fg-color-dark);
     text-shadow: 1px 1px #000;
   }
@@ -145,7 +145,7 @@ ul.primary li:hover > a{
   }
 
   ul.sub li a:hover {
-    color: var(--fg-color-dark);
-    background: var(--bg-color-cv);
+    color: #ccc;
+    background: none;
   }
 }
