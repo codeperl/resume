@@ -1,4 +1,6 @@
-{% include top-menu.html nav=site.data.data.nav %}
+<nav role="navigation">
+  {% include top-menu.html nav=site.data.data.nav nested=false %}
+</nav>
 <div class="header">
   <h1 class="title">{{site.data.data.name}}</h1>
   {% if site.data.data.support_dark_mode %}
