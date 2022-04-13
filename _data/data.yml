@@ -2,6 +2,15 @@ name: Mohammad Ashrafuddin Ferdousi
 support_dark_mode: true
 fork: false
 
+topmenu:
+  - 'Case Studies'
+    - 'Data Driven Website'
+    - 'Era-InfoTech Bangladesh Limited'
+    - 'UKKO Project'
+    - 'Edilex'
+    - 'Credita'
+  - 'Download Resume'
+
 # Sidebar
 contact:
   email: mashferd@gmail.com
