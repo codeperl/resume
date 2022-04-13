@@ -2,7 +2,7 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 
-title: CV | Mohammad Ashrafuddin Ferdousi
+title: Resume | Mohammad Ashrafuddin Ferdousi
 description:  Polyglot Software Engineer. Solution designer. 10+ years experience in web domain. Expert on Laravel, Vuejs, Mysql.
 url: 'https://codeperl.github.io'
 baseurl: '/resume'
