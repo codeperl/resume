@@ -1,7 +1,7 @@
 <ul {% if include.nested==true %} class="dropdown" aria-label="submenu" {% endif %}>
     {% for item in include.nav %}
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ item.url }}" {% if item.subnav %} aria-haspopup="true" {% endif %}>{{ item.title }}</a>
         </li>
         {% if item.subnav %}
             {% include top-menu.html nav=item.subnav nested=true %}
