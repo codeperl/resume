@@ -54,7 +54,6 @@ ul.primary li:last-child a {
 }
 
 ul.primary li a:hover {
-
   color: #000;
 }
 
@@ -62,7 +61,7 @@ ul.primary li a:hover {
 ul.sub {
   position: absolute;
   z-index: 200;
-  box-shadow: 2px 2px 0 #BEBEBE;
+  box-shadow: 2px 2px 2px 2px #BEBEBE;
   width: 35%;
   display:none;
 }
