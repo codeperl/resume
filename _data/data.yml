@@ -1,0 +1,205 @@
+name: Mohammad Ashrafuddin Ferdousi
+support_dark_mode: true
+fork: false
+
+# Sidebar
+contact:
+  email: mashferd@gmail.com
+  github: codeperl
+  linkedin: codeperl
+  phone: +88 016 8277 7240
+  gitlab: 
+  twitter: 
+
+languages:
+  - idiom: English
+  - idiom: Bengali
+
+education:
+  - degree: BSc in Computer Science & Engineering
+    time: 2003-2007
+    university: Daffodil International University, Bangladesh
+
+skills:
+  - category: Backend
+    skill: 
+      - Laravel
+      - Symfony
+      - Zend Framework 2
+      - MySQL
+      - Postgresql
+      - Oracle
+      - API
+      - Feature Test case
+      - Swagger
+  - category: Frontend
+    skill:
+      - Vuejs
+      - jQuery
+      - Javascript
+      - Bootstrap 5
+      - CSS3
+  - category: DevOps
+    skill:
+      - Bash
+      - Ant
+      - Docker
+      - AWS
+
+# Profile
+profile: |
+  Mohammad Ashrafuddin Ferdousi. Polyglot Software Engineer. Solution designer. 10+ years experience in web domain. Expert on Laravel, Vuejs, Mysql.
+
+# Experience
+experience:
+  - role: Freelance Software Engineer
+    time: Dec 2020-Present
+    company: Data Driven Website
+    details: |
+      Developed a CMS based on Laravel framework not only to serve common CMS features but also a
+      performant and scalable solution for corporate branding. Batteries included: database driven SEO tools
+      based on schema.org. Endless depth for categories, sub-categories and menus, submenus. Asset
+      management system integration for CMS. GTM integration to measure Audiance attachment,
+      Conversion and other analytical reports so that dicision can be made based on measurement for
+      business growth. Project Enquiry application integration to increase customer engagement.
+    technologies_used: | 
+      Go, Angular, Typescript, C++
+  
+  - role: Software Engineer Team Lead
+    time: Apr 2019 - Nov 2020
+    company: CNS Limited
+    details: |
+      Contributed as one of the team leads for a 3,000,000.00 (Three million) USD valuation project. The
+      project is “Consolidation, Integration and Upgradation of CPAs Existing ICT based facilities/system”. I
+      actively manage a team of Software(Laravel experts) and Database Engineers and actively perticipate
+      to design the solution of six modules from . Those are: Personnel Information Management System,
+      Online Recruitment System, Providend Fund, Pension and Loan Management System, Electricity and
+      Water Billing, Incident Management System, Watchman Management System. I also integrate php
+      SOAP api with Oracle BI publisher for reporting and it really makes the complex reporting system
+      easier than ever! Even other projects are influenced by this solution and they are also integrating this
+      solutoin fort thir project. Now, the company is considering this as de-facto for reporting!
+    technologies_used: | 
+      Python, Tensorflow, Keras, Matlab
+
+  - role: Software Engineer
+    time: May 2012 - Jan 2018
+    company: Codemate Limited
+    details: |
+      Codemate Limited is a multi-national creative-tech company with roots in Finland. I worked as
+      a Software Engineer here at Bangladesh development team office.
+      I was a part of a ERP development team for a client of Codemate which developed on top of Symfony2
+      framework. I contributed to Administration and Billing module. The administration module was
+      responsible to manage auth part as-usual and the billing module was for shared billing, partial billing
+      for renting things.
+      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
+      convert their publishing business to internet. I was active team member of those projects like credita,
+      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
+      also assigned for saving search results for users and managing paid newsletter service for paid
+      subscribers.
+      Ukko.fi is another very much successful project where I involved. The provide tax calculation service
+      for lightweight entreprenures in Finland. They can be individual freelancers or small companies.
+      Whenever they generate expense or travel cost invoices for work the application calculates the tax by
+      country law and based on the document user submits. The idea was nice and effective for the business.
+      But they come to us at eleventh period when the business seriously struggles to survive just because of
+      their bad web application. We go through the system and suggest what we will do for their
+      improvement based on priority. We also suggest them about short-term and mid-term plan. Based on
+      that the long term can be decided later. They agree and the result is when we handover the project
+      they are not only the profitable business, they also expand their business in muliple countries like
+      Sweden, Russia, Ethiopia!
+    technologies_used: |
+      Python, Tensorflow, Keras, Matlab
+
+#publications:
+#  - title: Random title of paper. An interesting one.
+#    link: "#"
+#    authors: John E. Doe
+#    conference: Some conference, 2016
+#
+#  - title: Second title of paper. An interesting one too.
+#    link: "#"
+#    authors: John E. Doe
+#    conference: Some conference again, 2018
+
+projects:
+  - title: Data Driven Website - Excellence comes from care
+    link: https://www.datadrivenwebsite.com
+    tools: |
+      Laravel 8, Vuejs 2, Bootstrap 5, MySQL, Feature test-case, Opensource solutions, jQuery Datatable for vuejs,
+      Layered architecture, Thin Controller, Thin Model, php 8, javascript, git, github.
+    features: |
+      Project Qnquiry app mgmt., Asset Library mgmt., Unlimited depth Category mgmt.(drag&drop),
+      Unlimited depth Menu Item mgmt.(drag&drop), Post mgmt., GTM mgmt., Sitemap generator.
+    benefits: |
+      This project represents the service to its clients. Also, client can inform about their vision and project details
+      via project enquiry app.
+
+  - title: Era Infotech Bd Limited - end to end IT Solution Provider
+    link: https://www.erainfotechbd.com
+    tools: |
+      Laravel 8, Vuejs 2, Bootstrap 5, MySQL, Feature test-case, Opensource solutions, jQuery Datatable for vuejs,
+      Layered architecture, Thin Controller, Thin Model, php 7.4, ECMAScript 2015, git, github.
+    features: |
+      Front-page mgmt., Cache mgmt., Page mgmt., Event mgmt., Asset Library mgmt., N-depth of Menu Item mgmt.
+    benefits: |
+      Customer requirements was to brand their service with a Custom build CMS which has performant, scaling
+      features with very specified requirements provided by them. It should have very easy to use admin panel. Currently they
+      are happy with it and asking for some more paid features!
+
+  - title: Ukko.fi - Tax solution for lightweight Entreprenureship
+    link: https://extra.ukko.fi
+    tools: |
+      Zend Framework 2, Symfony components, Doctrine 2.3 components, MySQL, php, Feature test with robot
+      framework, jenkins and ant, jQuery, javascript, Bootstrap 4, Server-side pipeline solution with jQuery datatable, Code
+      refactoring, Solution design, Thin Model, php 7, git, github, jira, Agile, SCRUM.
+    features: |
+      Expence form re-write, Travel cost form, tax chart generation, pull tax according to tax chart,
+      Fetch Expense and Travel cost information from documents using OCR service, Admin module bug fixes.
+    benefits: |
+      The existing project was running in survival mode and business was almost dying! But after 2 years of
+      development with us, it expands its business in 2-3 more countries and brand themselves as a valuable solution to
+      clients!
+
+  - title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
+    link: https://www.edilex.fi
+    tools: |
+      Zend Framework, Symfony components, Doctring 2.3 components, Oracle, php, jenkins and ant, jQuery,
+      javascript, Bootstrap 4, Clean code, Team work, Solution design, git, github, jira, Agile, SCRUM.
+    features: |
+      Custom subscription based registration and paid newsletter service, full text search feature in Oracle
+      RDBMS.
+    benefits: |
+      This law based subscription and newsletter selling system is more profitable than before.
+
+  - title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
+    link: https://www.credita.fi
+    tools: |
+      XML, XSLT, Zend Framework, Symfony components, Doctring 2.3 components, Oracle, php, jenkins and ant,
+      jQuery, javascript, Bootstrap 4, Clean code, Team work, Solution design, git, github, jira, Agile, SCRUM.
+    features: |
+      Custom annotation feature integration based on Doctrine annotation classes; used for Dependency injection,
+      Favorite procurement notice, Saved search, Manage different types of xml document in database.
+    benefits: |
+      This is also another profit making project from Edita Prima for EU procurement based works.
+
+why:
+  detail: "Last but not the list, I am a professional with:"
+  points:
+    - Focused on business needs
+    - Detail oriented
+    - Solution design
+    - Clean code
+    - Code refactoring
+    - Prototype and POC
+    - Minimum Viable Product
+    - Keen to learn new tech stack
+    - Team player
+
+# Volunteering
+#volunteering:
+#  - time: 2020-Present
+#    role: PR Manager
+#    company: Some random organization
+#    details: |
+#      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+#      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+#      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

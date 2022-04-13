@@ -1,0 +1,33 @@
+.experiance {
+    .title {
+        @include header;
+    }
+    .experience-item {
+        &:after {
+            width: 100%;
+            height: 100%;
+            content: "";
+            display: block;
+            margin-bottom: 1.2em;
+            border-bottom: 1px solid var(--fg-color-border);
+        }
+        .role {
+            @include sub-header;
+        }
+        .company {
+            @include body-text;
+            font-weight: bold;
+            .time {
+                float: right;
+                color: var(--fg-color-title-sm);
+                font-weight: 100;
+            }
+        }
+        .details {
+            @include body-text;
+        }
+        .technologies {
+            @include body-text;
+        }
+    }
+}

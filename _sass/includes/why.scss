@@ -1,0 +1,14 @@
+.why {
+    .title {
+        @include header;
+    }
+    .point {
+        margin-bottom: 20px;
+        .point-link {
+            @include body-text;
+        }
+        .details {
+            @include body-text;
+        }
+    }
+}

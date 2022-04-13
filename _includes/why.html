@@ -1,0 +1,17 @@
+{% assign why = site.data.data.why %}
+{% if why %}
+<section class="why">
+    <h2 class="title">Why Me?</h2>
+    <div class="point">
+        <div class="details">{{why.detail}}
+            {% if why.points %}
+            <ul>
+                {% for point in why.points %}
+                    <li class="idiom">{{point}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}
