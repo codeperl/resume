@@ -1,4 +1,4 @@
-{% if nested==true %}
+{% if nested==1 %}
     <ul class="dropdown" aria-label="submenu">
 {% else %}
     <ul>
@@ -8,7 +8,7 @@
             <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% if item.subnav %}
-            {% include top-menu.html nav=item.subnav nested=true %}
+            {% include top-menu.html nav=item.subnav nested=1 %}
         {% endif %}
     {% endfor %}
 </ul>
