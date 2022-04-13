@@ -4,23 +4,23 @@ a {
   display: block;
 }
 
-ul {
+ul.primary {
   list-style: none;
   position: relative;
   text-align: left;
 }
 
-li {
+ul.primary li {
   float: left;
 }
 
 /* clear'n floats */
-ul:after {
+ul.primary:after {
   clear: both;
 }
 
-ul:before,
-ul:after {
+ul.primary:before,
+ul.primary:after {
   content: " ";
   display: table;
 }
@@ -105,7 +105,7 @@ ul.primary li:hover > a{
 }
 
 @media only screen and (max-width: 600px) {
-  li {
+  ul.primary li {
     float: none;
   }
 
