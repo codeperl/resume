@@ -5,7 +5,7 @@ webrick:
 title: CV | Mohammad Ashrafuddin Ferdousi
 description:  Polyglot Software Engineer. Solution designer. 10+ years experience in web domain. Expert on Laravel, Vuejs, Mysql.
 url: 'https://codeperl.github.io'
-baseurl: '/resume'
+baseurl: ''
 destination: ./docs
 
 theme_skin: blue
