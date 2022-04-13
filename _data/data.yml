@@ -2,15 +2,24 @@ name: Mohammad Ashrafuddin Ferdousi
 support_dark_mode: true
 fork: false
 
-topmenu:
-  items:
-    - 'Case Studies':
-      - 'Data Driven Website'
-      - 'Era-InfoTech Bangladesh Limited'
-      - 'UKKO Project'
-      - 'Edilex'
-      - 'Credita'
-    - 'Download Resume'
+topnav:
+  - title: 'Case Studies'
+    url: deployment.html
+    subnav:
+      - title: 'Data Driven Website'
+        url: heroku.html
+      - title: 'Era-InfoTech Bangladesh Limited'
+        url: heroku.html
+      - title: 'UKKO Project'
+          url: heroku.html
+      - title: 'Edilex'
+          url: heroku.html
+      - title: 'Credita'
+          url: heroku.html
+      - title: 'Credita'
+          url: heroku.html
+  - title: 'Download Resume'
+    url: heroku.html
 
 # Sidebar
 contact:

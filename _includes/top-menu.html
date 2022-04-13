@@ -1,1 +1,13 @@
-dsfsdf
+{% assign topmenuItems = site.data.data.topmenu.items %}
+{% if topmenuItems %}
+<ul>
+    {% for menuItem in topmenuItems %}
+        {% if menuItem[0] %}
+            <ul>
+                {% for menuItem in menuItem %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endif %}
