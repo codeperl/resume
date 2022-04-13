@@ -1,10 +1,8 @@
-<div id="top-menu">
-    <ul>
-        {% for item in include.nav %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% if item.subnav %}
-        {% include top-menu.html nav=item.subnav %}
-        {% endif %}
-        {% endfor %}
-    </ul>
-</div>
+<ul>
+    {% for item in include.nav %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% if item.subnav %}
+    {% include top-menu.html nav=item.subnav %}
+    {% endif %}
+    {% endfor %}
+</ul>
