@@ -1,5 +1,4 @@
-<ul {% if include.nested==true %} class="drop" {% else %} id="main" {% endif %}>
-    {% if include.nested==true %} <div> {% endif %}
+<ul {% if include.nested==true %} class="sub" {% else %} class="primary" {% endif %}>
     {% for item in include.nav %}
         <li>
             <a href="{{ item.url }}" {% if item.subnav %} aria-haspopup="true" {% endif %}>{{ item.title }}</a>
@@ -8,6 +7,4 @@
             {% endif %}
         </li>
     {% endfor %}
-    {% if include.nested==true %} </div> {% endif %}
-    {% if include.nested==false %} <div id="marker"></div> {% endif %}
 </ul>
