@@ -10,6 +10,12 @@ body {
     font-size: var(--body-font-size);
 }
 
+.main {
+    .var-color {
+        color: var(--fg-color-body);
+    }
+}
+
 .main * {
     text-align: justify;
 }
