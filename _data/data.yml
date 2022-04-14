@@ -6,18 +6,27 @@ nav:
   - title: 'Case Studies'
     url: deployment.html
     subnav:
+      - title: 'home'
+        url: /
+        icon: true
       - title: 'Data Driven Website'
         url: data-driven-website.html
+        icon: false
       - title: 'Era-InfoTech Bangladesh Limited'
         url: heroku.html
+        icon: false
       - title: 'UKKO Project'
         url: heroku.html
+        icon: false
       - title: 'Edilex'
         url: heroku.html
+        icon: false
       - title: 'Credita'
         url: heroku.html
+        icon: false
   - title: 'Download Resume'
     url: mohammad_ashrafuddin_ferdousi_resume.pdf
+    icon: false
 
 # Sidebar
 contact:
