@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign edilex = site.data.data.pages.edilex %}
 <div class="container">
   {% include header.html %}
   <div class="container-block">
@@ -13,7 +14,18 @@ layout: default
     </div>
 
     <div class="main var-color">
-      edilex
+      <div>
+        {{ edilex.title }}
+      </div>
+      <div>
+        <a href="{{ edilex.link }}">{{ edilex.link }}</a>
+      </div>
+      <div>
+        {{ edilex.summary }}
+      </div>
+      <div>
+        {{ edilex.detail }}
+      </div>
     </div>
   </div>
 </div>
