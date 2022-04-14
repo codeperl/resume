@@ -14,16 +14,16 @@ nav:
         url: data-driven-website.html
         icon: false
       - title: 'Era-InfoTech Bangladesh Limited'
-        url: heroku.html
+        url: era-infotech-bd-limited.html
         icon: false
-      - title: 'UKKO Project'
-        url: heroku.html
+      - title: 'UKKO'
+        url: ukko.html
         icon: false
       - title: 'Edilex'
-        url: heroku.html
+        url: edilex.html
         icon: false
       - title: 'Credita'
-        url: heroku.html
+        url: credita.html
         icon: false
   - title: 'Download Resume'
     url: mohammad_ashrafuddin_ferdousi_resume.pdf
