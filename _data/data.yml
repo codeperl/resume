@@ -232,7 +232,7 @@ why:
 #      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 pages:
-  - credita:
+  credita:
     title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
     summary: |
