@@ -8,6 +8,7 @@ nav:
     icon: true
   - title: 'Case Studies'
     url: deployment.html
+    icon: false
     subnav:
       - title: 'Data Driven Website'
         url: data-driven-website.html
