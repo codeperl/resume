@@ -14,10 +14,18 @@ layout: default
     </div>
 
     <div class="main var-color">
-      {{ credita.title }}
-      {{ credita.link }}
-      {{ credita.summary }}
-      {{ credita.detail }}
+      <div>
+        {{ credita.title }}
+      </div>
+      <div>
+        <a href="{{ credita.link }}">{{ credita.link }}</a>
+      </div>
+      <div>
+        {{ credita.summary }}
+      </div>
+      <div>
+        {{ credita.detail }}
+      </div>
     </div>
   </div>
 </div>
