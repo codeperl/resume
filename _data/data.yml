@@ -3,12 +3,12 @@ support_dark_mode: true
 fork: false
 
 nav:
+  - title: 'home'
+    url: /resume
+    icon: true
   - title: 'Case Studies'
     url: deployment.html
     subnav:
-      - title: 'home'
-        url: /resume
-        icon: true
       - title: 'Data Driven Website'
         url: data-driven-website.html
         icon: false
