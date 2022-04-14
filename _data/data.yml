@@ -7,7 +7,7 @@ nav:
     url: /resume
     icon: true
   - title: 'Case Studies'
-    url: /resume/\#
+    url: /resume/#
     icon: false
     subnav:
       - title: 'Data Driven Website'
