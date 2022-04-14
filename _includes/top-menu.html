@@ -1,11 +1,13 @@
 <ul {% if include.nested==true %} class="sub" {% else %} class="primary" {% endif %}>
     {% for item in include.nav %}
         <li>
-            {% if item.icon==true %}
-                <a href="{{ item.url }}"><i data-feather="{{ item.title }}" fill="var(--fg-color)"></i></a>
-            {% else %}
-                <a href="{{ item.url }}" {% if item.subnav %} aria-haspopup="true" {% endif %}>{{ item.title }}</a>
-            {% endif %}
+            <a href="{{ item.url }}" {% if item.subnav %} aria-haspopup="true" {% endif %}>
+                {% if item.icon==true %}
+                    <i data-feather="{{ item.title }}" fill="var(--fg-color)"></i>
+                {% else %}
+                    {{ item.title }}
+                {% endif %}
+            </a>
             {% if item.subnav %}
                 {% include top-menu.html nav=item.subnav nested=true %}
             {% endif %}

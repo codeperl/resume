@@ -7,7 +7,7 @@ nav:
     url: deployment.html
     subnav:
       - title: 'home'
-        url: /
+        url: /resume
         icon: true
       - title: 'Data Driven Website'
         url: data-driven-website.html
