@@ -230,3 +230,20 @@ why:
 #      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 #      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 #      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+pages:
+  - credita:
+    title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
+    link: https://www.credita.fi
+    summary: |
+      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
+      convert their publishing business to internet. I was active team member of those projects like credita,
+      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
+      also assigned for saving search results for users and managing paid newsletter service for paid
+      subscribers.
+    detail: |
+      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
+      convert their publishing business to internet. I was active team member of those projects like credita,
+      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
+      also assigned for saving search results for users and managing paid newsletter service for paid
+      subscribers.
