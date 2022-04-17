@@ -138,7 +138,7 @@ experience:
       they are not only the profitable business, they also expand their business in muliple countries like
       Sweden, Russia, Ethiopia!
     technologies_used: |
-      Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zerb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
+      Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zurb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
       Ant, Jenkins
 
 #publications:
