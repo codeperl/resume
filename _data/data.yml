@@ -72,6 +72,10 @@ skills:
       - Ant
       - Docker
       - AWS
+      - Git
+      - Github
+      - Gitlab
+      - Subversion
 
 # Profile
 profile: |
@@ -90,7 +94,7 @@ experience:
       Conversion and other analytical reports so that dicision can be made based on measurement for
       business growth. Project Enquiry application integration to increase customer engagement.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Laravel, Vuejs, Bootstrap 5, MySQL, Javascript, Git, Github, API, Feature Test
   
   - role: Software Engineer Team Lead
     time: Apr 2019 - Nov 2020
@@ -105,8 +109,8 @@ experience:
       SOAP api with Oracle BI publisher for reporting and it really makes the complex reporting system
       easier than ever! Even other projects are influenced by this solution and they are also integrating this
       solutoin fort thir project. Now, the company is considering this as de-facto for reporting!
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+    technologies_used: |
+      Laravel, Vuejs, Bootstrap 5, MySQL, Oracle, Javascript, Subversion, API, Swagger
 
   - role: Software Engineer
     time: May 2012 - Jan 2018
@@ -134,7 +138,8 @@ experience:
       they are not only the profitable business, they also expand their business in muliple countries like
       Sweden, Russia, Ethiopia!
     technologies_used: |
-      Python, Tensorflow, Keras, Matlab
+      Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zerb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
+      Ant, Jenkins
 
 #publications:
 #  - title: Random title of paper. An interesting one.
