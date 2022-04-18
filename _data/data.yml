@@ -95,15 +95,7 @@ experience:
     time: Apr 2019 - Nov 2020
     company: CNS Limited
     details: |
-      Contributed as one of the team leads for a 3,000,000.00 (Three million) USD valuation project. The
-      project is “Consolidation, Integration and Upgradation of CPAs Existing ICT based facilities/system”. I
-      actively manage a team of Software(Laravel experts) and Database Engineers and actively perticipate
-      to design the solution of six modules from . Those are: Personnel Information Management System,
-      Online Recruitment System, Providend Fund, Pension and Loan Management System, Electricity and
-      Water Billing, Incident Management System, Watchman Management System. I also integrate php
-      SOAP api with Oracle BI publisher for reporting and it really makes the complex reporting system
-      easier than ever! Even other projects are influenced by this solution and they are also integrating this
-      solutoin fort thir project. Now, the company is considering this as de-facto for reporting!
+      Contributed as one of the team leads for a 3,000,000.00 (three million) USD valuation project. The project is "Consolidation, Integration, and Upgradation of CPAs' Existing ICT-based Facilities and Systems." I actively manage a team of software (Laravel experts) and database engineers and actively participate in the design of the solution of six modules. Those are: Personnel Information Management System, Online Recruitment System, Providend Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, Watchman Management System. I also integrated the PHP SOAP api with Oracle BI Publisher for reporting, and it really makes the complex reporting system easier than ever! Other projects are even influenced by this solution, and they are also integrating this solution into their projects. Now, the company is considering this as a de-facto reporting requirement!
     technologies_used: |
       Laravel, Vuejs, Bootstrap 5, MySQL, Oracle, Javascript, Subversion, API, Swagger
 
