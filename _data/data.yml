@@ -103,27 +103,13 @@ experience:
     time: May 2012 - Jan 2018
     company: Codemate Limited
     details: |
-      Codemate Limited is a multi-national creative-tech company with roots in Finland. I worked as
-      a Software Engineer here at Bangladesh development team office.
-      I was a part of a ERP development team for a client of Codemate which developed on top of Symfony2
-      framework. I contributed to Administration and Billing module. The administration module was
-      responsible to manage auth part as-usual and the billing module was for shared billing, partial billing
-      for renting things.
-      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
-      convert their publishing business to internet. I was active team member of those projects like credita,
-      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
-      also assigned for saving search results for users and managing paid newsletter service for paid
-      subscribers.
-      Ukko.fi is another very much successful project where I involved. The provide tax calculation service
-      for lightweight entreprenures in Finland. They can be individual freelancers or small companies.
-      Whenever they generate expense or travel cost invoices for work the application calculates the tax by
-      country law and based on the document user submits. The idea was nice and effective for the business.
-      But they come to us at eleventh period when the business seriously struggles to survive just because of
-      their bad web application. We go through the system and suggest what we will do for their
-      improvement based on priority. We also suggest them about short-term and mid-term plan. Based on
-      that the long term can be decided later. They agree and the result is when we handover the project
-      they are not only the profitable business, they also expand their business in muliple countries like
-      Sweden, Russia, Ethiopia!
+      Codemate Limited is a multi-national creative-tech company with roots in Finland. I worked as a software engineer here at the Bangladesh development team office.
+
+      I was a part of an ERP development team for a client of Codemate, which developed on top of the Symfony2 framework. I contributed to the administration and billing modules. The administration module was responsible for managing the auth part as usual, and the billing module was for shared billing and partial billing for renting things.
+
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
+
+      Another very successful project where I was involved is Ukko.fi. They provide a tax calculation service for lightweight entrepreneurs in Finland. They can be individual freelancers or small companies. Whenever they generate expense or travel cost invoices for work, the application calculates the tax according to the country's law and based on the document the user submits. The idea was nice and effective for the business. But they come to us at the eleventh hour when the business seriously struggles to survive just because of their bad web application. We go through the system and suggest what we will do for their improvement based on priority. We also suggest they look at short-term and mid-term plans. Based on that, the long term can be decided later. They agree, and the result is that when we handover the project, they are not only a profitable business, they are also expanding their business in multiple countries, like Sweden, Russia, and Ethiopia!
     technologies_used: |
       Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zurb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
       Ant, Jenkins
