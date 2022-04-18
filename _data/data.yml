@@ -87,7 +87,7 @@ experience:
     time: Dec 2020-Present
     company: Data Driven Website
     details: |
-      I created a CMS based on the Laravel framework to serve not only common CMS features, but also a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus, with submenus. Asset management system integration for CMS. Based on measurement of business growth, GTM integration to measure audience attachment, conversion, and other analytical reports so that decisions can be made based on measurement. project enquiry application integration to increase customer engagement.
+      I created a CMS based on the Laravel framework to serve standard CMS features and a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus with submenus. Asset management system integration for CMS. Based on the measurement of business growth, GTM integration measures audience attachment, conversion, and other analytical reports so that clients can make decisions based on measurement. Project inquiry application integration to increase customer engagement.
     technologies_used: | 
       Laravel, Vuejs, Bootstrap 5, MySQL, Javascript, Git, Github, API, Feature Test
   
@@ -95,7 +95,7 @@ experience:
     time: Apr 2019 - Nov 2020
     company: CNS Limited
     details: |
-      Contributed as one of the team leads for a 3,000,000.00 (three million) USD valuation project. The project is "Consolidation, Integration, and Upgradation of CPAs' Existing ICT-based Facilities and Systems." I actively manage a team of software (Laravel experts) and database engineers and actively participate in the design of the solution of six modules. Those are: Personnel Information Management System, Online Recruitment System, Providend Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, Watchman Management System. I also integrated the PHP SOAP api with Oracle BI Publisher for reporting, and it really makes the complex reporting system easier than ever! Other projects are even influenced by this solution, and they are also integrating this solution into their projects. Now, the company is considering this as a de-facto reporting requirement!
+      Contributed as one of the team leads for a 3,000,000.00 (three million) USD valuation project. The project is "Consolidation, Integration, and Upgradation of CPAs' Existing ICT-based Facilities and Systems." I actively manage a team of software (Laravel experts) and database engineers and actively participate in designing the solution of six modules. These are Personnel Information Management System, Online Recruitment System, Provident Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, and Watchman Management System. I also integrated the PHP SOAP API with Oracle BI Publisher for reporting, and it makes the complex reporting system more manageable than ever! This solution even influences other projects, and they are also integrating this solution into their projects. Now, the company is considering this as a de-facto reporting requirement!
     technologies_used: |
       Laravel, Vuejs, Bootstrap 5, MySQL, Oracle, Javascript, Subversion, API, Swagger
 
@@ -104,9 +104,9 @@ experience:
     company: Codemate Limited
     details: |
       Codemate Limited is a multi-national creative-tech company with roots in Finland. I worked as a software engineer here at the Bangladesh development team office.
-      I was a part of an ERP development team for a client of Codemate, which developed on top of the Symfony2 framework. I contributed to the administration and billing modules. The administration module was responsible for managing the auth part as usual, and the billing module was for shared billing and partial billing for renting things.
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
-      Another very successful project where I was involved is Ukko.fi. They provide a tax calculation service for lightweight entrepreneurs in Finland. They can be individual freelancers or small companies. Whenever they generate expense or travel cost invoices for work, the application calculates the tax according to the country's law and based on the document the user submits. The idea was nice and effective for the business. But they come to us at the eleventh hour when the business seriously struggles to survive just because of their bad web application. We go through the system and suggest what we will do for their improvement based on priority. We also suggest they look at short-term and mid-term plans. Based on that, the long term can be decided later. They agree, and the result is that when we handover the project, they are not only a profitable business, they are also expanding their business in multiple countries, like Sweden, Russia, and Ethiopia!
+      I was part of an ERP development team for a client of Codemate. The team developed the ERP solution using the Symfony2 framework. I contributed to the administration and billing modules. The administration module was responsible for managing the auth part as usual, and the billing module was for shared billing and partial billing for renting things.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
+      Another very successful project where I was involved is Ukko.fi. They provide a tax calculation service for lightweight entrepreneurs in Finland. They can be individual freelancers or small companies. Whenever they generate expense or travel cost invoices for work, the application calculates the tax according to the country's law and based on the document the user submits. The idea was excellent and effective for the business. But the company seriously struggles to survive because of its lousy web application. We go through the system and suggest what we will do for their improvement based on priority. The result of the project is that they are expanding their business in multiple countries, like Sweden, Russia, and Ethiopia!
     technologies_used: |
       Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zurb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
       Ant, Jenkins
@@ -132,7 +132,7 @@ projects:
       Project Qnquiry app mgmt., Asset Library mgmt., Unlimited depth Category mgmt.(drag&drop),
       Unlimited depth Menu Item mgmt.(drag&drop), Post mgmt., GTM mgmt., Sitemap generator.
     benefits: |
-      This is a custom Laravel-based CMS with scalability in mind. So, it may manage content efficiently and perform on shared and deticated hosting servers.
+      A custom Laravel-based CMS with scalability in mind. So, it may manage content efficiently and perform on shared and dedicated hosting servers.
 
   - title: Era Infotech Bd Limited - end to end IT Solution Provider
     link: https://www.erainfotechbd.com
@@ -142,7 +142,7 @@ projects:
     features: |
       Front-page mgmt., Cache mgmt., Page mgmt., Event mgmt., Asset Library mgmt., N-depth of Menu Item mgmt.
     benefits: |
-      Customer requirements were to brand their service with a custom-built CMS that has performant, scaling features with very specific requirements provided by them. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
+      Customer requirements were to brand their service with a custom-built CMS with performant, scaling features with precise requirements. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
 
   - title: Ukko.fi - Tax solution for lightweight Entreprenureship
     link: https://extra.ukko.fi
@@ -154,7 +154,7 @@ projects:
       Expence form re-write, Travel cost form, tax chart generation, pull tax according to tax chart,
       Fetch Expense and Travel cost information from documents using OCR service, Admin module bug fixes.
     benefits: |
-      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it expands its business into 2-3 more countries and positions itself as a valuable client solution!
+      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it has expanded its business into 2-3 more countries and positions itself as a valuable client solution!
 
   - title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
     link: https://www.edilex.fi
@@ -165,7 +165,7 @@ projects:
       Custom subscription based registration and paid newsletter service, full text search feature in Oracle
       RDBMS.
     benefits: |
-      This law-based subscription and newsletter selling system is more profitable than before.
+      This law-based subscription and newsletter selling system are more profitable than before.
 
   - title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
@@ -176,7 +176,7 @@ projects:
       Custom annotation feature integration based on Doctrine annotation classes; used for Dependency injection,
       Favorite procurement notice, Saved search, Manage different types of xml document in database.
     benefits: |
-      This is also another profit-making project from Edita Prima for EU procurement-based work.
+      Another profit-making project from Edita Prima for EU procurement-based work.
 
 why:
   detail: "Last but not the list, I am a professional with:"
@@ -206,14 +206,14 @@ pages:
     title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
     summary: |
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
     detail: |
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
 
   edilex:
     title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
     link: https://www.edilex.fi
     summary: |
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
     detail: |
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
