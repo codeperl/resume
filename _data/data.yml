@@ -87,12 +87,7 @@ experience:
     time: Dec 2020-Present
     company: Data Driven Website
     details: |
-      Developed a CMS based on Laravel framework not only to serve common CMS features but also a
-      performant and scalable solution for corporate branding. Batteries included: database driven SEO tools
-      based on schema.org. Endless depth for categories, sub-categories and menus, submenus. Asset
-      management system integration for CMS. GTM integration to measure Audiance attachment,
-      Conversion and other analytical reports so that dicision can be made based on measurement for
-      business growth. Project Enquiry application integration to increase customer engagement.
+      I created a CMS based on the Laravel framework to serve not only common CMS features, but also a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus, with submenus. Asset management system integration for CMS. Based on measurement of business growth, GTM integration to measure audience attachment, conversion, and other analytical reports so that decisions can be made based on measurement. project enquiry application integration to increase customer engagement.
     technologies_used: | 
       Laravel, Vuejs, Bootstrap 5, MySQL, Javascript, Git, Github, API, Feature Test
   
