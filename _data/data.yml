@@ -132,8 +132,8 @@ projects:
       Project Qnquiry app mgmt., Asset Library mgmt., Unlimited depth Category mgmt.(drag&drop),
       Unlimited depth Menu Item mgmt.(drag&drop), Post mgmt., GTM mgmt., Sitemap generator.
     benefits: |
-      This project represents the service to its clients. Also, client can inform about their vision and project details
-      via project enquiry app.
+      This is a custom Laravel based CMS with scalability in mind. So, it may manage content effeciently and perform
+      in Shared and Deticated hosting servers.
 
   - title: Era Infotech Bd Limited - end to end IT Solution Provider
     link: https://www.erainfotechbd.com
