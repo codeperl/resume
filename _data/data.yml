@@ -132,8 +132,7 @@ projects:
       Project Qnquiry app mgmt., Asset Library mgmt., Unlimited depth Category mgmt.(drag&drop),
       Unlimited depth Menu Item mgmt.(drag&drop), Post mgmt., GTM mgmt., Sitemap generator.
     benefits: |
-      This is a custom Laravel based CMS with scalability in mind. So, it may manage content effeciently and perform
-      in Shared and Deticated hosting servers.
+      This is a custom Laravel-based CMS with scalability in mind. So, it may manage content efficiently and perform on shared and deticated hosting servers.
 
   - title: Era Infotech Bd Limited - end to end IT Solution Provider
     link: https://www.erainfotechbd.com
@@ -143,9 +142,7 @@ projects:
     features: |
       Front-page mgmt., Cache mgmt., Page mgmt., Event mgmt., Asset Library mgmt., N-depth of Menu Item mgmt.
     benefits: |
-      Customer requirements was to brand their service with a Custom build CMS which has performant, scaling
-      features with very specified requirements provided by them. It should have very easy to use admin panel. Currently they
-      are happy with it and asking for some more paid features!
+      Customer requirements were to brand their service with a custom-built CMS that has performant, scaling features with very specific requirements provided by them. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
 
   - title: Ukko.fi - Tax solution for lightweight Entreprenureship
     link: https://extra.ukko.fi
@@ -157,9 +154,7 @@ projects:
       Expence form re-write, Travel cost form, tax chart generation, pull tax according to tax chart,
       Fetch Expense and Travel cost information from documents using OCR service, Admin module bug fixes.
     benefits: |
-      The existing project was running in survival mode and business was almost dying! But after 2 years of
-      development with us, it expands its business in 2-3 more countries and brand themselves as a valuable solution to
-      clients!
+      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it expands its business into 2-3 more countries and positions itself as a valuable client solution!
 
   - title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
     link: https://www.edilex.fi
@@ -170,7 +165,7 @@ projects:
       Custom subscription based registration and paid newsletter service, full text search feature in Oracle
       RDBMS.
     benefits: |
-      This law based subscription and newsletter selling system is more profitable than before.
+      This law-based subscription and newsletter selling system is more profitable than before.
 
   - title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
@@ -181,7 +176,7 @@ projects:
       Custom annotation feature integration based on Doctrine annotation classes; used for Dependency injection,
       Favorite procurement notice, Saved search, Manage different types of xml document in database.
     benefits: |
-      This is also another profit making project from Edita Prima for EU procurement based works.
+      This is also another profit-making project from Edita Prima for EU procurement-based work.
 
 why:
   detail: "Last but not the list, I am a professional with:"
@@ -211,30 +206,14 @@ pages:
     title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
     summary: |
-      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
-      convert their publishing business to internet. I was active team member of those projects like credita,
-      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
-      also assigned for saving search results for users and managing paid newsletter service for paid
-      subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
     detail: |
-      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
-      convert their publishing business to internet. I was active team member of those projects like credita,
-      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
-      also assigned for saving search results for users and managing paid newsletter service for paid
-      subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
 
   edilex:
     title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
     link: https://www.edilex.fi
     summary: |
-      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
-      convert their publishing business to internet. I was active team member of those projects like credita,
-      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
-      also assigned for saving search results for users and managing paid newsletter service for paid
-      subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
     detail: |
-      Edita Prima Publishing company is well-known in Finland and Europe. They have mulitple projects to
-      convert their publishing business to internet. I was active team member of those projects like credita,
-      edilex and e-gate. I worked with full-text search feature in Oracle db with help of xml libraries. I am
-      also assigned for saving search results for users and managing paid newsletter service for paid
-      subscribers.
+      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of xml libraries, I worked with the full-text search feature in OracleDB. I am also assigned to saving search results for users and managing a paid newsletter service for paid subscribers.
