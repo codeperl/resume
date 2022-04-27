@@ -217,3 +217,27 @@ pages:
       The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
     detail: |
       The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
+
+  ukko:
+    title: Ukko.fi - Tax solution for lightweight Entreprenureship
+    link: https://extra.ukko.fi
+    summary: |
+      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it has expanded its business into 2-3 more countries and positions itself as a valuable client solution!
+    detail: |
+      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it has expanded its business into 2-3 more countries and positions itself as a valuable client solution!
+
+  era_info_tech:
+    title: Era Infotech Bd Limited - end to end IT Solution Provider
+    link: https://www.erainfotechbd.com
+    summary: |
+      Customer requirements were to brand their service with a custom-built CMS with performant, scaling features with precise requirements. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
+    detail: |
+      Customer requirements were to brand their service with a custom-built CMS with performant, scaling features with precise requirements. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
+
+  data_driven_website:
+    title: Data Driven Website - Excellence comes from care
+    link: https://www.datadrivenwebsite.com
+    summary: |
+      I created a CMS based on the Laravel framework to serve standard CMS features and a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus with submenus. Asset management system integration for CMS. Based on the measurement of business growth, GTM integration measures audience attachment, conversion, and other analytical reports so that clients can make decisions based on measurement. Project inquiry application integration to increase customer engagement.
+    detail: |
+      I created a CMS based on the Laravel framework to serve standard CMS features and a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus with submenus. Asset management system integration for CMS. Based on the measurement of business growth, GTM integration measures audience attachment, conversion, and other analytical reports so that clients can make decisions based on measurement. Project inquiry application integration to increase customer engagement.
