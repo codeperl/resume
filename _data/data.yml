@@ -48,6 +48,17 @@ education:
     university: Daffodil International University, Bangladesh
 
 skills:
+  - category: Team
+    skill:
+      - Agile
+      - SCRUM
+      - Jira
+      - Analytical Skill
+      - (U)NIX System
+      - Git
+      - Github
+      - Bitbucket
+      - Subversion
   - category: Backend
     skill: 
       - Laravel
@@ -75,17 +86,6 @@ skills:
       - AWS
       - CI/CD
       - Cloud Infrastructure
-  - category: Team
-    skill:
-      - Agile
-      - SCRUM
-      - Jira
-      - Analytical Skill
-      - (U)NIX System
-      - Git
-      - Github
-      - Bitbucket
-      - Subversion
 
 # Profile
 profile: |
