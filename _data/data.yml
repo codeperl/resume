@@ -86,30 +86,31 @@ experience:
   - role: Freelance Software Engineer
     time: Dec 2020-Present
     company: Data Driven Website
-    details: |
-      I created a CMS based on the Laravel framework to serve standard CMS features and a performant and scalable solution for corporate branding. Batteries included: database-driven SEO tools based on schema.org. Endless depth for categories, sub-categories, and menus with submenus. Asset management system integration for CMS. Based on the measurement of business growth, GTM integration measures audience attachment, conversion, and other analytical reports so that clients can make decisions based on measurement. Project inquiry application integration to increase customer engagement.
-    technologies_used: | 
-      Laravel, Vuejs, Bootstrap 5, MySQL, Javascript, Git, Github, API, Feature Test
-  
+    points:
+      - Built Laravel and Vuejs-based CMS products to serve corporations to re-brand corporate services. Person can manage the content quickly comparing to other popular CMSs.
+      - Implemented a Laravel-based, data-driven, loosely coupled SEO tools infrastructure and integrated it to make the website SEO friendly. It doubles the business possibilities for company.
+      - Unlimited depth of Category, Sub-category system for menus and Category management is implemented, which can be the clean and foundational starting point to manage large e-commerce product categories.
+      - Perform better than other popular CMSs. The developer will get more control over the system and can expand it as a web application. The person can also convert the design to API.
+
   - role: Software Engineer Team Lead
     time: Apr 2019 - Nov 2020
     company: CNS Limited
-    details: |
-      Contributed as one of the team leads for a 3,000,000.00 (three million) USD valuation project. The project is "Consolidation, Integration, and Upgradation of CPAs' Existing ICT-based Facilities and Systems." I actively manage a team of software (Laravel experts) and database engineers and actively participate in designing the solution of six modules. These are Personnel Information Management System, Online Recruitment System, Provident Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, and Watchman Management System. I also integrated the PHP SOAP API with Oracle BI Publisher for reporting, and it makes the complex reporting system more manageable than ever! This solution even influences other projects, and they are also integrating this solution into their projects. Now, the company is considering this as a de-facto reporting requirement!
-    technologies_used: |
-      Laravel, Vuejs, Bootstrap 5, MySQL, Oracle, Javascript, Subversion, API, Swagger
+    points:
+      - Assigned to a 3,000,000.00 (three million) USD valuation project.
+      - Played a team lead role build the project architecture. The common boilerplate initializes every new project with zero lead time for team collaboration.
+      - Personnel Information Management System, Online Recruitment System, Provident Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, Watchman Management System, and Document management system are the modules I contributed to the system from requirement analysis to serve the end client.
+      - Solved complex and critical problems like BI publisher integration with Laravel. It speeds-up to build the simple to complex reports! Minimum (90x8x3) person-hour saved for this implementation. Now all other projects are considering this solution as de-facto for reporting.
 
   - role: Software Engineer
     time: May 2012 - Jan 2018
     company: Codemate Limited
-    details: |
-      Codemate Limited is a multi-national creative-tech company with roots in Finland. I worked as a software engineer here at the Bangladesh development team office.
-      I was part of an ERP development team for a client of Codemate. The team developed the ERP solution using the Symfony2 framework. I contributed to the administration and billing modules. The administration module was responsible for managing the auth part as usual, and the billing module was for shared billing and partial billing for renting things.
-      The Edita Prima Publishing company is well-known in Finland and Europe. They have multiple projects to convert their publishing business to the internet. I was an active team member of those projects like credita, edilex, and e-gate. With the help of XML libraries, I worked with the full-text search feature in OracleDB. I am also assigned to save users' search results and manage a paid newsletter service for paid subscribers.
-      Another very successful project where I was involved is Ukko.fi. They provide a tax calculation service for lightweight entrepreneurs in Finland. They can be individual freelancers or small companies. Whenever they generate expense or travel cost invoices for work, the application calculates the tax according to the country's law and based on the document the user submits. The idea was excellent and effective for the business. But the company seriously struggles to survive because of its lousy web application. We go through the system and suggest what we will do for their improvement based on priority. The result of the project is that they are expanding their business in multiple countries, like Sweden, Russia, and Ethiopia!
-    technologies_used: |
-      Symfony >=2, Zend Framework 1.8, Zend Framework 2, jQuery, Javascript, Zurb Foundation, Bootstrap, MySQL, ORACLE, Subversion, Git, Github, Bitbucket, Robot framework for test,
-      Ant, Jenkins
+    points:
+      - Developed multiple admin module features like role management, RBAC, and billing module.
+      - Have worked with Oracle full-text search features with XML and XSLT for multiple existing projects for a client, which was the sole purpose of continuing the projects with my employer.
+      - "Tie up with the end client on another project idea about lightweight entrepreneurship's invoice and billing solution. Specifically, expenses and travel-costs features are developed to generate the invoice automatically. We help to expand the business from one region to multiple regions: Finland, Sweden, Estonia and Russia."
+      - Custom solution for CSS and js compilation and minification has been integrated, and it saved man/day of brute-force human activity for every production deployment.
+      - Actively did code refactoring and code review for multiple projects. I have also discussed with clients requirement analysis and solution design.
+      - Developed paid subscription-based newsletter solution for different types of customers.
 
 #publications:
 #  - title: Random title of paper. An interesting one.
@@ -125,71 +126,45 @@ experience:
 projects:
   - title: Data Driven Website - Excellence comes from care
     link: https://www.datadrivenwebsite.com
-    tools: |
-      Laravel 8, Vuejs 2, Bootstrap 5, MySQL, Feature test-case, Opensource solutions, jQuery Datatable for vuejs,
-      Layered architecture, Thin Controller, Thin Model, php 8, javascript, git, github.
     features: |
       Project Qnquiry app mgmt., Asset Library mgmt., Unlimited depth Category mgmt.(drag&drop),
       Unlimited depth Menu Item mgmt.(drag&drop), Post mgmt., GTM mgmt., Sitemap generator.
-    benefits: |
-      A custom Laravel-based CMS with scalability in mind. So, it may manage content efficiently and perform on shared and dedicated hosting servers.
 
   - title: Era Infotech Bd Limited - end to end IT Solution Provider
     link: https://www.erainfotechbd.com
-    tools: |
-      Laravel 8, Vuejs 2, Bootstrap 5, MySQL, Feature test-case, Opensource solutions, jQuery Datatable for vuejs,
-      Layered architecture, Thin Controller, Thin Model, php 7.4, ECMAScript 2015, git, github.
     features: |
       Front-page mgmt., Cache mgmt., Page mgmt., Event mgmt., Asset Library mgmt., N-depth of Menu Item mgmt.
-    benefits: |
-      Customer requirements were to brand their service with a custom-built CMS with performant, scaling features with precise requirements. It should have a very easy-to-use admin panel. Currently, they are happy with it and are asking for some more paid features.
 
   - title: Ukko.fi - Tax solution for lightweight Entreprenureship
     link: https://extra.ukko.fi
-    tools: |
-      Zend Framework 2, Symfony components, Doctrine 2.3 components, MySQL, php, Feature test with robot
-      framework, jenkins and ant, jQuery, javascript, Bootstrap 4, Server-side pipeline solution with jQuery datatable, Code
-      refactoring, Solution design, Thin Model, php 7, git, github, jira, Agile, SCRUM.
     features: |
       Expence form re-write, Travel cost form, tax chart generation, pull tax according to tax chart,
       Fetch Expense and Travel cost information from documents using OCR service, Admin module bug fixes.
-    benefits: |
-      The existing project was running in survival mode, and business was almost dying! However, after two years of development with us, it has expanded its business into 2-3 more countries and positions itself as a valuable client solution!
 
   - title: Edilex(Project of Edita Prima) - Finland's leading legal information service for professionals
     link: https://www.edilex.fi
-    tools: |
-      Zend Framework, Symfony components, Doctring 2.3 components, Oracle, php, jenkins and ant, jQuery,
-      javascript, Bootstrap 4, Clean code, Team work, Solution design, git, github, jira, Agile, SCRUM.
     features: |
       Custom subscription based registration and paid newsletter service, full text search feature in Oracle
       RDBMS.
-    benefits: |
-      This law-based subscription and newsletter selling system are more profitable than before.
 
   - title: Credita(Project of Edita Prima) - Public Procurement Solution for EU
     link: https://www.credita.fi
-    tools: |
-      XML, XSLT, Zend Framework, Symfony components, Doctring 2.3 components, Oracle, php, jenkins and ant,
-      jQuery, javascript, Bootstrap 4, Clean code, Team work, Solution design, git, github, jira, Agile, SCRUM.
     features: |
-      Custom annotation feature integration based on Doctrine annotation classes; used for Dependency injection,
-      Favorite procurement notice, Saved search, Manage different types of xml document in database.
-    benefits: |
-      Another profit-making project from Edita Prima for EU procurement-based work.
+      Custom annotation feature integration based on Doctrine annotation classes; used for Dependency
+      injection, Favorite procurement notice, Saved search, Manage different types of xml document in database.
 
 why:
   detail: "Last but not the list, I am a professional with:"
   points:
     - Focused on business needs
-    - Detail oriented
     - Solution design
     - Clean code
     - Code refactoring
+    - Code optimization
     - Prototype and POC
     - Minimum Viable Product
+    - Scalable, long-term product
     - Keen to learn new tech stack
-    - Team player
 
 # Volunteering
 #volunteering:

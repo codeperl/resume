@@ -11,10 +11,17 @@
                 {{exp.company}} 
                 <span class="time">{{exp.time}}</span>
             </div> 
-            <div class="details">{{exp.details}}</div>
+            <div class="details">
+                {% if exp.points %}
+                <ul>
+                    {% for point in exp.points %}
+                        <li class="idiom">{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
             <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}
