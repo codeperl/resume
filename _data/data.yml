@@ -56,6 +56,7 @@ skills:
       - MySQL
       - Postgresql
       - Oracle
+      - Redis
       - API
       - Feature Test case
       - Swagger
@@ -72,9 +73,18 @@ skills:
       - Ant
       - Docker
       - AWS
+      - CI/CD
+      - Cloud Infrastructure
+  - category: Team
+    skill:
+      - Agile
+      - SCRUM
+      - Jira
+      - Analytical Skill
+      - (U)NIX System
       - Git
       - Github
-      - Gitlab
+      - Bitbucket
       - Subversion
 
 # Profile
