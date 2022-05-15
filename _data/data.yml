@@ -107,7 +107,7 @@ experience:
     company: CNS Limited
     points:
       - Assigned to a 3,000,000.00 (three million) USD valuation project.
-      - Played a team lead role build the project architecture. The common boilerplate initializes every new project with zero lead time for team collaboration.
+      - Played a team lead role. Have built the project architecture. The common boilerplate initializes every new project with zero lead time for team collaboration.
       - Personnel Information Management System, Online Recruitment System, Provident Fund, Pension and Loan Management System, Electricity and Water Billing, Incident Management System, Watchman Management System, and Document management system are the modules I contributed to the system from requirement analysis to serve the end client.
       - Solved complex and critical problems like BI publisher integration with Laravel. It speeds-up to build the simple to complex reports! Minimum (90x8x3) person-hour saved for this implementation. Now all other projects are considering this solution as de-facto for reporting.
 
